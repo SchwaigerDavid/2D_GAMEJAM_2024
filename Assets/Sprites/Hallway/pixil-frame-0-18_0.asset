@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Grid_0
+  m_Name: pixil-frame-0-18_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 385173514463150410, guid: 6e79c9dc9787444e0bed056524bf45a8, type: 3}
+  m_Sprite: {fileID: 7305322825902735381, guid: b5f3a254aec4f49c9bd895a98deb0b05,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
