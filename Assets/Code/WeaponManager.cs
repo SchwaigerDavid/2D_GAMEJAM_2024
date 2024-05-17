@@ -49,34 +49,40 @@ public class WeaponManager : MonoBehaviour
         if (weaponToPickUp != null && Input.GetKeyDown(COLLECT))
         {
             // Find the inventory slot
-            Transform collectedWeaponObject = transform.Find(INVENTORYSLOTNAME);
+            Transform inventoryObject = transform.Find(INVENTORYSLOTNAME);
 
             // If the inventory slot already has a weapon, do nothing
-            if (collectedWeaponObject.childCount > 0)
+            if (inventoryObject.childCount > 0)
             {
                 return;
             }
             
-            // else
-            // Make the weapon a child of the inventory slot and move it to the position of the inventory slot
-            weaponToPickUp.transform.SetParent(collectedWeaponObject);
-            weaponToPickUp.transform.position = collectedWeaponObject.position;
-            weaponToPickUp.GetComponent<Collider2D>().isTrigger = false;
+            // Collect the weapon
+            collectWeapon(inventoryObject);
 
             // Clear the reference to the weapon
             weaponToPickUp = null;
         }
     }
 
+    void collectWeapon(Transform inventoryObject)
+    {
+        // Make the weapon a child of the inventory slot and move it to the position of the inventory slot
+        weaponToPickUp.transform.SetParent(inventoryObject);
+        weaponToPickUp.transform.position = inventoryObject.position;
+        weaponToPickUp.GetComponent<Collider2D>().isTrigger = false;
+
+    }
+
     void DropWeapon()
     {
         // Find the inventory slot
-        Transform collectedWeaponObject = transform.Find(INVENTORYSLOTNAME);
+        Transform inventoryObject = transform.Find(INVENTORYSLOTNAME);
 
         // If the inventory slot has a weapon, remove it from the inventory slot
-        if (collectedWeaponObject.childCount > 0)
+        if (inventoryObject.childCount > 0)
         {
-            Transform weapon = collectedWeaponObject.GetChild(0);
+            Transform weapon = inventoryObject.GetChild(0);
             weapon.GetComponent<Collider2D>().isTrigger = true;
             weapon.SetParent(null);
         }
