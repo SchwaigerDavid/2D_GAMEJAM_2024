@@ -38,12 +38,12 @@ void Update()
             rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             doubleJump = false;
         }
-        else if (!doubleJump)
+        else if (!doubleJump && rigidbody.velocity.y < 0)
         {
             rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             doubleJump = true;
         
+        }
     }
-}
 }
 }
