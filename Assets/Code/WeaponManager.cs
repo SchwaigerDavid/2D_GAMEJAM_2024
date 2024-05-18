@@ -54,6 +54,7 @@ public class WeaponManager : MonoBehaviour
             // If the inventory slot already has a weapon, do nothing
             if (inventoryObject.childCount > 0)
             {
+                Debug.Log("Inventory is full");
                 return;
             }
             
