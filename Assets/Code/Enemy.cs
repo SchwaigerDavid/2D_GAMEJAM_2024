@@ -81,7 +81,6 @@ public class Enemy : MonoBehaviour
 
             //Rotate sprite in other direction
             transform.Rotate(Vector3.up * -180);
-            return;
         }
     }
 
