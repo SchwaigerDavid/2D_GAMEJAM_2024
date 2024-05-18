@@ -5,7 +5,7 @@ public class Gun : MonoBehaviour
     public Transform shotPos;
     public GameObject bullet;
     public int amountOfBullets;
-    public float spread, bulletSpeed;
+    public float spread, bulletSpeed, cooldown, cooldownTimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
     void Start()
@@ -16,7 +16,11 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (cooldownTimer > 0)
+        {
+            cooldownTimer -= Time.deltaTime;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
         }
@@ -27,6 +31,7 @@ public class Gun : MonoBehaviour
         // Check if the object where this script is attached is a child of the player
         if (transform.parent != null && transform.parent.parent != null && transform.parent.parent.CompareTag("Player"))
         {
+            cooldownTimer = cooldown; 
             for (int i = 0; i < amountOfBullets; i++)
             {
                 GameObject bulletIns = Instantiate(bullet, shotPos.position, transform.rotation);
