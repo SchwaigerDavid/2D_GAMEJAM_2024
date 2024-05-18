@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1046958733493465094}
   m_Layer: 3
   m_Name: Tableright
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,15 +123,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.3542961}
+  m_Offset: {x: 0, y: 0.27727836}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.49999985, y: 0.5864458}
     oldSize: {x: 1, y: 0.859375}
     newSize: {x: 1, y: 0.859375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.15078282}
+  m_Size: {x: 1, y: 0.12877762}
   m_EdgeRadius: 0

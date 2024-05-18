@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7580806107586064090}
   m_Layer: 0
   m_Name: bookshelf
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -200803829
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 9172218610271568698, guid: 35a31d8bc4c8849e399185e4dada20fb,
     type: 3}
