@@ -7,7 +7,7 @@ public class WeaponManager : MonoBehaviour
     private KeyCode DROP = KeyCode.Q;
 
     // Reference to the weapon that the player can pick up
-    private Collider2D weaponToPickUp;
+    public Collider2D weaponToPickUp;
 
     // Tag to identify weapon objects
     private string WEAPONTAG = "Weapon";
