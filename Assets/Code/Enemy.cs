@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
             //Prevent currentCooldown from becoming negative
             currentCooldown = Math.Max(currentCooldown - Time.deltaTime, 0);
         }
+
         //Keep patrolling
         patrol();
     }
