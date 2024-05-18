@@ -172,6 +172,13 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
+    public virtual void takeMeleeDamage(int damage)
+    {
+        Debug.Log("Enemy took " + damage + " melee damage");
+        currentHealth -= damage;
+        showDamageEffect();
+    }
+
     //Following methods have to be implemented by the child classes
     public abstract void attack(Collision2D collision);
     public abstract void die();
