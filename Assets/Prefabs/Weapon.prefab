@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3299051929654200931}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -76,9 +76,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -200803829
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 724540555
+  m_SortingLayer: 4
+  m_SortingOrder: 10
   m_Sprite: {fileID: 5283530660614053606, guid: bffe7dca36d7b440e87f73a348d0d4dc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -151,8 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotPos: {fileID: 7241975217660864115}
   bullet: {fileID: 5364653652094182804, guid: e8ad3b0dc43c00e4a843ab323bd72d1a, type: 3}
-  amountOfBullets: 3
-  spread: 30
+  amountOfBullets: 7
+  spread: 20
   cooldown: 2
 --- !u!1 &5433482163690442608
 GameObject:

@@ -31,10 +31,13 @@ public class Snail : Enemy
 
     public override void takeBulletDamage(Collision2D bulletCollision)
     {
-        animator.SetTrigger(AnimationStates.damageTrigger);
-        showDamageEffect();
         //Multiply static bullet damage with relative bullet velocity to calculate actual damage
         int damage = Mathf.RoundToInt(3 * bulletCollision.relativeVelocity.magnitude);
+        if(damage > 0 )
+        {
+            animator.SetTrigger(AnimationStates.damageTrigger);
+            showDamageEffect();
+        }
         Debug.Log(string.Format("Snail is taking {0} bullet damage ", damage));
         currentHealth -= damage;
     }
