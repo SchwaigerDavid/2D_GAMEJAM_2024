@@ -4,6 +4,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public Rigidbody2D enemyRigidBody;
+    public Animator animator;
 
     //The two point between which the enemy should move
     public Transform[] patrolPoints;
@@ -11,77 +12,54 @@ public class Enemy : MonoBehaviour
     public int patrolDestination;
     public int moveSpeed;
 
-
     //attack cooldown in sec
-    public int attackCooldown;
+    public float attackCooldown;
     public float currentCooldown;
 
-    private void Update()
+    private void Awake()
     {
-
-        
-        if (isPlayerInSight() && currentCooldown <= 0)
-        {
-            //TODO: Move towards player
-        }
-        else
-        {
-            //Keep patrolling
-            patrol();
-            if(currentCooldown > 0)
-            {
-                currentCooldown = Math.Max(currentCooldown - Time.deltaTime, 0);
-                Debug.Log("Current Cooldown: " + currentCooldown);
-            }
-            
-        }
+        animator = GetComponent<Animator>();
     }
 
-    private void Start()
+
+    public virtual void Update()
+    {
+        if (currentCooldown > 0)
+        {
+            //Prevent currentCooldown from becoming negative
+            currentCooldown = Math.Max(currentCooldown - Time.deltaTime, 0);
+        }
+        //Keep patrolling
+        patrol();
+    }
+
+    public virtual void Start()
     {
         if(moveSpeed <= 0)
         {
             //Default movement speed
             moveSpeed = 2;
         }
-        patrolDestination = 0;
+        patrolDestination = 1;
         currentCooldown = 0;
-        attackCooldown = 5;
+        attackCooldown = 0.5f;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.tag == "Player" && currentCooldown <= 0)
         {
-            //TODO: Attack player
-            attack();
+            attack(collision);
         }
     }
 
-    public Boolean isPlayerInSight()
-    {
-        Transform destination = patrolPoints[patrolDestination].GetComponent<Transform>();
-        float enemyX = transform.position.x;
-        float destinationX = destination.position.x;
-        Boolean isMovingRight = destinationX > enemyX;
-
-        var raycastDirection = transform.TransformDirection(isMovingRight ? Vector2.right : Vector2.left);
-
-        var distance = 1f;
-        RaycastHit2D hit2D = Physics2D.Raycast(transform.position, raycastDirection);
-        var player = GameObject.FindWithTag("Player").transform;
-        float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
-        Debug.Log(distanceToPlayer);
-        return distanceToPlayer < 0.5;
-    }
-
-    public void attack()
+    public virtual void attack(Collision2D collision)
     {
         Debug.Log("Attacked");
         currentCooldown = attackCooldown;
     }
 
-    private void patrol()
+    public virtual void patrol()
     {
         //The current patrol destination
         Transform destination = patrolPoints[patrolDestination].GetComponent<Transform>();
@@ -99,7 +77,9 @@ public class Enemy : MonoBehaviour
         if (distance < .2f)
         {
             patrolDestination = patrolDestination == 0 ? 1 : 0;
-            transform.Rotate(Vector3.left * -180);
+
+            //Rotate sprite in other direction
+            transform.Rotate(Vector3.up * -180);
             return;
         }
     }
