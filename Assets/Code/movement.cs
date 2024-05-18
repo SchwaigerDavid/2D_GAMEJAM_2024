@@ -22,11 +22,13 @@ void Update()
     if (Input.GetKey(RIGHT))
     {
         transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+        transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
     }
 
     if (Input.GetKey(LEFT))
     {
         transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
+        transform.rotation = new Quaternion(0.0f, 180.0f, 0.0f, 0.0f);
     }
 
     if (Input.GetKeyDown(UP))
