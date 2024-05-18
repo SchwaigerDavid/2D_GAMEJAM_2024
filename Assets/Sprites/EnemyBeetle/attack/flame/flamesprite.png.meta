@@ -1,0 +1,1633 @@
+fileFormatVersion: 2
+guid: 3b770e25783f2644f8a7164f66cb55a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5697827292030533030
+    second: flamesprite_0
+  - first:
+      213: -7347744283581339752
+    second: flamesprite_1
+  - first:
+      213: 2156238561837304291
+    second: flamesprite_2
+  - first:
+      213: -9102487976176691181
+    second: flamesprite_3
+  - first:
+      213: 79208743750633148
+    second: flamesprite_4
+  - first:
+      213: -1576053492305184342
+    second: flamesprite_5
+  - first:
+      213: -4697778486097045983
+    second: flamesprite_6
+  - first:
+      213: -4549962560122565030
+    second: flamesprite_7
+  - first:
+      213: 7451745591793741302
+    second: flamesprite_8
+  - first:
+      213: -1918662780910214355
+    second: flamesprite_9
+  - first:
+      213: 6443662898307764465
+    second: flamesprite_10
+  - first:
+      213: -8598712423180114774
+    second: flamesprite_11
+  - first:
+      213: -733564104046063195
+    second: flamesprite_12
+  - first:
+      213: 1518308447704504598
+    second: flamesprite_13
+  - first:
+      213: -2894836748543859751
+    second: flamesprite_14
+  - first:
+      213: -2437711957446858029
+    second: flamesprite_15
+  - first:
+      213: 7862651134580409099
+    second: flamesprite_16
+  - first:
+      213: -3118747363204788572
+    second: flamesprite_17
+  - first:
+      213: -8634968215276632648
+    second: flamesprite_18
+  - first:
+      213: -2955672066918418522
+    second: flamesprite_19
+  - first:
+      213: -2878938888751629903
+    second: flamesprite_20
+  - first:
+      213: -5048565390341087664
+    second: flamesprite_21
+  - first:
+      213: 6590964077348815735
+    second: flamesprite_22
+  - first:
+      213: 4752378527667151851
+    second: flamesprite_23
+  - first:
+      213: -9009723973796808659
+    second: flamesprite_24
+  - first:
+      213: 5683498886093897245
+    second: flamesprite_25
+  - first:
+      213: 10054656348160192
+    second: flamesprite_26
+  - first:
+      213: -2723949554597113136
+    second: flamesprite_27
+  - first:
+      213: -4146999855631565484
+    second: flamesprite_28
+  - first:
+      213: 7730419212063585098
+    second: flamesprite_29
+  - first:
+      213: 3931378365589387879
+    second: flamesprite_30
+  - first:
+      213: -2946752924000718935
+    second: flamesprite_31
+  - first:
+      213: 7375355639437017374
+    second: flamesprite_32
+  - first:
+      213: -4201376629286994892
+    second: flamesprite_33
+  - first:
+      213: -3598892199485942373
+    second: flamesprite_34
+  - first:
+      213: 5253761073404037186
+    second: flamesprite_35
+  - first:
+      213: 1199171878960085156
+    second: flamesprite_36
+  - first:
+      213: -188560688184555762
+    second: flamesprite_37
+  - first:
+      213: 5929618948352472179
+    second: flamesprite_38
+  - first:
+      213: -2898081681169108754
+    second: flamesprite_39
+  - first:
+      213: -5755330465182664136
+    second: flamesprite_40
+  - first:
+      213: 7860035183118034019
+    second: flamesprite_41
+  - first:
+      213: -6854707073225927467
+    second: flamesprite_42
+  - first:
+      213: 7786707566033775887
+    second: flamesprite_43
+  - first:
+      213: 2562340649776748557
+    second: flamesprite_44
+  - first:
+      213: 4647723327598118183
+    second: flamesprite_45
+  - first:
+      213: 9064216030594824862
+    second: flamesprite_46
+  - first:
+      213: -2025805692046884544
+    second: flamesprite_47
+  - first:
+      213: 2884307197597917165
+    second: flamesprite_48
+  - first:
+      213: -6027284433979725035
+    second: flamesprite_49
+  - first:
+      213: -3604737833617012740
+    second: flamesprite_50
+  - first:
+      213: 8352953298923378081
+    second: flamesprite_51
+  - first:
+      213: -8534847599423472117
+    second: flamesprite_52
+  - first:
+      213: -4564547497301497245
+    second: flamesprite_53
+  - first:
+      213: -8508200548682712546
+    second: flamesprite_54
+  - first:
+      213: -5299602457957865864
+    second: flamesprite_55
+  - first:
+      213: -3147826459723083918
+    second: flamesprite_56
+  - first:
+      213: -1710581375635307998
+    second: flamesprite_57
+  - first:
+      213: 8805460986125716752
+    second: flamesprite_58
+  - first:
+      213: 5528106535024928108
+    second: flamesprite_59
+  - first:
+      213: 8771504237562034263
+    second: flamesprite_60
+  - first:
+      213: -2978231558071135792
+    second: flamesprite_61
+  - first:
+      213: 1200272481593809371
+    second: flamesprite_62
+  - first:
+      213: -7545267287513281762
+    second: flamesprite_63
+  - first:
+      213: -7459865498920548008
+    second: flamesprite_64
+  - first:
+      213: 3147318506369414901
+    second: flamesprite_65
+  - first:
+      213: 4463094062098609461
+    second: flamesprite_66
+  - first:
+      213: 3264941929139152295
+    second: flamesprite_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 269
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flamesprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad7105dbbfb21f40800000000000000
+      internalID: 5697827292030533030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8972abc0181970a90800000000000000
+      internalID: -7347744283581339752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_2
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9cf493c8f7ced10800000000000000
+      internalID: 2156238561837304291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31859b7a9677da180800000000000000
+      internalID: -9102487976176691181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_4
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb68c5acee7691100800000000000000
+      internalID: 79208743750633148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_5
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b224f2bbb02ae0800000000000000
+      internalID: -1576053492305184342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_6
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12696b65b532eceb0800000000000000
+      internalID: -4697778486097045983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_7
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1614
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e419688294bd0c0800000000000000
+      internalID: -4549962560122565030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fde27b722be96760800000000000000
+      internalID: 7451745591793741302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_9
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d236514cd5a8f55e0800000000000000
+      internalID: -1918662780910214355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_10
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f09ff9144d7c6950800000000000000
+      internalID: 6443662898307764465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_11
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa46c9aeb9c3ba880800000000000000
+      internalID: -8598712423180114774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a15b5e755bd1d5f0800000000000000
+      internalID: -733564104046063195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_13
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619d6e42d7d121510800000000000000
+      internalID: 1518308447704504598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_14
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3eb40905973d7d0800000000000000
+      internalID: -2894836748543859751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_15
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1345
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da68a7e3e18b2ed0800000000000000
+      internalID: -2437711957446858029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03cc7d7c8fbd1d60800000000000000
+      internalID: 7862651134580409099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae0ef70ccbf7b4d0800000000000000
+      internalID: -3118747363204788572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_18
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5c5a1882e6a2880800000000000000
+      internalID: -8634968215276632648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a778ca3ae75bf6d0800000000000000
+      internalID: -2955672066918418522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_20
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9b6ed7554fb08d0800000000000000
+      internalID: -2878938888751629903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_21
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e5363a684efe9b0800000000000000
+      internalID: -5048565390341087664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_22
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7738cbd68eec77b50800000000000000
+      internalID: 6590964077348815735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_23
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1076
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be36bcb7717d3f140800000000000000
+      internalID: 4752378527667151851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28358908c707f280800000000000000
+      internalID: -9009723973796808659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e74fadf18dfde40800000000000000
+      internalID: 5683498886093897245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_26
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c088fb18a8b32000800000000000000
+      internalID: 10054656348160192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_27
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d72cef46923ad0800000000000000
+      internalID: -2723949554597113136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_28
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dfb716a95e276c0800000000000000
+      internalID: -4146999855631565484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_29
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43b7ebd057f74b60800000000000000
+      internalID: 7730419212063585098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_30
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a7c9e4bcf0f8630800000000000000
+      internalID: 3931378365589387879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_31
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 807
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe71404d70b17d0800000000000000
+      internalID: -2946752924000718935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1141d4b0e68a5660800000000000000
+      internalID: 7375355639437017374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c78bb2736b1b5c0800000000000000
+      internalID: -4201376629286994892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_34
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9557b0cc9a2e0ec0800000000000000
+      internalID: -3598892199485942373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_35
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248c5035cdb19e840800000000000000
+      internalID: 5253761073404037186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_36
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8bd0e687054a010800000000000000
+      internalID: 1199171878960085156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_37
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07082a9d09126df0800000000000000
+      internalID: -188560688184555762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_38
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37479fd540d3a4250800000000000000
+      internalID: 5929618948352472179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_39
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 538
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee039dfc012f7c7d0800000000000000
+      internalID: -2898081681169108754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83abdc95f65f020b0800000000000000
+      internalID: -5755330465182664136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364a2d3da54741d60800000000000000
+      internalID: 7860035183118034019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_42
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4d2051c303fd0a0800000000000000
+      internalID: -6854707073225927467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_43
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d2a4b8641ff0c60800000000000000
+      internalID: 7786707566033775887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_44
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d089c7fbe334f8320800000000000000
+      internalID: 2562340649776748557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_45
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72548c3edb7008040800000000000000
+      internalID: 4647723327598118183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_46
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a710f94709acd70800000000000000
+      internalID: 9064216030594824862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_47
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 269
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041c49dc474e2e3e0800000000000000
+      internalID: -2025805692046884544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def1def4d1e170820800000000000000
+      internalID: 2884307197597917165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba560cdb8ca5ca0800000000000000
+      internalID: -6027284433979725035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_50
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7c8def90669fdc0800000000000000
+      internalID: -3604737833617012740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_51
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a551cff4c6abe370800000000000000
+      internalID: 8352953298923378081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_52
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eb440f3512e8980800000000000000
+      internalID: -8534847599423472117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_53
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a22f63c3877a0c0800000000000000
+      internalID: -4564547497301497245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_54
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1abbf9edaccce980800000000000000
+      internalID: -8508200548682712546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamesprite_55
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 0
+        width: 269
+        height: 269
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87662aa94a70476b0800000000000000
+      internalID: -5299602457957865864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 030f92a4024456e4eb2495fb68df3011
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      flamesprite_0: 5697827292030533030
+      flamesprite_1: -7347744283581339752
+      flamesprite_10: 6443662898307764465
+      flamesprite_11: -8598712423180114774
+      flamesprite_12: -733564104046063195
+      flamesprite_13: 1518308447704504598
+      flamesprite_14: -2894836748543859751
+      flamesprite_15: -2437711957446858029
+      flamesprite_16: 7862651134580409099
+      flamesprite_17: -3118747363204788572
+      flamesprite_18: -8634968215276632648
+      flamesprite_19: -2955672066918418522
+      flamesprite_2: 2156238561837304291
+      flamesprite_20: -2878938888751629903
+      flamesprite_21: -5048565390341087664
+      flamesprite_22: 6590964077348815735
+      flamesprite_23: 4752378527667151851
+      flamesprite_24: -9009723973796808659
+      flamesprite_25: 5683498886093897245
+      flamesprite_26: 10054656348160192
+      flamesprite_27: -2723949554597113136
+      flamesprite_28: -4146999855631565484
+      flamesprite_29: 7730419212063585098
+      flamesprite_3: -9102487976176691181
+      flamesprite_30: 3931378365589387879
+      flamesprite_31: -2946752924000718935
+      flamesprite_32: 7375355639437017374
+      flamesprite_33: -4201376629286994892
+      flamesprite_34: -3598892199485942373
+      flamesprite_35: 5253761073404037186
+      flamesprite_36: 1199171878960085156
+      flamesprite_37: -188560688184555762
+      flamesprite_38: 5929618948352472179
+      flamesprite_39: -2898081681169108754
+      flamesprite_4: 79208743750633148
+      flamesprite_40: -5755330465182664136
+      flamesprite_41: 7860035183118034019
+      flamesprite_42: -6854707073225927467
+      flamesprite_43: 7786707566033775887
+      flamesprite_44: 2562340649776748557
+      flamesprite_45: 4647723327598118183
+      flamesprite_46: 9064216030594824862
+      flamesprite_47: -2025805692046884544
+      flamesprite_48: 2884307197597917165
+      flamesprite_49: -6027284433979725035
+      flamesprite_5: -1576053492305184342
+      flamesprite_50: -3604737833617012740
+      flamesprite_51: 8352953298923378081
+      flamesprite_52: -8534847599423472117
+      flamesprite_53: -4564547497301497245
+      flamesprite_54: -8508200548682712546
+      flamesprite_55: -5299602457957865864
+      flamesprite_6: -4697778486097045983
+      flamesprite_7: -4549962560122565030
+      flamesprite_8: 7451745591793741302
+      flamesprite_9: -1918662780910214355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
