@@ -1,12 +1,10 @@
 using System;
-using System.Collections;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
     public Rigidbody2D enemyRigidBody;
     public Collider2D enemyCollider;
-    public SpriteRenderer spriteRenderer;
     public Animator animator;
 
     //The two point between which the enemy should move
@@ -19,11 +17,6 @@ public abstract class Enemy : MonoBehaviour
     public int attackDamage;
     public float attackCooldown;
     private float _currentCooldown;
-
-    private Color _originColor;
-    private Color _damageEffectColor = Color.red;
-    private float _damageEffectDuration = 1;
-    private float _damageEffectDelay = 0.5f;
 
 
     public float currentCooldown
@@ -61,12 +54,6 @@ public abstract class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         enemyCollider = GetComponent<Collider2D>();
         enemyRigidBody = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        if(spriteRenderer != null )
-        {
-            _originColor = spriteRenderer.color;
-        }
     }
 
 
@@ -81,8 +68,6 @@ public abstract class Enemy : MonoBehaviour
         //Keep patrolling
         patrol();
     }
-
-    /* UNITY LIEFECYCLE METHODS */
 
     public virtual void Start()
     {
@@ -104,9 +89,13 @@ public abstract class Enemy : MonoBehaviour
     {
 
         GameObject obj = collision.gameObject;
-        if (obj.tag == "Player" || obj.tag == "Weapon")
-        { 
-            if (gotJumpedOn(collision))
+        if (obj.tag == "Player")
+        {
+            var contact = collision.GetContact(0);
+            var contactPoint = contact.point;
+            var ownCenter = enemyCollider.bounds.center;
+            Debug.Log("Contact Point: " + contactPoint.y + ", Own y: " + ownCenter.y);
+            if (contactPoint.y > ownCenter.y)
             {
 
                 //Player jumps on enemy, it takes half it maxHealth as damage
@@ -121,33 +110,7 @@ public abstract class Enemy : MonoBehaviour
         {
             takeBulletDamage(collision);
         }
-        else
-        {
-            //collided with any other object, so should turn around
-            patrolDestination = patrolDestination == 0 ? 1 : 0;
-            transform.Rotate(Vector3.up * -180);
-        }
     }
-
-    private Boolean gotJumpedOn(Collision2D collision)
-    {
-        var colliderTransform = collision.gameObject.transform;
-        var contact = collision.GetContact(0);
-        var contactPoint = contact.point;
-        var ownCenter = enemyCollider.bounds.center;
-
-        //Y of contact point is either bigger than the enemy colider max or contact point is between enemy center and enemy collider max
-        Boolean fromTop = contactPoint.y > enemyCollider.bounds.max.y || (contactPoint.y < enemyCollider.bounds.max.y && contactPoint.y > ownCenter.y);
-        //X of player is between within the x-coordinates of the enemy
-        Boolean aboveCollider = colliderTransform.position.x > enemyCollider.bounds.min.x && colliderTransform.position.x < enemyCollider.bounds.max.x;
-        Debug.Log(string.Format("Own Max y: {0}, Contact Point y: {1}", enemyCollider.bounds.max.y, contactPoint.y));
-        Debug.Log(string.Format("Collider x: {0}, Min Collider x: {1}, Max Collider x: {2}", colliderTransform.position.x, enemyCollider.bounds.min.x, enemyCollider.bounds.max.x));
-        Debug.Log(string.Format("Above Collider {0}, From Top {1}", aboveCollider, fromTop));
-        return fromTop && aboveCollider;
-    }
-
-
-    /* ENEMY ACTIONS */
 
     public virtual void patrol()
     {
@@ -178,30 +141,6 @@ public abstract class Enemy : MonoBehaviour
     public abstract void die();
     public abstract void takeJumpDamage(Collision2D collision);
     public abstract void takeBulletDamage(Collision2D collision);
-
-
-    /* ENEMY EFFECTS AND CO-ROUTINES */
-    
-    public void showDamageEffect()
-    {
-        StartCoroutine(DamageEffectSequence(_damageEffectColor, _damageEffectDuration, _damageEffectDelay));
-    }
-
-    private IEnumerator DamageEffectSequence(Color dmgColor, float duration, float delay)
-    {
-        // tint the sprite with damage color
-        spriteRenderer.color = dmgColor;
-        // you can delay the animation
-        yield return new WaitForSeconds(delay);
-        // lerp animation with given duration in seconds
-        for (float t = 0; t < 1.0f; t += Time.deltaTime / duration)
-        {
-            spriteRenderer.color = Color.Lerp(dmgColor, _originColor, t);
-            yield return null;
-        }
-        // restore origin color
-        spriteRenderer.color = _originColor;
-    }
 
 
 
