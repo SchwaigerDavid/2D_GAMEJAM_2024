@@ -8,7 +8,10 @@ public class Snail : Enemy
     {
 
         animator.SetTrigger(AnimationStates.attackTrigger);
-        Debug.Log("Snail Attack");
+        Debug.Log("Snail attacks");
+        var player = collision.gameObject;
+        var playerScript = (Plant)player.GetComponent(typeof(Plant));
+        playerScript.takeDamage(attackDamage);
         currentCooldown = attackCooldown;
     }
 
@@ -19,6 +22,7 @@ public class Snail : Enemy
         enemyRigidBody.AddForceY(5f, ForceMode2D.Impulse);
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 5f);
+        Debug.Log("Snail dieded");
     }
 
     public override void takeBulletDamage(Collision2D collision)
@@ -26,7 +30,7 @@ public class Snail : Enemy
         animator.SetTrigger(AnimationStates.damageTrigger);
         //Multiply static bullet damage with relative bullet velocity to calculate actual damage
         int damage = Mathf.RoundToInt(2 * collision.relativeVelocity.magnitude);
-        Debug.Log("Snail is taking bullet damage: " + damage);
+        Debug.Log(string.Format("Snail is taking {0} bullet damage ", damage));
         currentHealth -= damage;
     }
 
@@ -34,7 +38,7 @@ public class Snail : Enemy
     {
         animator.SetTrigger(AnimationStates.damageTrigger);
         int damage = (maxHealth / 2);
-        Debug.Log("Snail is taking jump damage: " + damage);
+        Debug.Log(string.Format("Snail is taking {0} jump damage ", damage));
         currentHealth -= damage;
     }
 }

@@ -14,8 +14,10 @@ public abstract class Enemy : MonoBehaviour
     public int moveSpeed;
 
     //Attack cooldown in sec
+    public int attackDamage;
     public float attackCooldown;
     private float _currentCooldown;
+
 
     public float currentCooldown
     {
@@ -69,12 +71,13 @@ public abstract class Enemy : MonoBehaviour
 
     public virtual void Start()
     {
+        //Set default value
         if(moveSpeed <= 0)
         {
-            //Default movement speed
             moveSpeed = 2;
         }
         patrolDestination = 1;
+        attackDamage = 10;
         _currentCooldown = 0;
         attackCooldown = 0.5f;
         maxHealth = 100;
