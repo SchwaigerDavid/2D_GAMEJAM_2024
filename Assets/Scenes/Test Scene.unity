@@ -3254,8 +3254,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929080528}
-  - component: {fileID: 1929080529}
   - component: {fileID: 1929080530}
+  - component: {fileID: 1929080529}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -3272,9 +3272,9 @@ Transform:
   m_GameObject: {fileID: 1929080527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.823, y: 0.24, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 1.128, y: 0.12, z: 0}
+  m_LocalScale: {x: 6.7250004, y: 8.40625, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 154026019}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3288,7 +3288,7 @@ Animator:
   m_GameObject: {fileID: 1929080527}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f2205bea52076dd4ab366a849e0e2750, type: 2}
+  m_Controller: {fileID: 9100000, guid: bf64fdcbc0db5e045931a5a898078dcc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3341,21 +3341,21 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -200803829
-  m_SortingLayer: 2
+  m_SortingLayerID: -172389003
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9019773350014789831, guid: 26e9720d40f460b4eadc9babfcf81613,
+  m_Sprite: {fileID: 5697827292030533030, guid: 3b770e25783f2644f8a7164f66cb55a8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.69, y: 2.69}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!1001 &3549107797976800078
 PrefabInstance:
   m_ObjectHideFlags: 0
