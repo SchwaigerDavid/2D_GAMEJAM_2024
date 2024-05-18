@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f814915de22a64f33a174ca99015c8df
+guid: 4abcb3828253148e9a018cb906e5c0db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4774277729412892171
-    second: Pipe5_0
+      213: -7328525141123416626
+    second: BlueprintBottom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pipe5_0
+      name: BlueprintBottom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 38
-        height: 38
-      alignment: 9
-      pivot: {x: 0.8427168, y: 0.8372772}
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f9394743bb5ebdb0800000000000000
-      internalID: -4774277729412892171
+      spriteID: ecdb1db5639db4a90800000000000000
+      internalID: -7328525141123416626
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3d1f3e66e6222459ab7146684f755449
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -146,7 +146,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pipe5_0: -4774277729412892171
+      BlueprintBottom_0: -7328525141123416626
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
