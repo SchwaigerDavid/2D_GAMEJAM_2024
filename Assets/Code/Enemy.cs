@@ -136,8 +136,8 @@ public abstract class Enemy : MonoBehaviour
         var contactPoint = contact.point;
         var ownCenter = enemyCollider.bounds.center;
 
-        //Y of contact point is between enemy center and enemy collider max
-        Boolean fromTop = contactPoint.y < enemyCollider.bounds.max.y && contactPoint.y > ownCenter.y;
+        //Y of contact point is either bigger than the enemy colider max or contact point is between enemy center and enemy collider max
+        Boolean fromTop = contactPoint.y > enemyCollider.bounds.max.y || (contactPoint.y < enemyCollider.bounds.max.y && contactPoint.y > ownCenter.y);
         //X of player is between within the x-coordinates of the enemy
         Boolean aboveCollider = colliderTransform.position.x > enemyCollider.bounds.min.x && colliderTransform.position.x < enemyCollider.bounds.max.x;
         Debug.Log(string.Format("Own Max y: {0}, Contact Point y: {1}", enemyCollider.bounds.max.y, contactPoint.y));
