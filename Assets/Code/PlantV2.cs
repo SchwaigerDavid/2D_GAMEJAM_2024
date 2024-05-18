@@ -25,7 +25,10 @@ public class PlantV2 : MonoBehaviour
     private Transform floorColliderPosition;
     
     // HP System:
-    [SerializeField] public int health = 30;
+    [SerializeField] public int maxHealth = 30;
+    private int health;
+    private float healthCooldown = 3f;
+    private float cuurentHealthCooldown = 0f;
     [SerializeField] public int shield = 100;
     private bool isBlocking = false;
     private KeyCode BLOCK = KeyCode.LeftShift;
@@ -38,6 +41,7 @@ public class PlantV2 : MonoBehaviour
         move = new Vector2(0, 0);
         grounded = false;
         floorColliderPosition = floorCollider.GetComponent<Transform>();   
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -142,5 +146,24 @@ public class PlantV2 : MonoBehaviour
     {
         Debug.Log(string.Format("Knockback: {0} {1}", knockbackVector.x, knockbackVector.y));
         rb.AddForce(knockbackVector, ForceMode2D.Impulse);
+    }
+
+    public void heal(int healAmount)
+    {
+        if (cuurentHealthCooldown > 0)
+        {
+            cuurentHealthCooldown -= Time.deltaTime;
+        } 
+        else
+        {
+            Debug.Log(string.Format("Player is healing {0} health", healAmount));
+            if (health + healAmount <= maxHealth)
+            {
+                health += healAmount;
+            }
+            cuurentHealthCooldown = healthCooldown;
+            health += healAmount;
+        }
+        
     }
 }
