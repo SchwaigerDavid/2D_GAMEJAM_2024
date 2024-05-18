@@ -1,24 +1,24 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public abstract class Enemy : MonoBehaviour
 {
     public Rigidbody2D enemyRigidBody;
     public Collider2D enemyCollider;
+    public SpriteRenderer spriteRenderer;
     public Animator animator;
 
-    //The two point between which the enemy should move
-    public Transform[] patrolPoints;
-
+    //MOVEMENT MANAGEMENT
+    public Transform[] patrolPoints; //The two point between which the enemy should move
     public int patrolDestination;
     public int moveSpeed;
 
-    //Attack cooldown in sec
+    //ATTACK MANAGEMENT
     public int attackDamage;
     public float attackCooldown;
+    public int attackKnockback;
     private float _currentCooldown;
-
-
     public float currentCooldown
     {
         get { return _currentCooldown; }
@@ -29,7 +29,14 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    //Health management
+    private Color _originColor;
+    private Color _damageEffectColor = Color.red;
+    private float _damageEffectDuration = 1;
+    private float _damageEffectDelay = 0.5f;
+
+    private float _jumpOnKnockback = 6f;
+
+    //HEALTH MANAGEMENT
     public int maxHealth;
     private int _currentHealth;
     
@@ -49,11 +56,19 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
+    /* UNITY LIEFECYCLE METHODS */
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         enemyCollider = GetComponent<Collider2D>();
         enemyRigidBody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if(spriteRenderer != null )
+        {
+            _originColor = spriteRenderer.color;
+        }
     }
 
 
@@ -87,30 +102,50 @@ public abstract class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         GameObject obj = collision.gameObject;
-        if (obj.tag == "Player")
-        {
-            var contact = collision.GetContact(0);
-            var contactPoint = contact.point;
-            var ownCenter = enemyCollider.bounds.center;
-            Debug.Log("Contact Point: " + contactPoint.y + ", Own y: " + ownCenter.y);
-            if (contactPoint.y > ownCenter.y)
+        if (obj.tag == "Player" || obj.tag == "Weapon")
+        { 
+            if (gotJumpedOn(collision))
             {
-
                 //Player jumps on enemy, it takes half it maxHealth as damage
                 takeJumpDamage(collision);
+                //Player is knocked back up
+                knockbackPlayer(0, _jumpOnKnockback);
             }
             else if (_currentCooldown <= 0)
             {
-                //Enemy attacks player
+                //Enemy attacks player if it has not cooldown
                 attack(collision);
             } 
         }else if (obj.tag == "Bullet")
         {
             takeBulletDamage(collision);
         }
+        else
+        {
+            //collided with any other object, so should turn around
+            patrolDestination = patrolDestination == 0 ? 1 : 0;
+            transform.Rotate(Vector3.up * -180);
+        }
     }
+
+    private Boolean gotJumpedOn(Collision2D collision)
+    {
+        //Still not sure if this works as intended...
+        //But lets leave it like that until another bug appears.
+        var colliderTransform = collision.gameObject.transform;
+        var contact = collision.GetContact(0);
+        var contactPoint = contact.point;
+        var ownCenter = enemyCollider.bounds.center;
+        //Y of contact point is either bigger than the enemy colider max or contact point is between enemy center and enemy collider max
+        Boolean fromTop = contactPoint.y > enemyCollider.bounds.max.y || (contactPoint.y < enemyCollider.bounds.max.y && contactPoint.y > ownCenter.y);
+        //X of player is between within the x-coordinates of the enemy
+        Boolean aboveCollider = colliderTransform.position.x > enemyCollider.bounds.min.x && colliderTransform.position.x < enemyCollider.bounds.max.x;
+        return fromTop && aboveCollider;
+    }
+
+
+    /* ENEMY ACTIONS */
 
     public virtual void patrol()
     {
@@ -143,5 +178,34 @@ public abstract class Enemy : MonoBehaviour
     public abstract void takeBulletDamage(Collision2D collision);
 
 
+    /* ENEMY EFFECTS AND CO-ROUTINES */
+    
+    public void showDamageEffect()
+    {
+        StartCoroutine(DamageEffectSequence(_damageEffectColor, _damageEffectDuration, _damageEffectDelay));
+    }
+
+    private IEnumerator DamageEffectSequence(Color dmgColor, float duration, float delay)
+    {
+        // tint the sprite with damage color
+        spriteRenderer.color = dmgColor;
+        // you can delay the animation
+        yield return new WaitForSeconds(delay);
+        // lerp animation with given duration in seconds
+        for (float t = 0; t < 1.0f; t += Time.deltaTime / duration)
+        {
+            spriteRenderer.color = Color.Lerp(dmgColor, _originColor, t);
+            yield return null;
+        }
+        // restore origin color
+        spriteRenderer.color = _originColor;
+    }
+
+    public void knockbackPlayer(float x, float y)
+    {
+        var player = GameObject.FindWithTag("Player");
+        var playerRigidBody = player.GetComponent<Rigidbody2D>();
+        playerRigidBody.AddForce(new Vector2(x, y), ForceMode2D.Impulse);
+    }
 
 }

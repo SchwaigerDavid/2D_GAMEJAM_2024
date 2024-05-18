@@ -179,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyRigidBody: {fileID: 0}
   enemyCollider: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
   patrolPoints:
   - {fileID: 0}
@@ -187,6 +188,7 @@ MonoBehaviour:
   moveSpeed: 2
   attackDamage: 10
   attackCooldown: 2
+  attackKnockback: 4
   maxHealth: 100
 --- !u!95 &3265167061694721585
 Animator:
