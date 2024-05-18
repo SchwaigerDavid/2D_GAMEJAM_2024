@@ -121,4 +121,10 @@ public class PlantV2 : MonoBehaviour
             health -= damage;
         }
     }
+
+    public void knockback(Vector2 knockbackVector)
+    {
+        Debug.Log(string.Format("Knockback: {0} {1}", knockbackVector.x, knockbackVector.y));
+        rb.AddForce(knockbackVector, ForceMode2D.Impulse);
+    }
 }

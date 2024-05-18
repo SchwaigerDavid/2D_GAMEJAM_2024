@@ -103,14 +103,15 @@ public abstract class Enemy : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
-        if (obj.tag == "Player" || obj.tag == "Weapon")
+        if (obj.tag == "Player")
         { 
             if (gotJumpedOn(collision))
             {
                 //Player jumps on enemy, it takes half it maxHealth as damage
                 takeJumpDamage(collision);
                 //Player is knocked back up
-                knockbackPlayer(0, _jumpOnKnockback);
+                var playerScript = (PlantV2)obj.GetComponent(typeof(PlantV2));
+                playerScript.knockback(new Vector2(0, _jumpOnKnockback));
             }
             else if (_currentCooldown <= 0)
             {
@@ -200,12 +201,4 @@ public abstract class Enemy : MonoBehaviour
         // restore origin color
         spriteRenderer.color = _originColor;
     }
-
-    public void knockbackPlayer(float x, float y)
-    {
-        var player = GameObject.FindWithTag("Player");
-        var playerRigidBody = player.GetComponent<Rigidbody2D>();
-        playerRigidBody.AddForce(new Vector2(x, y), ForceMode2D.Impulse);
-    }
-
 }

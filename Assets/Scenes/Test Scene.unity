@@ -2855,7 +2855,7 @@ GameObject:
   - component: {fileID: 1658627296}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3197,6 +3197,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2324572003658751785, guid: b37936fb8f7cad8478d161040e659796,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4970861863766343161, guid: b37936fb8f7cad8478d161040e659796,
         type: 3}
       propertyPath: m_LocalPosition.x

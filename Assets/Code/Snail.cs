@@ -8,16 +8,14 @@ public class Snail : Enemy
         Debug.Log("Snail attacks");
         animator.SetTrigger(AnimationStates.attackTrigger);
         var player = playerCollision.gameObject;
-
         //Give damage to player
-        var playerScript = (Plant)player.GetComponent(typeof(Plant));
+        var playerScript = (PlantV2)player.GetComponent(typeof(PlantV2));
         playerScript.takeDamage(attackDamage);
-        
+
         //Push player back
         float playerXPos = player.transform.position.x;
         int direction = playerXPos > transform.position.x ? 1 : -1;
-        knockbackPlayer(direction * attackKnockback, 2 * attackKnockback);
-        
+        playerScript.knockback(new Vector2(direction * attackKnockback * 10, 2 * attackKnockback));
         currentCooldown = attackCooldown;
     }
 
