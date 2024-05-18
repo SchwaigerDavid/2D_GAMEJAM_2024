@@ -81,10 +81,11 @@ public class Plant : MonoBehaviour
     }
 
 
-    void takeDamage(int damage)
+    public void takeDamage(int damage)
     {
         if (isBlocking)
         {
+            Debug.Log(string.Format("Player shield ist taking {0} damage", damage));
             shield -= damage;
             if (shield < 0)
             {
@@ -94,6 +95,7 @@ public class Plant : MonoBehaviour
         }
         else
         {
+            Debug.Log(string.Format("Player ist taking {0} damage", damage));
             health -= damage;
         }
     }

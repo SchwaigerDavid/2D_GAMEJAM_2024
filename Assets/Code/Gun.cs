@@ -5,7 +5,8 @@ public class Gun : MonoBehaviour
     public Transform shotPos;
     public GameObject bullet;
     public int amountOfBullets;
-    public float spread, bulletSpeed, cooldown, cooldownTimer;
+    public float spread, cooldown;
+    private float cooldownTimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
     void Start()
@@ -34,12 +35,14 @@ public class Gun : MonoBehaviour
             cooldownTimer = cooldown; 
             for (int i = 0; i < amountOfBullets; i++)
             {
+
                 GameObject bulletIns = Instantiate(bullet, shotPos.position, transform.rotation);
                 Rigidbody2D rb = bulletIns.GetComponent<Rigidbody2D>();
-                //Vector2 dir = transform.rotation * Vector2.up;
+                /*//Vector2 dir = transform.rotation * Vector2.up;
                 Vector2 dir = transform.up;
                 Vector2 pdir = Vector2.Perpendicular(dir) * Random.Range(-spread, spread);
-                rb.velocity = (dir + pdir) * bulletSpeed;
+                rb.velocity = (dir + pdir) * bulletSpeed;*/
+                rb.AddForce(transform.up * Random.Range(0, spread), ForceMode2D.Force);
 
             }
         }
