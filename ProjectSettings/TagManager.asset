@@ -57,5 +57,8 @@ TagManager:
   - name: GueLight
     uniqueID: 555842207
     locked: 0
+  - name: Player
+    uniqueID: 724540555
+    locked: 0
   m_RenderingLayers:
   - Default
