@@ -70,6 +70,7 @@ public class WeaponManager : MonoBehaviour
         // Make the weapon a child of the inventory slot and move it to the position of the inventory slot
         weaponToPickUp.transform.SetParent(inventoryObject);
         weaponToPickUp.transform.position = inventoryObject.position;
+        weaponToPickUp.transform.rotation = inventoryObject.rotation;   
         weaponToPickUp.GetComponent<Collider2D>().isTrigger = false;
 
     }
