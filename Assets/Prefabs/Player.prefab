@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 558358015420225995}
   - component: {fileID: 4224929141276454899}
   - component: {fileID: 2324572003658751785}
-  - component: {fileID: 7008867317984444764}
   - component: {fileID: 6518679737807769695}
+  - component: {fileID: 8564975498887658391}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -35,6 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1776299187740722832}
+  - {fileID: 3969222800822273453}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &558358015420225995
@@ -166,23 +167,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7008867317984444764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6382682368910890441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fa0158be803e194aab8c7a4dff55c0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 10
-  rigidbody: {fileID: 2324572003658751785}
-  health: 30
-  shield: 100
 --- !u!114 &6518679737807769695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +179,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481dc3f93c1c9f04daef04af7217ca4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8564975498887658391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6382682368910890441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75999a649d20e248b53283827d840e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_speed: 400
+  air_speed_factor: 0.5
+  jumpForce: 7
+  doubleJump: 0
+  grounded: 0
+  jumpCommandDone: 0
+  floorCollider: {fileID: 8873237129487331910}
+  health: 30
+  shield: 100
 --- !u!1 &7091711473486314290
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,6 +226,37 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.44500017, y: 0.023999989, z: -1.5234497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4970861863766343161}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8873237129487331910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3969222800822273453}
+  m_Layer: 7
+  m_Name: floorcollidor
+  m_TagString: Player
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3969222800822273453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8873237129487331910}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.446, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
