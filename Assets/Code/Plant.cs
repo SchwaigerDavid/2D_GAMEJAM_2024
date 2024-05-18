@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class movableObject : MonoBehaviour
+public class Plant : MonoBehaviour
 {
     [SerializeField] public float speed = 5.0f;
     [SerializeField] public float jumpForce = 7.0f;
@@ -26,7 +26,7 @@ public class movableObject : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.gravityScale = 2.0f;
     }
-    void Update()
+    void FixedUpdate()
     {
 
         if (Input.GetKeyDown(BLOCK))
@@ -51,12 +51,14 @@ public class movableObject : MonoBehaviour
         if (Input.GetKey(RIGHT))
         {
             transform.position += new Vector3(speed * Time.deltaTime, 0.0f, 0.0f);
+            //rigidbody.velocity += new Vector2(speed * Time.deltaTime, 0.0f);
             transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
         }
 
         if (Input.GetKey(LEFT))
         {
             transform.position += new Vector3(-speed * Time.deltaTime, 0.0f, 0.0f);
+            //rigidbody.velocity += new Vector2(-speed * Time.deltaTime, 0.0f);
             transform.rotation = new Quaternion(0.0f, 180.0f, 0.0f, 0.0f);
         }
 
