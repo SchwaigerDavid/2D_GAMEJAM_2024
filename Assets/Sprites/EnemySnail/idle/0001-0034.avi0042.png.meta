@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 793146a98b81f1246ae897b1db1d2734
-=======
 guid: 216b7d095d08a4f87b6dcb6cf6cd49cb
->>>>>>> 2319d3e21d83b8421e1c7309256e05862fddc947
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -41,11 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 1
-=======
     filterMode: 0
->>>>>>> 2319d3e21d83b8421e1c7309256e05862fddc947
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -59,11 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 100
-=======
   spritePixelsToUnits: 64
->>>>>>> 2319d3e21d83b8421e1c7309256e05862fddc947
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,24 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-=======
     textureCompression: 0
->>>>>>> 2319d3e21d83b8421e1c7309256e05862fddc947
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -174,12 +145,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    nameFileIdTable: {}
-=======
     nameFileIdTable:
       0001-0034.avi0042_0: -7803929972687015325
->>>>>>> 2319d3e21d83b8421e1c7309256e05862fddc947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
