@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8956784125790414434}
   m_Layer: 0
   m_Name: Gue1_0
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718706983573045318}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -25.552, y: -1.568, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -200803829
-  m_SortingLayer: 2
+  m_SortingLayerID: 555842207
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -2685582755503288505, guid: 25818d40438e0445ba57c1b63e0e5001,
     type: 3}
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 3f6e3a8a00000000758db9f50bfa07f4
+  m_ApplyToSortingLayers: 3f6e3a8a00000000758db9f50bfa07f49f7a2121
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0

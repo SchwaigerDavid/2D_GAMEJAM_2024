@@ -54,5 +54,8 @@ TagManager:
   - name: Game Objects
     uniqueID: 4094163467
     locked: 0
+  - name: GueLight
+    uniqueID: 555842207
+    locked: 0
   m_RenderingLayers:
   - Default
