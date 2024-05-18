@@ -23,4 +23,12 @@ public class BulletDespawn : MonoBehaviour
         }
         timeLeft -= Time.deltaTime;
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Bullet") && !collision.gameObject.CompareTag("Player"))
+        {
+            timeLeft = timeLeft > 1 ? 1 : timeLeft;
+        }
+    }
 }
