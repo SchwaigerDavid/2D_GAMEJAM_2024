@@ -18,6 +18,7 @@ public class PlantV2 : MonoBehaviour
     public bool doubleJump = false;
     public bool grounded;
 
+    public float rayCastThreshold = 0.05f;
 
     private Rigidbody2D rb;
     [SerializeField] private GameObject floorCollider;    
@@ -55,8 +56,29 @@ public class PlantV2 : MonoBehaviour
 
         grounded = isGrounded();
         
+        if (move.x != 0)
+        {
+            moveInXDirection();
+        }
+
+        if (move.y > 0)
+        {
+            moveInYDirection();
+        }
+
+    }
+
+    void moveInXDirection()
+    {
         // if the player is grounded, move at max speed, else reduce the speed by the air_speed_factor if first jump, if second jump reduce by air_speed_factor_second_jump
         current_speed = grounded ? max_speed : doubleJump ? max_speed * air_speed_factor_second_jump : max_speed * air_speed_factor; 
+
+        // if direction is changed, and the player is in the air, don't change the speed
+        if (move.x * rb.velocity.x < 1 && !grounded)
+        {
+            //Debug.Log(move.x);
+            move.x = 0.5f * (rb.velocity.x > 0 ? 1 : -1);
+        }
 
         // else if the player is not blocking, move 
         rb.velocity = new Vector2(move.x * current_speed * Time.deltaTime, rb.velocity.y);
@@ -70,28 +92,21 @@ public class PlantV2 : MonoBehaviour
         {
             transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
         }
-
-        if (move.y > 0)
-        {
-            if (grounded || (!doubleJump && rb.velocity.y <= -doubleJumpThreshhold))
+    }
+    void moveInYDirection(){
+        if (grounded || (!doubleJump && rb.velocity.y <= -doubleJumpThreshhold))
             {
                 current_jump_force = grounded ? jumpForce : jumpForce * jumpForceSecondJumpFactor;
                 rb.velocity = new Vector2(rb.velocity.x, 0);
                 rb.AddForce(Vector2.up * current_jump_force, ForceMode2D.Impulse);
                 doubleJump = !grounded;
-
             }
-        }
-
     }
-
-
-    
 
     bool isGrounded()
     {
      // raycast to check if the player is on the ground (collision with Floor Tagged object)
-     RaycastHit2D[] raycastHit2Ds = Physics2D.RaycastAll(floorColliderPosition.position, Vector2.down, 0.1f);
+     RaycastHit2D[] raycastHit2Ds = Physics2D.RaycastAll(floorColliderPosition.position, Vector2.down, rayCastThreshold);
         foreach (RaycastHit2D hit in raycastHit2Ds)
         {
             if (hit.collider != null && hit.collider.gameObject.CompareTag("Floor"))
@@ -121,6 +136,7 @@ public class PlantV2 : MonoBehaviour
             health -= damage;
         }
     }
+
 
     public void knockback(Vector2 knockbackVector)
     {
