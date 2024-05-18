@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class PlantV2 : MonoBehaviour
 {
+
+    //Animator
+    public Animator animator;
+
     // Movement:
     [SerializeField] public float max_speed = 300;
     [SerializeField] public float air_speed_factor = 0.85f;
@@ -37,6 +41,7 @@ public class PlantV2 : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         move = new Vector2(0, 0);
         grounded = false;
@@ -48,13 +53,16 @@ public class PlantV2 : MonoBehaviour
     void Update()
     {
         move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        isBlocking = Input.GetKey(BLOCK);
     }
 
     void FixedUpdate()
     {
 
         isBlocking = Input.GetKey(BLOCK);
+        animator.SetBool(AnimationStates.isBlocking, isBlocking);
         if (isBlocking){
+            
             return; // If the player is blocking, do not allow movement
         }
 
