@@ -102,7 +102,7 @@ public abstract class Enemy : MonoBehaviour
     {
 
         GameObject obj = collision.gameObject;
-        if (obj.tag == "Player")
+        if (obj.tag == "Player" || obj.tag == "Weapon")
         { 
             if (gotJumpedOn(collision))
             {
@@ -118,6 +118,12 @@ public abstract class Enemy : MonoBehaviour
         }else if (obj.tag == "Bullet")
         {
             takeBulletDamage(collision);
+        }
+        else
+        {
+            //collided with any other object, so should turn around
+            patrolDestination = patrolDestination == 0 ? 1 : 0;
+            transform.Rotate(Vector3.up * -180);
         }
     }
 
