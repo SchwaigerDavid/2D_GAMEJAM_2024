@@ -184,10 +184,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   patrolDestination: 0
-  moveSpeed: 0
-  attackCooldown: 0
-  currentCooldown: 0
-  maxHealth: 0
+  moveSpeed: 2
+  attackCooldown: 2
+  maxHealth: 100
 --- !u!95 &3265167061694721585
 Animator:
   serializedVersion: 7
