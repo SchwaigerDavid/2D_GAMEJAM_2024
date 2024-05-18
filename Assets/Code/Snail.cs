@@ -25,20 +25,18 @@ public class Snail : Enemy
         Debug.Log("Snail dieded");
     }
 
-    public override void takeBulletDamage(Collision2D bullet)
+    public override void takeBulletDamage(Collision2D collision)
     {
         animator.SetTrigger(AnimationStates.damageTrigger);
-        showDamageEffect();
         //Multiply static bullet damage with relative bullet velocity to calculate actual damage
-        int damage = Mathf.RoundToInt(3 * bullet.relativeVelocity.magnitude);
+        int damage = Mathf.RoundToInt(2 * collision.relativeVelocity.magnitude);
         Debug.Log(string.Format("Snail is taking {0} bullet damage ", damage));
         currentHealth -= damage;
     }
 
-    public override void takeJumpDamage(Collision2D player)
+    public override void takeJumpDamage(Collision2D collision)
     {
         animator.SetTrigger(AnimationStates.damageTrigger);
-        showDamageEffect();
         int damage = (maxHealth / 2);
         Debug.Log(string.Format("Snail is taking {0} jump damage ", damage));
         currentHealth -= damage;
