@@ -43,6 +43,7 @@ public class Gun : MonoBehaviour
                 Vector2 pdir = Vector2.Perpendicular(dir) * Random.Range(-spread, spread);
                 rb.velocity = (dir + pdir) * bulletSpeed;*/
                 rb.AddForce(transform.up * Random.Range(0, spread), ForceMode2D.Force);
+                SoundManager.Instance.playRandom("a_salt_rifle", 0.1);
 
             }
         }

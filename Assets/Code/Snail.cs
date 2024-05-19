@@ -6,12 +6,12 @@ public class Snail : Enemy
     public override void attack(Collision2D playerCollision)
     {
         Debug.Log("Snail attacks");
+        SoundManager.Instance.playRandom("slug_bite");
         animator.SetTrigger(AnimationStates.attackTrigger);
         var player = playerCollision.gameObject;
         //Give damage to player
         var playerScript = (PlantV2)player.GetComponent(typeof(PlantV2));
         playerScript.takeDamage(attackDamage);
-        SoundManager.Instance.playRandom("slug_bite");
 
         //Push player back
         float playerXPos = player.transform.position.x;

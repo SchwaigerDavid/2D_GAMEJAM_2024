@@ -5,6 +5,7 @@ public class Beetle : Enemy
     public override void attack(Collision2D playerCollision)
     {
         Debug.Log("Beetle attacks");
+        SoundManager.Instance.playRandom("beetle_hydraulics", 0.7);
         animator.SetTrigger(AnimationStates.attackTrigger);
         var player = playerCollision.gameObject;
         //Give damage to player
@@ -23,6 +24,8 @@ public class Beetle : Enemy
         transform.Rotate(Vector3.left * -180);
         //Shoot enemy upwards and then let it fall through the ground ground
         enemyRigidBody.AddForceY(5f, ForceMode2D.Impulse);
+        SoundManager.Instance.playRandom("beetle_death", 0.2);
+        GetComponent<AudioSource>().Stop();
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 3f);
         Debug.Log("Beetle dieded");
