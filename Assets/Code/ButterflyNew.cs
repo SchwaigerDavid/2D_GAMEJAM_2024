@@ -78,7 +78,7 @@ public class ButterflyNew : Enemy
     {
         // rotate sprite, remove collider and destroy object after 1 second
         transform.Rotate(Vector3.left * -180);
-        SoundManager.Instance.playRandom("butterfly_death");
+        SoundManager.Instance.playRandom("butterfly_death", 2);
         GetComponent<AudioSource>().Stop();
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 1f);

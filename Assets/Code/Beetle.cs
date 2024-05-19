@@ -12,6 +12,8 @@ public class Beetle : Enemy
     {
         Debug.Log("Beetle attacks");
         SoundManager.Instance.playRandom("beetle_hydraulics", 0.7);
+        SoundManager.Instance.playRandom("beetle_flamethrower/flamethrower_start", 0.4);
+        SoundManager.Instance.playRandom("beetle_flamethrower/flamethrower_loop", 0.4);
         animator.SetTrigger(AnimationStates.attackTrigger);
         //Give damage to player
         var playerScript = (PlantV2)player.GetComponent(typeof(PlantV2));
