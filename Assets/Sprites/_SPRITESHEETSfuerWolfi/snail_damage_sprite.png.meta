@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: 1e4588353081248589839036df129f53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2384235763363134707
+    second: snail_damage_sprite_0
+  - first:
+      213: 36338587761327058
+    second: snail_damage_sprite_1
+  - first:
+      213: -3664539841321346450
+    second: snail_damage_sprite_2
+  - first:
+      213: 4353882935495131942
+    second: snail_damage_sprite_3
+  - first:
+      213: -8811058223257176926
+    second: snail_damage_sprite_4
+  - first:
+      213: -3219946808117535186
+    second: snail_damage_sprite_5
+  - first:
+      213: -9209908735538354060
+    second: snail_damage_sprite_6
+  - first:
+      213: -8000085793783072196
+    second: snail_damage_sprite_7
+  - first:
+      213: 6857337649767943425
+    second: snail_damage_sprite_8
+  - first:
+      213: -740852803717793795
+    second: snail_damage_sprite_9
+  - first:
+      213: -155164797669056136
+    second: snail_damage_sprite_10
+  - first:
+      213: -711750040868404695
+    second: snail_damage_sprite_11
+  - first:
+      213: 2527987910021157374
+    second: snail_damage_sprite_12
+  - first:
+      213: -7047240138522731660
+    second: snail_damage_sprite_13
+  - first:
+      213: -4386890495682800713
+    second: snail_damage_sprite_14
+  - first:
+      213: -1330033449369266575
+    second: snail_damage_sprite_15
+  - first:
+      213: -8405348437956042397
+    second: snail_damage_sprite_16
+  - first:
+      213: 7344132785324443896
+    second: snail_damage_sprite_17
+  - first:
+      213: -5734731699836784560
+    second: snail_damage_sprite_18
+  - first:
+      213: -3848335884750026395
+    second: snail_damage_sprite_19
+  - first:
+      213: -5357795953532589133
+    second: snail_damage_sprite_20
+  - first:
+      213: -5846439024344276111
+    second: snail_damage_sprite_21
+  - first:
+      213: 5475173339494710879
+    second: snail_damage_sprite_22
+  - first:
+      213: 6521854978283172586
+    second: snail_damage_sprite_23
+  - first:
+      213: 6932870125865931969
+    second: snail_damage_sprite_24
+  - first:
+      213: 5958176386038683622
+    second: snail_damage_sprite_25
+  - first:
+      213: -5673024604758288656
+    second: snail_damage_sprite_26
+  - first:
+      213: 2339577483202080480
+    second: snail_damage_sprite_27
+  - first:
+      213: -8596269934014573188
+    second: snail_damage_sprite_28
+  - first:
+      213: -4708141331890945156
+    second: snail_damage_sprite_29
+  - first:
+      213: 1938477009146753136
+    second: snail_damage_sprite_30
+  - first:
+      213: 5136257164450730549
+    second: snail_damage_sprite_31
+  - first:
+      213: -6114604125696271471
+    second: snail_damage_sprite_32
+  - first:
+      213: -276131411536059255
+    second: snail_damage_sprite_33
+  - first:
+      213: -218700748969325695
+    second: snail_damage_sprite_34
+  - first:
+      213: 5419576999679962986
+    second: snail_damage_sprite_35
+  - first:
+      213: 7438591117176604910
+    second: snail_damage_sprite_36
+  - first:
+      213: 1532413556817327973
+    second: snail_damage_sprite_37
+  - first:
+      213: 7821009803308522331
+    second: snail_damage_sprite_38
+  - first:
+      213: 5331124556884749995
+    second: snail_damage_sprite_39
+  - first:
+      213: 7109284777533441839
+    second: snail_damage_sprite_40
+  - first:
+      213: -1527437210093387414
+    second: snail_damage_sprite_41
+  - first:
+      213: 5415580324748363589
+    second: snail_damage_sprite_42
+  - first:
+      213: 8688055130689607468
+    second: snail_damage_sprite_43
+  - first:
+      213: -7395213388252908709
+    second: snail_damage_sprite_44
+  - first:
+      213: -3431912694780473358
+    second: snail_damage_sprite_45
+  - first:
+      213: -1242109045341129558
+    second: snail_damage_sprite_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snail_damage_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0345f7943e79eed0800000000000000
+      internalID: -2384235763363134707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db3727c0c9118000800000000000000
+      internalID: 36338587761327058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a56cc0e60f42dc0800000000000000
+      internalID: -3664539841321346450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62382d346791c6c30800000000000000
+      internalID: 4353882935495131942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4b87b9a35d8b580800000000000000
+      internalID: -8811058223257176926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e508220737053d0800000000000000
+      internalID: -3219946808117535186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 466
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478287c1dc4df2080800000000000000
+      internalID: -9209908735538354060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 390
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a39e85b5cf9f090800000000000000
+      internalID: -8000085793783072196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 390
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d845fb2482a2f50800000000000000
+      internalID: 6857337649767943425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 390
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df77c8bdc46f7b5f0800000000000000
+      internalID: -740852803717793795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 390
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8716a49407eb8ddf0800000000000000
+      internalID: -155164797669056136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 390
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9224b2ddb1b5f16f0800000000000000
+      internalID: -711750040868404695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 390
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef11b4d3c97351320800000000000000
+      internalID: 2527987910021157374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 390
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b5a709e6c233e90800000000000000
+      internalID: -7047240138522731660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 314
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b31a404652ae13c0800000000000000
+      internalID: -4386890495682800713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 314
+        width: 114
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17615f6ef95ca8de0800000000000000
+      internalID: -1330033449369266575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 314
+        width: 113
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361ee3e01243a5b80800000000000000
+      internalID: -8405348437956042397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 314
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8409c7bd99be560800000000000000
+      internalID: 7344132785324443896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 314
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0507e0527e32a60b0800000000000000
+      internalID: -5734731699836784560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 314
+        width: 110
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5690615f6e6f79ac0800000000000000
+      internalID: -3848335884750026395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 314
+        width: 110
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb2aa297f845a5b0800000000000000
+      internalID: -5357795953532589133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 238
+        width: 110
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1736af0eea64ddea0800000000000000
+      internalID: -5846439024344276111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 238
+        width: 110
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e7540c429bbfb40800000000000000
+      internalID: 5475173339494710879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 238
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae27e296c88428a50800000000000000
+      internalID: 6521854978283172586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 238
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c41826c5a0863060800000000000000
+      internalID: 6932870125865931969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 238
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7d4f6fad1bfa250800000000000000
+      internalID: 5958176386038683622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 237
+        width: 114
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6d45fcd2e5541b0800000000000000
+      internalID: -5673024604758288656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 236
+        width: 114
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee23ca4359d77020800000000000000
+      internalID: 2339577483202080480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 161
+        width: 115
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d0bd3a0ae3b880800000000000000
+      internalID: -8596269934014573188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 162
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c734e48476259aeb0800000000000000
+      internalID: -4708141331890945156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 161
+        width: 112
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070347fb19ad6ea10800000000000000
+      internalID: 1938477009146753136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 162
+        width: 111
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53214229da6a74740800000000000000
+      internalID: 5136257164450730549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 162
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b5cb9b1ff842ba0800000000000000
+      internalID: -6114604125696271471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 162
+        width: 114
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984e018b1fbfa2cf0800000000000000
+      internalID: -276131411536059255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 162
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b4299d3d407fcf0800000000000000
+      internalID: -218700748969325695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 114
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f2dca2194363b40800000000000000
+      internalID: 5419576999679962986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 86
+        width: 112
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee800b0b53f2b3760800000000000000
+      internalID: 7438591117176604910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 86
+        width: 111
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567f617c20a344510800000000000000
+      internalID: 1532413556817327973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 86
+        width: 113
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b5d078afec98c60800000000000000
+      internalID: 7821009803308522331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 86
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae2a7af985fbf940800000000000000
+      internalID: 5331124556884749995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 86
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2709fba6d049a260800000000000000
+      internalID: 7109284777533441839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 86
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a618bab33f37dcae0800000000000000
+      internalID: -1527437210093387414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5478835cc91082b40800000000000000
+      internalID: 5415580324748363589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 10
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2793cd2c1c229870800000000000000
+      internalID: 8688055130689607468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 10
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53f8fada9cee5990800000000000000
+      internalID: -7395213388252908709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 10
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffc47f46956f50d0800000000000000
+      internalID: -3431912694780473358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_damage_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 10
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4742c776423cee0800000000000000
+      internalID: -1242109045341129558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

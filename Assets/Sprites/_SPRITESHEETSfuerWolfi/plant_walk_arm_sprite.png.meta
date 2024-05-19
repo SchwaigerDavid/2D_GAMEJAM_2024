@@ -1,0 +1,1628 @@
+fileFormatVersion: 2
+guid: ae6fbb2461520452ba1950e86270c3ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4454258729747331498
+    second: plant_walk_arm_sprite_0
+  - first:
+      213: 3103954146375765305
+    second: plant_walk_arm_sprite_1
+  - first:
+      213: -5231345984158133472
+    second: plant_walk_arm_sprite_2
+  - first:
+      213: -3866966199014905515
+    second: plant_walk_arm_sprite_3
+  - first:
+      213: 6321180097769913823
+    second: plant_walk_arm_sprite_4
+  - first:
+      213: -2188854036514706148
+    second: plant_walk_arm_sprite_5
+  - first:
+      213: 2105781712924308695
+    second: plant_walk_arm_sprite_6
+  - first:
+      213: 1071314834980738626
+    second: plant_walk_arm_sprite_7
+  - first:
+      213: 5188352300186600317
+    second: plant_walk_arm_sprite_8
+  - first:
+      213: 4286804860046984726
+    second: plant_walk_arm_sprite_9
+  - first:
+      213: -6690987201990264216
+    second: plant_walk_arm_sprite_10
+  - first:
+      213: -1478767075692833524
+    second: plant_walk_arm_sprite_11
+  - first:
+      213: -5114254416670029351
+    second: plant_walk_arm_sprite_12
+  - first:
+      213: -1392937154573616992
+    second: plant_walk_arm_sprite_13
+  - first:
+      213: 1076808814248124540
+    second: plant_walk_arm_sprite_14
+  - first:
+      213: 4485425142568752932
+    second: plant_walk_arm_sprite_15
+  - first:
+      213: -5663667974448855523
+    second: plant_walk_arm_sprite_16
+  - first:
+      213: -1727891387425364484
+    second: plant_walk_arm_sprite_17
+  - first:
+      213: 880873325624724401
+    second: plant_walk_arm_sprite_18
+  - first:
+      213: 6047652427641498743
+    second: plant_walk_arm_sprite_19
+  - first:
+      213: 3953833732902256083
+    second: plant_walk_arm_sprite_20
+  - first:
+      213: 3854224136426367202
+    second: plant_walk_arm_sprite_21
+  - first:
+      213: 236143015602042858
+    second: plant_walk_arm_sprite_22
+  - first:
+      213: 8988736091962548981
+    second: plant_walk_arm_sprite_23
+  - first:
+      213: -5781656222992176036
+    second: plant_walk_arm_sprite_24
+  - first:
+      213: -1722697022922542196
+    second: plant_walk_arm_sprite_25
+  - first:
+      213: -748091359056898472
+    second: plant_walk_arm_sprite_26
+  - first:
+      213: 458195860246715000
+    second: plant_walk_arm_sprite_27
+  - first:
+      213: -271980179849695881
+    second: plant_walk_arm_sprite_28
+  - first:
+      213: -7025476346397789674
+    second: plant_walk_arm_sprite_29
+  - first:
+      213: -3503759040539833666
+    second: plant_walk_arm_sprite_30
+  - first:
+      213: -8681875512042626585
+    second: plant_walk_arm_sprite_31
+  - first:
+      213: 5517444166086293635
+    second: plant_walk_arm_sprite_32
+  - first:
+      213: 5008253077433508743
+    second: plant_walk_arm_sprite_33
+  - first:
+      213: 615066774124127595
+    second: plant_walk_arm_sprite_34
+  - first:
+      213: 7871945920919853390
+    second: plant_walk_arm_sprite_35
+  - first:
+      213: -5486887950166541775
+    second: plant_walk_arm_sprite_36
+  - first:
+      213: 9017227851629118103
+    second: plant_walk_arm_sprite_37
+  - first:
+      213: 2238417379019675459
+    second: plant_walk_arm_sprite_38
+  - first:
+      213: -1576378581269973902
+    second: plant_walk_arm_sprite_39
+  - first:
+      213: -8130255595090345279
+    second: plant_walk_arm_sprite_40
+  - first:
+      213: -8844247042146929589
+    second: plant_walk_arm_sprite_41
+  - first:
+      213: 3787850141680262570
+    second: plant_walk_arm_sprite_42
+  - first:
+      213: -8087384503439906421
+    second: plant_walk_arm_sprite_43
+  - first:
+      213: 8139407302619654655
+    second: plant_walk_arm_sprite_44
+  - first:
+      213: -835169285448255866
+    second: plant_walk_arm_sprite_45
+  - first:
+      213: 140305114092296286
+    second: plant_walk_arm_sprite_46
+  - first:
+      213: -1043533407576643320
+    second: plant_walk_arm_sprite_47
+  - first:
+      213: -4569860058794293394
+    second: plant_walk_arm_sprite_48
+  - first:
+      213: -5011146779496302598
+    second: plant_walk_arm_sprite_49
+  - first:
+      213: 4450779978967205377
+    second: plant_walk_arm_sprite_50
+  - first:
+      213: -3509601083105852397
+    second: plant_walk_arm_sprite_51
+  - first:
+      213: 1073217968418369874
+    second: plant_walk_arm_sprite_52
+  - first:
+      213: -3550670420632125380
+    second: plant_walk_arm_sprite_53
+  - first:
+      213: -7516424989979166947
+    second: plant_walk_arm_sprite_54
+  - first:
+      213: 393157209325060721
+    second: plant_walk_arm_sprite_55
+  - first:
+      213: -3600456969982230366
+    second: plant_walk_arm_sprite_56
+  - first:
+      213: -520032936767197277
+    second: plant_walk_arm_sprite_57
+  - first:
+      213: -5105576114614294740
+    second: plant_walk_arm_sprite_58
+  - first:
+      213: -8674645124679131727
+    second: plant_walk_arm_sprite_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9b54c07b4b0dd30800000000000000
+      internalID: 4454258729747331498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d04d5c9d5731b20800000000000000
+      internalID: 3103954146375765305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 316
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02396155b868667b0800000000000000
+      internalID: -5231345984158133472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5592645eab6c55ac0800000000000000
+      internalID: -3866966199014905515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 316
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd38d0dec759b750800000000000000
+      internalID: 6321180097769913823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 316
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d6c50d9d0af91e0800000000000000
+      internalID: -2188854036514706148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 317
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4fd5d9f4d393d10800000000000000
+      internalID: 2105781712924308695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 318
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24612a59a231ede00800000000000000
+      internalID: 1071314834980738626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 319
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73043e8deab00840800000000000000
+      internalID: 5188352300186600317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 322
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616c488ce4acd7b30800000000000000
+      internalID: 4286804860046984726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 319
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a7fa41796d423a0800000000000000
+      internalID: -6690987201990264216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 325
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0519c3fd2d5a7be0800000000000000
+      internalID: -1478767075692833524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 244
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9096b54b48609b0800000000000000
+      internalID: -5114254416670029351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 250
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8323bb90b4bace0800000000000000
+      internalID: -1392937154573616992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 244
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70e44059e791fe00800000000000000
+      internalID: 1076808814248124540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 250
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4279a61076e6f3e30800000000000000
+      internalID: 4485425142568752932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 243
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1648311cfb9661b0800000000000000
+      internalID: -5663667974448855523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 249
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ed0a10fb4508e0800000000000000
+      internalID: -1727891387425364484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 243
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb8af16f9d793c00800000000000000
+      internalID: 880873325624724401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 246
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ca99257d39de350800000000000000
+      internalID: 6047652427641498743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 241
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd789ee4d6ded630800000000000000
+      internalID: 3953833732902256083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 242
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e82e687e64fc7530800000000000000
+      internalID: 3854224136426367202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 240
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7362152d2f64300800000000000000
+      internalID: 236143015602042858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 240
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2292de9d76ebc70800000000000000
+      internalID: 8988736091962548981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 164
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cef173c4e63cfa0800000000000000
+      internalID: -5781656222992176036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 164
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8334155f20c718e0800000000000000
+      internalID: -1722697022922542196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 164
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856dfdb5fde3e95f0800000000000000
+      internalID: -748091359056898472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 164
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a5f8f05b6db5600800000000000000
+      internalID: 458195860246715000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 168
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dac1aa77bb93cf0800000000000000
+      internalID: -271980179849695881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 174
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612fc0b4c7e708e90800000000000000
+      internalID: -7025476346397789674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 169
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba4f0267b5206fc0800000000000000
+      internalID: -3503759040539833666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 174
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e169886838c38780800000000000000
+      internalID: -8681875512042626585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 167
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388ff938c36e19c40800000000000000
+      internalID: 5517444166086293635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 172
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7836ea993a3e08540800000000000000
+      internalID: 5008253077433508743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 168
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6560d8e8f7298800800000000000000
+      internalID: 615066774124127595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 171
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4953839b15ce3d60800000000000000
+      internalID: 7871945920919853390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 91
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ab3f7ea78aad3b0800000000000000
+      internalID: -5486887950166541775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 93
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792cc1ba4f0a32d70800000000000000
+      internalID: 9017227851629118103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 91
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347578f1fb4701f10800000000000000
+      internalID: 2238417379019675459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 93
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2747ed748049f1ae0800000000000000
+      internalID: -1576378581269973902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 91
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c20289bc978b2f80800000000000000
+      internalID: -8130255595090345279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 94
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44780b8c2ce24580800000000000000
+      internalID: -8844247042146929589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 91
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd34d82a5219430800000000000000
+      internalID: 3787850141680262570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 94
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89277694a6d3cf80800000000000000
+      internalID: -8087384503439906421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 91
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff96dda31dbf4f070800000000000000
+      internalID: 8139407302619654655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 95
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6863a85b5f1e864f0800000000000000
+      internalID: -835169285448255866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 92
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5854a502c672f100800000000000000
+      internalID: 140305114092296286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 95
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809242a05ef9481f0800000000000000
+      internalID: -1043533407576643320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 15
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67025a1d789490c0800000000000000
+      internalID: -4569860058794293394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7b7c2ed84d47ab0800000000000000
+      internalID: -5011146779496302598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 15
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106c2c34fc854cd30800000000000000
+      internalID: 4450779978967205377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 20
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314462ad8646b4fc0800000000000000
+      internalID: -3509601083105852397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 16
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251b42e5e06d4ee00800000000000000
+      internalID: 1073217968418369874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 21
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c304cbf801c79bec0800000000000000
+      internalID: -3550670420632125380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 16
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d173c6b9b4b40b790800000000000000
+      internalID: -7516424989979166947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 22
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17244ba1666c47500800000000000000
+      internalID: 393157209325060721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 16
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0412b367b980ec0800000000000000
+      internalID: -3600456969982230366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afec7c9cc878c8f0800000000000000
+      internalID: -520032936767197277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 16
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2722b203995529b0800000000000000
+      internalID: -5105576114614294740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_walk_arm_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 22
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd1de628387d9780800000000000000
+      internalID: -8674645124679131727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

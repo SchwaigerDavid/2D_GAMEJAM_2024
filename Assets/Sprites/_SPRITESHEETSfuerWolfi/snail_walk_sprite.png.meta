@@ -1,0 +1,1353 @@
+fileFormatVersion: 2
+guid: b199ff6f0f0e94d4ab6c7360615fac13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7165355420210708088
+    second: snail_walk_sprite_0
+  - first:
+      213: 2900064714765944540
+    second: snail_walk_sprite_1
+  - first:
+      213: -1953627028043556477
+    second: snail_walk_sprite_2
+  - first:
+      213: -8015478095549660066
+    second: snail_walk_sprite_3
+  - first:
+      213: 5704193467934203528
+    second: snail_walk_sprite_4
+  - first:
+      213: -6245376882097614898
+    second: snail_walk_sprite_5
+  - first:
+      213: 4999330399485935486
+    second: snail_walk_sprite_6
+  - first:
+      213: 3161241713974777631
+    second: snail_walk_sprite_7
+  - first:
+      213: 4703894790833584511
+    second: snail_walk_sprite_8
+  - first:
+      213: 2575271874114279340
+    second: snail_walk_sprite_9
+  - first:
+      213: 5242619492824273670
+    second: snail_walk_sprite_10
+  - first:
+      213: 2590253846642801317
+    second: snail_walk_sprite_11
+  - first:
+      213: -3761499954583235968
+    second: snail_walk_sprite_12
+  - first:
+      213: -3844735433481429837
+    second: snail_walk_sprite_13
+  - first:
+      213: -1158744305196433102
+    second: snail_walk_sprite_14
+  - first:
+      213: 844425435448289948
+    second: snail_walk_sprite_15
+  - first:
+      213: -1992474849064013817
+    second: snail_walk_sprite_16
+  - first:
+      213: 4854882939761683532
+    second: snail_walk_sprite_17
+  - first:
+      213: 4651066266780648400
+    second: snail_walk_sprite_18
+  - first:
+      213: -3420075417039858704
+    second: snail_walk_sprite_19
+  - first:
+      213: -7055393909703157494
+    second: snail_walk_sprite_20
+  - first:
+      213: 2166985662941777764
+    second: snail_walk_sprite_21
+  - first:
+      213: 6478727599699098184
+    second: snail_walk_sprite_22
+  - first:
+      213: 4317739094469285816
+    second: snail_walk_sprite_23
+  - first:
+      213: -7336622764153296590
+    second: snail_walk_sprite_24
+  - first:
+      213: -5316348765104416711
+    second: snail_walk_sprite_25
+  - first:
+      213: 5358775243008538545
+    second: snail_walk_sprite_26
+  - first:
+      213: 8417039587133013357
+    second: snail_walk_sprite_27
+  - first:
+      213: 7885959059502614838
+    second: snail_walk_sprite_28
+  - first:
+      213: -2738517423402112664
+    second: snail_walk_sprite_29
+  - first:
+      213: 6663829530911159988
+    second: snail_walk_sprite_30
+  - first:
+      213: 1092472346095726698
+    second: snail_walk_sprite_31
+  - first:
+      213: -7938097082345534904
+    second: snail_walk_sprite_32
+  - first:
+      213: -2780206960056476342
+    second: snail_walk_sprite_33
+  - first:
+      213: 1277065773639072889
+    second: snail_walk_sprite_34
+  - first:
+      213: -3214971601875111884
+    second: snail_walk_sprite_35
+  - first:
+      213: 8433657261963648788
+    second: snail_walk_sprite_36
+  - first:
+      213: 5844755489633226928
+    second: snail_walk_sprite_37
+  - first:
+      213: -8622422514774978305
+    second: snail_walk_sprite_38
+  - first:
+      213: 4731468652812077549
+    second: snail_walk_sprite_39
+  - first:
+      213: 8382694311474609816
+    second: snail_walk_sprite_40
+  - first:
+      213: 2086645721247413855
+    second: snail_walk_sprite_41
+  - first:
+      213: 3202144092439134069
+    second: snail_walk_sprite_42
+  - first:
+      213: -702860547411738779
+    second: snail_walk_sprite_43
+  - first:
+      213: -4465252296534008739
+    second: snail_walk_sprite_44
+  - first:
+      213: 1972148123617946166
+    second: snail_walk_sprite_45
+  - first:
+      213: 8087522910763661605
+    second: snail_walk_sprite_46
+  - first:
+      213: 2813749139317413739
+    second: snail_walk_sprite_47
+  - first:
+      213: -5061437032154206073
+    second: snail_walk_sprite_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snail_walk_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 466
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e341f7ac4707360800000000000000
+      internalID: 7165355420210708088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 466
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6c44d2e791f3820800000000000000
+      internalID: 2900064714765944540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 466
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3899cd9919253e4e0800000000000000
+      internalID: -1953627028043556477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 466
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5486d1d32d43c090800000000000000
+      internalID: -8015478095549660066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 466
+        width: 111
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e525aacbd592f40800000000000000
+      internalID: 5704193467934203528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 466
+        width: 110
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf822ea0d6f359a0800000000000000
+      internalID: -6245376882097614898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 466
+        width: 110
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fbb20c280316540800000000000000
+      internalID: 4999330399485935486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 390
+        width: 109
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f171d92079cfedb20800000000000000
+      internalID: 3161241713974777631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 390
+        width: 109
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f793274d367974140800000000000000
+      internalID: 4703894790833584511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 390
+        width: 109
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7d2a800243db320800000000000000
+      internalID: 2575271874114279340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 390
+        width: 109
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6035452f6a681c840800000000000000
+      internalID: 5242619492824273670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 390
+        width: 110
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aabb37562e62f320800000000000000
+      internalID: 2590253846642801317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 390
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0821b6878b77ccbc0800000000000000
+      internalID: -3761499954583235968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 390
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc5bf75e71c4aac0800000000000000
+      internalID: -3844735433481429837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 314
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231824791305befe0800000000000000
+      internalID: -1158744305196433102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 314
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a2337a57008bb00800000000000000
+      internalID: 844425435448289948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 314
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700b3ad6eae4954e0800000000000000
+      internalID: -1992474849064013817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 314
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c699abf42006340800000000000000
+      internalID: 4854882939761683532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 314
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d343429028eb8040800000000000000
+      internalID: 4651066266780648400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 314
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f31b4e47837980d0800000000000000
+      internalID: -3420075417039858704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 314
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0950b5ce94361e90800000000000000
+      internalID: -7055393909703157494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 238
+        width: 117
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f4201bafda21e10800000000000000
+      internalID: 2166985662941777764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 238
+        width: 116
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a75981d6019e950800000000000000
+      internalID: 6478727599699098184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 238
+        width: 116
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b798ae74d0bbeb30800000000000000
+      internalID: 4317739094469285816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 238
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239299397741f2a90800000000000000
+      internalID: -7336622764153296590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 238
+        width: 114
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9385dd127f88836b0800000000000000
+      internalID: -5316348765104416711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 238
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b77ea601b13e5a40800000000000000
+      internalID: 5358775243008538545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 238
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6db67bb8e45fc470800000000000000
+      internalID: 8417039587133013357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 162
+        width: 112
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6394de6abfd807d60800000000000000
+      internalID: 7885959059502614838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 162
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86926e6a9e4def9d0800000000000000
+      internalID: -2738517423402112664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 162
+        width: 114
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b7b1e6adaa7c50800000000000000
+      internalID: 6663829530911159988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 162
+        width: 116
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6039f38fcd392f00800000000000000
+      internalID: 1092472346095726698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 162
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aca3ee2c636d190800000000000000
+      internalID: -7938097082345534904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 162
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dd3cfff78ba69d0800000000000000
+      internalID: -2780206960056476342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 162
+        width: 116
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cf0901e8c09b110800000000000000
+      internalID: 1277065773639072889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 86
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430f34b9c502263d0800000000000000
+      internalID: -3214971601875111884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 86
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f9cb8a89e5a0570800000000000000
+      internalID: 8433657261963648788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 86
+        width: 115
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b05a96a62ebc1150800000000000000
+      internalID: 5844755489633226928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 86
+        width: 114
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0d1870860075880800000000000000
+      internalID: -8622422514774978305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 86
+        width: 114
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de982ccdbad89a140800000000000000
+      internalID: 4731468652812077549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 86
+        width: 114
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb1281010555470800000000000000
+      internalID: 8382694311474609816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 86
+        width: 114
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f567a0b5a3145fc10800000000000000
+      internalID: 2086645721247413855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 114
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f337d161d407c20800000000000000
+      internalID: 3202144092439134069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ff2e85e00fe36f0800000000000000
+      internalID: -702860547411738779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cd798b1bc3802c0800000000000000
+      internalID: -4465252296534008739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 10
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a63b0054a7e5b10800000000000000
+      internalID: 1972148123617946166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 10
+        width: 113
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529b6e0ec37ac3070800000000000000
+      internalID: 8087522910763661605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 10
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6753103fe17c0720800000000000000
+      internalID: 2813749139317413739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snail_walk_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 10
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780f07df5d922c9b0800000000000000
+      internalID: -5061437032154206073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

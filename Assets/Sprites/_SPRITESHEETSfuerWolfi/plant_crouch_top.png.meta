@@ -1,0 +1,1678 @@
+fileFormatVersion: 2
+guid: 011500c6778194d0e84f2076181e6248
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6108913187747302
+    second: plant_crouch_top_0
+  - first:
+      213: 3162914805908592298
+    second: plant_crouch_top_1
+  - first:
+      213: -6667669436200425182
+    second: plant_crouch_top_2
+  - first:
+      213: 5157465563737962776
+    second: plant_crouch_top_3
+  - first:
+      213: -3188806289893327835
+    second: plant_crouch_top_4
+  - first:
+      213: -1795031585873437810
+    second: plant_crouch_top_5
+  - first:
+      213: -3246566127052885986
+    second: plant_crouch_top_6
+  - first:
+      213: -6414138014070394027
+    second: plant_crouch_top_7
+  - first:
+      213: -5912022841649156517
+    second: plant_crouch_top_8
+  - first:
+      213: 7036424015416788275
+    second: plant_crouch_top_9
+  - first:
+      213: -1428677842497760355
+    second: plant_crouch_top_10
+  - first:
+      213: 4535549932901878641
+    second: plant_crouch_top_11
+  - first:
+      213: -4468591673604322452
+    second: plant_crouch_top_12
+  - first:
+      213: 4488455432828645882
+    second: plant_crouch_top_13
+  - first:
+      213: -2146450870883208465
+    second: plant_crouch_top_14
+  - first:
+      213: 4083937442155771488
+    second: plant_crouch_top_15
+  - first:
+      213: -5927558542272630262
+    second: plant_crouch_top_16
+  - first:
+      213: 7703996528809493216
+    second: plant_crouch_top_17
+  - first:
+      213: 3879465840852895054
+    second: plant_crouch_top_18
+  - first:
+      213: 7995771150528586050
+    second: plant_crouch_top_19
+  - first:
+      213: -8527233601808049160
+    second: plant_crouch_top_20
+  - first:
+      213: -9306353911808957
+    second: plant_crouch_top_21
+  - first:
+      213: 4311028067061571027
+    second: plant_crouch_top_22
+  - first:
+      213: 27076606155559535
+    second: plant_crouch_top_23
+  - first:
+      213: 1961134926646354933
+    second: plant_crouch_top_24
+  - first:
+      213: 4765043591270228121
+    second: plant_crouch_top_25
+  - first:
+      213: -2347183152875135081
+    second: plant_crouch_top_26
+  - first:
+      213: -4383867794751501176
+    second: plant_crouch_top_27
+  - first:
+      213: 5938702413524990010
+    second: plant_crouch_top_28
+  - first:
+      213: -4173023665495136660
+    second: plant_crouch_top_29
+  - first:
+      213: 8247581125553918897
+    second: plant_crouch_top_30
+  - first:
+      213: 7609597458880239814
+    second: plant_crouch_top_31
+  - first:
+      213: 7568895795686430284
+    second: plant_crouch_top_32
+  - first:
+      213: 6690169422105496008
+    second: plant_crouch_top_33
+  - first:
+      213: -2214641368825819521
+    second: plant_crouch_top_34
+  - first:
+      213: -2728446714893997347
+    second: plant_crouch_top_35
+  - first:
+      213: -5930738726905992039
+    second: plant_crouch_top_36
+  - first:
+      213: -3830212011345288223
+    second: plant_crouch_top_37
+  - first:
+      213: 5860889196592771897
+    second: plant_crouch_top_38
+  - first:
+      213: 3664900484049410501
+    second: plant_crouch_top_39
+  - first:
+      213: -4006897140282189261
+    second: plant_crouch_top_40
+  - first:
+      213: 8679817757067443745
+    second: plant_crouch_top_41
+  - first:
+      213: 4291827446908435865
+    second: plant_crouch_top_42
+  - first:
+      213: -8470502107418415039
+    second: plant_crouch_top_43
+  - first:
+      213: 2286223125865589388
+    second: plant_crouch_top_44
+  - first:
+      213: -1533729002835844646
+    second: plant_crouch_top_45
+  - first:
+      213: -4745480290065034552
+    second: plant_crouch_top_46
+  - first:
+      213: -6009464856125512189
+    second: plant_crouch_top_47
+  - first:
+      213: -5646935069749251501
+    second: plant_crouch_top_48
+  - first:
+      213: -4074051618631919342
+    second: plant_crouch_top_49
+  - first:
+      213: 5941495548208025770
+    second: plant_crouch_top_50
+  - first:
+      213: 6915947224519106092
+    second: plant_crouch_top_51
+  - first:
+      213: -2568965200377360585
+    second: plant_crouch_top_52
+  - first:
+      213: 9104080528108948527
+    second: plant_crouch_top_53
+  - first:
+      213: -4084290226808034313
+    second: plant_crouch_top_54
+  - first:
+      213: 2117155974337686601
+    second: plant_crouch_top_55
+  - first:
+      213: 705909372829513251
+    second: plant_crouch_top_56
+  - first:
+      213: -3875554801784152205
+    second: plant_crouch_top_57
+  - first:
+      213: -6230769199485337196
+    second: plant_crouch_top_58
+  - first:
+      213: 4675731911316854287
+    second: plant_crouch_top_59
+  - first:
+      213: -2670842182604166986
+    second: plant_crouch_top_60
+  - first:
+      213: -4150950443070135081
+    second: plant_crouch_top_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plant_crouch_top_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5f4803604b51000800000000000000
+      internalID: 6108913187747302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa65105124ee4eb20800000000000000
+      internalID: 3162914805908592298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2296b8f79fda773a0800000000000000
+      internalID: -6667669436200425182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81939e3da9ff29740800000000000000
+      internalID: 5157465563737962776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c706903951fb3d0800000000000000
+      internalID: -3188806289893327835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b586b7844c617e0800000000000000
+      internalID: -1795031585873437810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e107239fe41e1f2d0800000000000000
+      internalID: -3246566127052885986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5533103b5776cf6a0800000000000000
+      internalID: -6414138014070394027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ea18b7c8644fda0800000000000000
+      internalID: -5912022841649156517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33502f78c5666a160800000000000000
+      internalID: 7036424015416788275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93137b52115c2ce0800000000000000
+      internalID: -1428677842497760355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bc9a332a281fe30800000000000000
+      internalID: 4535549932901878641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_12
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bcb886c8f5cf1c0800000000000000
+      internalID: -4468591673604322452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af17cef6f623a4e30800000000000000
+      internalID: 4488455432828645882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_14
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2bd292e464632e0800000000000000
+      internalID: -2146450870883208465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_15
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 337
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066bc9c477f0da830800000000000000
+      internalID: 4083937442155771488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_16
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 316
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f18e49e41dbda0800000000000000
+      internalID: -5927558542272630262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_17
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 316
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2488286081aea60800000000000000
+      internalID: 7703996528809493216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 261
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e458c42c0a1a6d530800000000000000
+      internalID: 3879465840852895054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 240
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241a29c7f7fa6fe60800000000000000
+      internalID: 7995771150528586050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 240
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbd477e73e29a980800000000000000
+      internalID: -8527233601808049160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_21
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 261
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cbee0abefeedff0800000000000000
+      internalID: -9306353911808957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 240
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd91f9af29d3db30800000000000000
+      internalID: 4311028067061571027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 240
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6210a3a702306000800000000000000
+      internalID: 27076606155559535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 261
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32e5343d9573b10800000000000000
+      internalID: 1961134926646354933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 240
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e9e466e5d02240800000000000000
+      internalID: 4765043591270228121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 240
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f981ebb512d6fd0800000000000000
+      internalID: -2347183152875135081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_27
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 261
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ccf87a77f5923c0800000000000000
+      internalID: -4383867794751501176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3879e861628a6250800000000000000
+      internalID: 5938702413524990010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_29
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 240
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c662ddaf5117616c0800000000000000
+      internalID: -4173023665495136660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_30
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 240
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b39bdc065b457270800000000000000
+      internalID: 8247581125553918897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_31
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 261
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8954c4298ba9960800000000000000
+      internalID: 7609597458880239814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_32
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 241
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4656dbdf9e1a0960800000000000000
+      internalID: 7568895795686430284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_33
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 243
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c947c3b4a148dc50800000000000000
+      internalID: 6690169422105496008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_34
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 261
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e8042a8630441e0800000000000000
+      internalID: -2214641368825819521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_35
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 244
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda69223b2c922ad0800000000000000
+      internalID: -2728446714893997347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 173
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cad1fdc88c1bda0800000000000000
+      internalID: -5930738726905992039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 185
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e36451187a58dac0800000000000000
+      internalID: -3830212011345288223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_38
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 174
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93336d60caf065150800000000000000
+      internalID: 5860889196592771897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 184
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c91ce0a2975cd230800000000000000
+      internalID: 3664900484049410501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_40
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 185
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a93f5c744a468c0800000000000000
+      internalID: -4006897140282189261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_41
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 184
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ef12d2348e47870800000000000000
+      internalID: 8679817757067443745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_42
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 185
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99dbf3ae252af8b30800000000000000
+      internalID: 4291827446908435865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_43
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 185
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140b022463bb27a80800000000000000
+      internalID: -8470502107418415039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_44
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 185
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a608ee1db4abf10800000000000000
+      internalID: 2286223125865589388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_45
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 185
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad16144199917bae0800000000000000
+      internalID: -1533729002835844646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_46
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 185
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c25e0e91daa42eb0800000000000000
+      internalID: -4745480290065034552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_47
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 185
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306e1788d871a9ca0800000000000000
+      internalID: -6009464856125512189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_48
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 185
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35276e9097e02a1b0800000000000000
+      internalID: -5646935069749251501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_49
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 185
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219d6da53af0677c0800000000000000
+      internalID: -4074051618631919342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_50
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 109
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa01181c8be647250800000000000000
+      internalID: 5941495548208025770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 109
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e5fc2cb516aff50800000000000000
+      internalID: 6915947224519106092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_52
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 109
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fca2fd2c3395cd0800000000000000
+      internalID: -2568965200377360585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_53
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 109
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c0c7c3101385e70800000000000000
+      internalID: 9104080528108948527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_54
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 109
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbe18f9dafa157c0800000000000000
+      internalID: -4084290226808034313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_55
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 109
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c6e783426a16d10800000000000000
+      internalID: 2117155974337686601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 33
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3263f13a5d4ebc900800000000000000
+      internalID: 705909372829513251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_57
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 33
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f981cf073473ac0800000000000000
+      internalID: -3875554801784152205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_58
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 28
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914b33dc6cd789a0800000000000000
+      internalID: -6230769199485337196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_59
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06dff6766983e040800000000000000
+      internalID: 4675731911316854287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_60
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 21
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8efb68f234fead0800000000000000
+      internalID: -2670842182604166986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plant_crouch_top_61
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 20
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4ed80909cd466c0800000000000000
+      internalID: -4150950443070135081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
