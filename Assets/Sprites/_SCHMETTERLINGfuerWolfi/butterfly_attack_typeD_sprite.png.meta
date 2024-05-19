@@ -1908,7 +1908,78 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      butterfly_attack_typeD_sprite_0: -3176389648328358849
+      butterfly_attack_typeD_sprite_1: 539687521497529204
+      butterfly_attack_typeD_sprite_10: -1410286196388678831
+      butterfly_attack_typeD_sprite_11: -5823082464038952089
+      butterfly_attack_typeD_sprite_12: -4807792384120493711
+      butterfly_attack_typeD_sprite_13: 8293239812202297795
+      butterfly_attack_typeD_sprite_14: 5563925021130568299
+      butterfly_attack_typeD_sprite_15: 6734008915820148589
+      butterfly_attack_typeD_sprite_16: -7842288555678400091
+      butterfly_attack_typeD_sprite_17: 4952026310885690787
+      butterfly_attack_typeD_sprite_18: -448118712588460087
+      butterfly_attack_typeD_sprite_19: -3184061868666915769
+      butterfly_attack_typeD_sprite_2: -8482478613066872133
+      butterfly_attack_typeD_sprite_20: -8220384106051889506
+      butterfly_attack_typeD_sprite_21: 1780754819671817265
+      butterfly_attack_typeD_sprite_22: -2014592129976647714
+      butterfly_attack_typeD_sprite_23: 6474998859317192756
+      butterfly_attack_typeD_sprite_24: 6237854198800771679
+      butterfly_attack_typeD_sprite_25: -5579264502913106799
+      butterfly_attack_typeD_sprite_26: -296767703418581642
+      butterfly_attack_typeD_sprite_27: 3921196222170739705
+      butterfly_attack_typeD_sprite_28: -3353665297763508394
+      butterfly_attack_typeD_sprite_29: 715661616752314967
+      butterfly_attack_typeD_sprite_3: 6007035475009858138
+      butterfly_attack_typeD_sprite_30: -3712416676540826254
+      butterfly_attack_typeD_sprite_31: -2129893863910554119
+      butterfly_attack_typeD_sprite_32: -5754671490877947309
+      butterfly_attack_typeD_sprite_33: 1825034970897656173
+      butterfly_attack_typeD_sprite_34: -3080720060786426006
+      butterfly_attack_typeD_sprite_35: -7408072844672846915
+      butterfly_attack_typeD_sprite_36: 959509404578929128
+      butterfly_attack_typeD_sprite_37: -2611623754498759561
+      butterfly_attack_typeD_sprite_38: -5125130319409785175
+      butterfly_attack_typeD_sprite_39: -7463802224972501995
+      butterfly_attack_typeD_sprite_4: 6412933541625592440
+      butterfly_attack_typeD_sprite_40: 991624252341714503
+      butterfly_attack_typeD_sprite_41: 9035416824302168591
+      butterfly_attack_typeD_sprite_42: 5788221379421441151
+      butterfly_attack_typeD_sprite_43: -2293238365900926781
+      butterfly_attack_typeD_sprite_44: -4769881382199236886
+      butterfly_attack_typeD_sprite_45: 7843701269578619147
+      butterfly_attack_typeD_sprite_46: 6278289118061132290
+      butterfly_attack_typeD_sprite_47: 3884574918066174276
+      butterfly_attack_typeD_sprite_48: -3134998775509417370
+      butterfly_attack_typeD_sprite_49: 1712995853131503916
+      butterfly_attack_typeD_sprite_5: -3112951184312783919
+      butterfly_attack_typeD_sprite_50: 2941756566982630345
+      butterfly_attack_typeD_sprite_51: 3051797367274308141
+      butterfly_attack_typeD_sprite_52: -3686796173100503596
+      butterfly_attack_typeD_sprite_53: -8599599468945276712
+      butterfly_attack_typeD_sprite_54: 5327040209470212363
+      butterfly_attack_typeD_sprite_55: 7647831315471892455
+      butterfly_attack_typeD_sprite_56: -5939966938757200858
+      butterfly_attack_typeD_sprite_57: 1269285921883449625
+      butterfly_attack_typeD_sprite_58: 7433053271856651758
+      butterfly_attack_typeD_sprite_59: 3871397566449062350
+      butterfly_attack_typeD_sprite_6: -7555508701775019269
+      butterfly_attack_typeD_sprite_60: -1464421635424990164
+      butterfly_attack_typeD_sprite_61: -3800817820141309492
+      butterfly_attack_typeD_sprite_62: -8929375534419358707
+      butterfly_attack_typeD_sprite_63: 6503364626382505409
+      butterfly_attack_typeD_sprite_64: 835160406126951386
+      butterfly_attack_typeD_sprite_65: 992006503754508337
+      butterfly_attack_typeD_sprite_66: -8683299651065339721
+      butterfly_attack_typeD_sprite_67: 9006007609574741586
+      butterfly_attack_typeD_sprite_68: -6250101760423428432
+      butterfly_attack_typeD_sprite_69: 7110258186949667524
+      butterfly_attack_typeD_sprite_7: 652215916192539373
+      butterfly_attack_typeD_sprite_70: 4704417919650230847
+      butterfly_attack_typeD_sprite_8: -1573340428052592399
+      butterfly_attack_typeD_sprite_9: -9141132858190319938
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
