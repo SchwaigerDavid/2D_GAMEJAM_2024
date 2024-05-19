@@ -42,6 +42,7 @@ public class Beetle : Enemy
         }
         Debug.Log(string.Format("Beetle is taking {0} bullet damage ", damage));
         currentHealth -= damage;
+        SoundManager.Instance.playRandom("beetle_damage");
     }
 
     public override void takeJumpDamage(Collision2D playerCollision)
@@ -51,5 +52,6 @@ public class Beetle : Enemy
         int damage = (maxHealth / 2);
         Debug.Log(string.Format("Beetle is taking {0} jump damage ", damage));
         currentHealth -= damage;
+        SoundManager.Instance.playRandom("beetle_damage");
     }
 }

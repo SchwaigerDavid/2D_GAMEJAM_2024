@@ -43,6 +43,7 @@ public class Snail : Enemy
         }
         Debug.Log(string.Format("Snail is taking {0} bullet damage ", damage));
         currentHealth -= damage;
+        SoundManager.Instance.playRandom("slug_damage");
     }
 
     public override void takeJumpDamage(Collision2D playerCollision)
@@ -52,5 +53,6 @@ public class Snail : Enemy
         int damage = (maxHealth / 2);
         Debug.Log(string.Format("Snail is taking {0} jump damage ", damage));
         currentHealth -= damage;
+        SoundManager.Instance.playRandom("slug_damage");
     }
 }
