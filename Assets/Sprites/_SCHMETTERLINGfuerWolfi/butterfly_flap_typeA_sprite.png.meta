@@ -408,7 +408,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      butterfly_flap_typeA_sprite_0: 8110840347164935953
+      butterfly_flap_typeA_sprite_1: 7252496258505225679
+      butterfly_flap_typeA_sprite_10: 2728511858632723732
+      butterfly_flap_typeA_sprite_2: 1452031498566706986
+      butterfly_flap_typeA_sprite_3: -8913802025847029178
+      butterfly_flap_typeA_sprite_4: -5107293685156849039
+      butterfly_flap_typeA_sprite_5: -4544300404067592560
+      butterfly_flap_typeA_sprite_6: 1158182066081301968
+      butterfly_flap_typeA_sprite_7: 5251932733561898862
+      butterfly_flap_typeA_sprite_8: 7317816295666616966
+      butterfly_flap_typeA_sprite_9: -5961763440371411447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

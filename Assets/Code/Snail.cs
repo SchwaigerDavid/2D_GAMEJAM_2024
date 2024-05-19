@@ -11,6 +11,7 @@ public class Snail : Enemy
         //Give damage to player
         var playerScript = (PlantV2)player.GetComponent(typeof(PlantV2));
         playerScript.takeDamage(attackDamage);
+        SoundManager.Instance.playRandom("slug_bite");
 
         //Push player back
         float playerXPos = player.transform.position.x;
@@ -24,6 +25,8 @@ public class Snail : Enemy
         transform.Rotate(Vector3.left * -180);
         //Shoot enemy upwards and then let it fall through the ground ground
         enemyRigidBody.AddForceY(5f, ForceMode2D.Impulse);
+        SoundManager.Instance.playRandom("slug_death", 0.2);
+        GetComponent<AudioSource>().Stop();
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 3f);
         Debug.Log("Snail dieded");
