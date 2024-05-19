@@ -12,10 +12,14 @@ public class TypeWriterEffect : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public float typingSpeed = .1f;
 
+    public int secondIMGPo = 7;
+    public int secondIMGPlacement = 2; 
+
     private int pos = 0;
 
     private bool finished = false;
-
+    public bool isJustText = false;
+    private bool finish = false;
     public Sprite[] images;
     public Image image;
     public float FadeRate = 0.2f; 
@@ -35,6 +39,7 @@ public class TypeWriterEffect : MonoBehaviour
         if (Input.GetMouseButtonUp(0) && !finished)
         {
             Debug.Log("Down");
+            finish = false;
             ContinueStory();
         }
         else if (Input.GetMouseButtonUp(0)&&finished) {
@@ -47,24 +52,43 @@ public class TypeWriterEffect : MonoBehaviour
         if (displayLineCorutine !=null)
         {
             StopCoroutine(displayLineCorutine);
+            dialogueText.text = text[pos - 1];
+            finish = true;
+            displayLineCorutine = null; 
         }
-        
-    
-        image.sprite = images[pos];
-        displayLineCorutine = StartCoroutine(DisplayLine(text[pos]));
-        pos++;
-        if (pos >= text.Length) {
-            finished = true; 
+        Debug.Log(finish); 
 
+        if (!finish)
+        {
+            if (!isJustText)
+            {
+                image.sprite = images[pos];
+            }
+
+            displayLineCorutine = StartCoroutine(DisplayLine(text[pos]));
+            pos++;
+            if (pos >= text.Length)
+            {
+                finished = true;
+
+            }
         }
+
+       
     }
 
     private IEnumerator DisplayLine(string line) {
 
         dialogueText.text = "";
-
+        int counter = 0;
+        
         foreach (char letter in line.ToCharArray()) {
             dialogueText.text += letter;
+            if (pos == secondIMGPlacement &&counter == line.Length/2&&!isJustText)
+            {
+                image.sprite = images[secondIMGPo];
+            }
+            counter++;
             yield return new WaitForSeconds(typingSpeed); 
         }
 
