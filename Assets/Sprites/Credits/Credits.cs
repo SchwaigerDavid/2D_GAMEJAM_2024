@@ -15,9 +15,6 @@ public class Credits : MonoBehaviour
    
     public void Play() {
         legendanimator.SetBool("Legend", true);
-
-
-
         SceneManager.LoadScene("Game", LoadSceneMode.Single);
 
     }
