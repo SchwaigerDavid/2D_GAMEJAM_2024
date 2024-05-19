@@ -588,7 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   spriteRenderer: {fileID: 3383157275470379993}
-  max_speed: 400
+  max_speed: 250
   air_speed_factor: 0.5
   air_speed_factor_second_jump: 0.75
   jumpForce: 7
