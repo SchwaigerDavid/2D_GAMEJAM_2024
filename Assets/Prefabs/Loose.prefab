@@ -436,7 +436,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6838463478336373331}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8074917236647021963}
+        m_TargetAssemblyTypeName: TypeWriterEffect, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8260573594382592236
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +462,7 @@ GameObject:
   - component: {fileID: 3557803819727004206}
   - component: {fileID: 8074917236647021963}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LoseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -590,8 +602,11 @@ MonoBehaviour:
   text:
   - 
   - Game Over
-  dialogueText: {fileID: 0}
+  dialogueText: {fileID: 3557803819727004206}
   typingSpeed: 0.1
+  secondIMGPo: 7
+  secondIMGPlacement: 2
+  isJustText: 1
   images: []
   image: {fileID: 4333219639221387891}
   FadeRate: 0.2

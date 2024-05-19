@@ -14,6 +14,10 @@ public class PlantV2 : MonoBehaviour
     public Sprite[] pots = new Sprite[5];
     public Sprite potStatus;
 
+    //WIN LOSE GAME OBJECTS
+    public GameObject WIN;
+    public GameObject LOSE;
+
     // Movement:
     [SerializeField] public float max_speed = 300;
     [SerializeField] public float air_speed_factor = 0.85f;
@@ -261,6 +265,8 @@ public class PlantV2 : MonoBehaviour
     public void die()
     {
         Debug.Log("DEATH");
+        LOSE.SetActive(true);
+        LOSE.transform.Find("LoseText").GetComponent<TypeWriterEffect>().ContinueStory();
     }
 
 }
