@@ -23,6 +23,7 @@ public class TypeWriterEffect : MonoBehaviour
     public string nextScene = "Game"; 
     public Sprite[] images;
     public Image image;
+    private AudioSource audioSource;
     public float FadeRate = 0.2f; 
 
 
@@ -30,6 +31,7 @@ public class TypeWriterEffect : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         ContinueStory();
 
     }
@@ -50,6 +52,8 @@ public class TypeWriterEffect : MonoBehaviour
     }
     public void ContinueStory() {
    
+         audioSource.Stop();
+
         if (displayLineCorutine !=null)
         {
             StopCoroutine(displayLineCorutine);
@@ -83,6 +87,7 @@ public class TypeWriterEffect : MonoBehaviour
         dialogueText.text = "";
         int counter = 0;
         
+        audioSource.Play();
         foreach (char letter in line.ToCharArray()) {
             dialogueText.text += letter;
             if (pos == secondIMGPlacement &&counter == line.Length/2&&!isJustText)
@@ -92,6 +97,7 @@ public class TypeWriterEffect : MonoBehaviour
             counter++;
             yield return new WaitForSeconds(typingSpeed); 
         }
+        audioSource.Stop();
 
     }
 
