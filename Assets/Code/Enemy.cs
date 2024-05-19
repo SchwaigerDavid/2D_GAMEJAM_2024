@@ -80,22 +80,22 @@ public abstract class Enemy : MonoBehaviour
             _currentCooldown = Math.Max(_currentCooldown - Time.deltaTime, 0);
         }
 
-        //Keep patrolling
-        patrol();
+        if(patrolPoints.Length > 1)
+        {
+            //Keep patrolling
+            patrol();
+        }
+        else
+        {
+            animator.SetBool(AnimationStates.isMoving, false);
+        }
     }
 
     public virtual void Start()
     {
-        //Set default value
-        if(moveSpeed <= 0)
-        {
-            moveSpeed = 2;
-        }
+        //Set default values
         patrolDestination = 1;
-        attackDamage = 10;
         _currentCooldown = 0;
-        attackCooldown = 0.5f;
-        maxHealth = 100;
         _currentHealth = maxHealth; 
     }
 
@@ -116,7 +116,8 @@ public abstract class Enemy : MonoBehaviour
             else if (_currentCooldown <= 0)
             {
                 //Enemy attacks player if it has not cooldown
-                attack(collision);
+                doAttack(collision);
+                
             } 
         }else if (obj.tag == "Bullet")
         {
@@ -128,6 +129,33 @@ public abstract class Enemy : MonoBehaviour
             patrolDestination = patrolDestination == 0 ? 1 : 0;
             transform.Rotate(Vector3.up * -180);
         }
+    }
+
+    private void doAttack(Collision2D collision)
+    {
+        animator.SetBool(AnimationStates.isMoving, false);
+        /*
+        float playerX = collision.transform.position.x;
+        float ownX = transform.position.x;
+        float currentRotation = transform.rotation.y;
+        float dotProductt = Vector3.Dot(collision.transform.position, transform.position);
+        Debug.Log(string.Format("Dot Product {0}", currentRotation));
+        //Face player
+        if (playerX < ownX && currentRotation > 0)
+        {
+            //Collision on the left while facing right
+            transform.Rotate(Vector3.up * -180);
+            patrolDestination = 0;
+        }else if(playerX > ownX && currentRotation < 0)
+        {
+            //Collision on the right while facing left
+            transform.Rotate(Vector3.up * -180);
+            patrolDestination = 1;
+        }
+        Debug.Log(string.Format("New Rotation Y {0}", transform.rotation.y));
+        */
+        //Execute the attack
+        attack(collision);
     }
 
     private Boolean gotJumpedOn(Collision2D collision)
@@ -151,6 +179,7 @@ public abstract class Enemy : MonoBehaviour
     public virtual void patrol()
     {
         //The current patrol destination
+        animator.SetBool(AnimationStates.isMoving, true);
         Transform destination = patrolPoints[patrolDestination].GetComponent<Transform>();
         float enemyX = transform.position.x;
         float destinationX = destination.position.x;
@@ -166,7 +195,6 @@ public abstract class Enemy : MonoBehaviour
         if (distance < .2f)
         {
             patrolDestination = patrolDestination == 0 ? 1 : 0;
-
             //Rotate sprite in other direction
             transform.Rotate(Vector3.up * -180);
         }
