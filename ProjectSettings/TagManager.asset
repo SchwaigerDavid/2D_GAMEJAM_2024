@@ -60,5 +60,8 @@ TagManager:
   - name: Player
     uniqueID: 724540555
     locked: 0
+  - name: Fire
+    uniqueID: 755399131
+    locked: 0
   m_RenderingLayers:
   - Default
