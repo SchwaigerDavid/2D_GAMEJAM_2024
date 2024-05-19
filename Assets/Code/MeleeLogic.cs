@@ -7,6 +7,15 @@ public class MeleeLogic : MonoBehaviour
     private int damage = 3;
 
     private float range = 0.75f;
+
+    Animator playerAnimator;
+
+    private void Start()
+    {
+        var player = gameObject.transform?.parent?.gameObject;
+        playerAnimator = player.GetComponent<Animator>();
+    }
+
     void Update()
     {
         if (cooldownTimer > 0)
@@ -21,6 +30,7 @@ public class MeleeLogic : MonoBehaviour
 
     void Hit()
     {
+        playerAnimator.SetTrigger(AnimationStates.doMelee);
         //Debug.Log("Trying to hit " + range);
         cooldownTimer = cooldown;    
         // check if an enemy is in range (Tag = "Enemy")
