@@ -43,6 +43,7 @@ public class PlantV2 : MonoBehaviour
     private float cuurentHealthCooldown = 0f;
     private int shield = 100;
     public bool isBlocking = false;
+    private bool lastBlockingState = false;
     private KeyCode BLOCK = KeyCode.LeftShift;
 
     // if crouching drop weapon timer
@@ -99,9 +100,20 @@ public class PlantV2 : MonoBehaviour
             {
                 DropWeapon();
             }
+
+            if(lastBlockingState != isBlocking) {
+                SoundManager.Instance.playRandom("plant_duck_in");
+                lastBlockingState = isBlocking;
+            }
+
             return; // If the player is blocking, do not allow movement
         } else {
             currentDropWeaponTimer = dropWeaponTimer;
+
+            if(lastBlockingState != isBlocking) {
+                SoundManager.Instance.playRandom("plant_duck_out");
+                lastBlockingState = isBlocking;
+            }
         }
 
         grounded = isGrounded();
@@ -150,7 +162,6 @@ public class PlantV2 : MonoBehaviour
         if(grounded && moveSoundTimeElapsed > 0.2) {
             SoundManager.Instance.playRandom("plant_walk/metal", 1.5);
             moveSoundTimeElapsed = 0;
-            Debug.Log(rb.velocity.x);
         }
     }
     void moveInYDirection(){
