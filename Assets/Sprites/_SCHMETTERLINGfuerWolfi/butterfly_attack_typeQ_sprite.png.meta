@@ -1,0 +1,1916 @@
+fileFormatVersion: 2
+guid: 9624bcec40c40844a81920fbbb09007b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1727495853779411995
+    second: butterfly_attack_typeQ_sprite_0
+  - first:
+      213: 1215086381851175173
+    second: butterfly_attack_typeQ_sprite_1
+  - first:
+      213: 5559528128338982304
+    second: butterfly_attack_typeQ_sprite_2
+  - first:
+      213: 3288283656419196115
+    second: butterfly_attack_typeQ_sprite_3
+  - first:
+      213: 9088206134527335831
+    second: butterfly_attack_typeQ_sprite_4
+  - first:
+      213: 1483618876737220031
+    second: butterfly_attack_typeQ_sprite_5
+  - first:
+      213: -1421521441545801618
+    second: butterfly_attack_typeQ_sprite_6
+  - first:
+      213: 5360977452732246393
+    second: butterfly_attack_typeQ_sprite_7
+  - first:
+      213: -8364698952208999585
+    second: butterfly_attack_typeQ_sprite_8
+  - first:
+      213: 5446459903434443389
+    second: butterfly_attack_typeQ_sprite_9
+  - first:
+      213: -7548170636547571391
+    second: butterfly_attack_typeQ_sprite_10
+  - first:
+      213: -8085562804734419379
+    second: butterfly_attack_typeQ_sprite_11
+  - first:
+      213: -922574219930547262
+    second: butterfly_attack_typeQ_sprite_12
+  - first:
+      213: -1369469162778621604
+    second: butterfly_attack_typeQ_sprite_13
+  - first:
+      213: -4342765229815528803
+    second: butterfly_attack_typeQ_sprite_14
+  - first:
+      213: 1949097440632015389
+    second: butterfly_attack_typeQ_sprite_15
+  - first:
+      213: -3449515043290472096
+    second: butterfly_attack_typeQ_sprite_16
+  - first:
+      213: 1404977461912634630
+    second: butterfly_attack_typeQ_sprite_17
+  - first:
+      213: -4090933731036479743
+    second: butterfly_attack_typeQ_sprite_18
+  - first:
+      213: 191162087353361872
+    second: butterfly_attack_typeQ_sprite_19
+  - first:
+      213: -207240005112385502
+    second: butterfly_attack_typeQ_sprite_20
+  - first:
+      213: 8131416002360276821
+    second: butterfly_attack_typeQ_sprite_21
+  - first:
+      213: 2232047066368021889
+    second: butterfly_attack_typeQ_sprite_22
+  - first:
+      213: 6441956918480221989
+    second: butterfly_attack_typeQ_sprite_23
+  - first:
+      213: -473987018794352224
+    second: butterfly_attack_typeQ_sprite_24
+  - first:
+      213: 399853271573928030
+    second: butterfly_attack_typeQ_sprite_25
+  - first:
+      213: -4943045500776703554
+    second: butterfly_attack_typeQ_sprite_26
+  - first:
+      213: 4775335583829755837
+    second: butterfly_attack_typeQ_sprite_27
+  - first:
+      213: -9141322845837844427
+    second: butterfly_attack_typeQ_sprite_28
+  - first:
+      213: -5690413574185389075
+    second: butterfly_attack_typeQ_sprite_29
+  - first:
+      213: 8534726844125949286
+    second: butterfly_attack_typeQ_sprite_30
+  - first:
+      213: -7637824437336409870
+    second: butterfly_attack_typeQ_sprite_31
+  - first:
+      213: 9154554719443450734
+    second: butterfly_attack_typeQ_sprite_32
+  - first:
+      213: -5236581108881463232
+    second: butterfly_attack_typeQ_sprite_33
+  - first:
+      213: -2055084648961333521
+    second: butterfly_attack_typeQ_sprite_34
+  - first:
+      213: 5954097221342428032
+    second: butterfly_attack_typeQ_sprite_35
+  - first:
+      213: 2808083922841685609
+    second: butterfly_attack_typeQ_sprite_36
+  - first:
+      213: -851859320344326434
+    second: butterfly_attack_typeQ_sprite_37
+  - first:
+      213: 8191222158373464300
+    second: butterfly_attack_typeQ_sprite_38
+  - first:
+      213: 3392695551276248079
+    second: butterfly_attack_typeQ_sprite_39
+  - first:
+      213: 5025595532877313524
+    second: butterfly_attack_typeQ_sprite_40
+  - first:
+      213: 6287939335632787131
+    second: butterfly_attack_typeQ_sprite_41
+  - first:
+      213: -1761253590065155436
+    second: butterfly_attack_typeQ_sprite_42
+  - first:
+      213: 7120320246711177139
+    second: butterfly_attack_typeQ_sprite_43
+  - first:
+      213: -4373055023317960022
+    second: butterfly_attack_typeQ_sprite_44
+  - first:
+      213: -1860117705667300077
+    second: butterfly_attack_typeQ_sprite_45
+  - first:
+      213: -3982790928170652790
+    second: butterfly_attack_typeQ_sprite_46
+  - first:
+      213: 5698410872430550000
+    second: butterfly_attack_typeQ_sprite_47
+  - first:
+      213: -7073905925371437379
+    second: butterfly_attack_typeQ_sprite_48
+  - first:
+      213: -6835181604376023625
+    second: butterfly_attack_typeQ_sprite_49
+  - first:
+      213: -5723991466594681997
+    second: butterfly_attack_typeQ_sprite_50
+  - first:
+      213: 8125643842705234035
+    second: butterfly_attack_typeQ_sprite_51
+  - first:
+      213: 7343783220967084740
+    second: butterfly_attack_typeQ_sprite_52
+  - first:
+      213: -842354013537961614
+    second: butterfly_attack_typeQ_sprite_53
+  - first:
+      213: -880933134346103572
+    second: butterfly_attack_typeQ_sprite_54
+  - first:
+      213: 3421803650602692520
+    second: butterfly_attack_typeQ_sprite_55
+  - first:
+      213: -7421795985641358603
+    second: butterfly_attack_typeQ_sprite_56
+  - first:
+      213: -7031206358709608494
+    second: butterfly_attack_typeQ_sprite_57
+  - first:
+      213: -6758731441461169373
+    second: butterfly_attack_typeQ_sprite_58
+  - first:
+      213: 2524886960843956640
+    second: butterfly_attack_typeQ_sprite_59
+  - first:
+      213: 7907965233740194533
+    second: butterfly_attack_typeQ_sprite_60
+  - first:
+      213: -5583776222935191743
+    second: butterfly_attack_typeQ_sprite_61
+  - first:
+      213: -956593273633129198
+    second: butterfly_attack_typeQ_sprite_62
+  - first:
+      213: -8701172724696052211
+    second: butterfly_attack_typeQ_sprite_63
+  - first:
+      213: -4250077045572447191
+    second: butterfly_attack_typeQ_sprite_64
+  - first:
+      213: 5970251675946413319
+    second: butterfly_attack_typeQ_sprite_65
+  - first:
+      213: -3058785351955058145
+    second: butterfly_attack_typeQ_sprite_66
+  - first:
+      213: -3419499063937628742
+    second: butterfly_attack_typeQ_sprite_67
+  - first:
+      213: 6878843100463862419
+    second: butterfly_attack_typeQ_sprite_68
+  - first:
+      213: 2022171554461734894
+    second: butterfly_attack_typeQ_sprite_69
+  - first:
+      213: -4785625094341802404
+    second: butterfly_attack_typeQ_sprite_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 533
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b146b7b835c49f710800000000000000
+      internalID: 1727495853779411995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 533
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50967a160aadcd010800000000000000
+      internalID: 1215086381851175173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 535
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5ff688069672d40800000000000000
+      internalID: 5559528128338982304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 537
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcb69d309452ad20800000000000000
+      internalID: 3288283656419196115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 538
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d1706f35bcf1e70800000000000000
+      internalID: 9088206134527335831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 538
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd6cf1028fd69410800000000000000
+      internalID: 1483618876737220031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 538
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60bf0cc7cdb54ce0800000000000000
+      internalID: -1421521441545801618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 537
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ebfee694066a40800000000000000
+      internalID: 5360977452732246393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 535
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b108cfe9e9aeb80800000000000000
+      internalID: -8364698952208999585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 458
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a4e93fc66b59b40800000000000000
+      internalID: 5446459903434443389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 457
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414c884cc28f3790800000000000000
+      internalID: -7548170636547571391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 458
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e91bed77f4acf80800000000000000
+      internalID: -8085562804734419379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 459
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb4b1e82ab5233f0800000000000000
+      internalID: -922574219930547262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 461
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c598abd5d0baefce0800000000000000
+      internalID: -1369469162778621604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 462
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d928ded48066bb3c0800000000000000
+      internalID: -4342765229815528803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 462
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a8e75abc59c0b10800000000000000
+      internalID: 1949097440632015389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 462
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0612e4d285cd020d0800000000000000
+      internalID: -3449515043290472096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 461
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6058bb6ce8b7f7310800000000000000
+      internalID: 1404977461912634630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 383
+        width: 77
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f38e142751a37c0800000000000000
+      internalID: -4090933731036479743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 382
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d52837d7e427a200800000000000000
+      internalID: 191162087353361872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 381
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220b608305cbf1df0800000000000000
+      internalID: -207240005112385502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 382
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5577c95a5c798d070800000000000000
+      internalID: 8131416002360276821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 383
+        width: 77
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18591d02bf2d9fe10800000000000000
+      internalID: 2232047066368021889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 385
+        width: 76
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5273268bfad666950800000000000000
+      internalID: 6441956918480221989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 386
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1cd94515f0c69f0800000000000000
+      internalID: -473987018794352224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 386
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5811769e609c8500800000000000000
+      internalID: 399853271573928030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 386
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99c917e46c66bb0800000000000000
+      internalID: -4943045500776703554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 308
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db78475a966654240800000000000000
+      internalID: 4775335583829755837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 306
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5302ca4fd4f732180800000000000000
+      internalID: -9141322845837844427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 305
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de37e9dd0079701b0800000000000000
+      internalID: -5690413574185389075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 306
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d2e1788d0717670800000000000000
+      internalID: 8534726844125949286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 308
+        width: 78
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8f3c3242ff00690800000000000000
+      internalID: -7637824437336409870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 310
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b7d41b3038b0f70800000000000000
+      internalID: 9154554719443450734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 310
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048699fd93de357b0800000000000000
+      internalID: -5236581108881463232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 310
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe62d4b666fda73e0800000000000000
+      internalID: -2055084648961333521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 308
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b714c60e331a250800000000000000
+      internalID: 5954097221342428032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 230
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ec670337158f620800000000000000
+      internalID: 2808083922841685609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 229
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede454426769d24f0800000000000000
+      internalID: -851859320344326434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 229
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8a82277211da170800000000000000
+      internalID: 8191222158373464300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 230
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c6edce0a6451f20800000000000000
+      internalID: 3392695551276248079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 232
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f531f9a2808eb540800000000000000
+      internalID: 5025595532877313524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 233
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61995c28f334750800000000000000
+      internalID: 6287939335632787131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 234
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f8ccf035ce87e0800000000000000
+      internalID: -1761253590065155436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 234
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfcd301a8570d260800000000000000
+      internalID: 7120320246711177139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 234
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa35ef20a9cf43c0800000000000000
+      internalID: -4373055023317960022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31539415dc88f26e0800000000000000
+      internalID: -1860117705667300077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 158
+        width: 70
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b6db7a0c84ab8c0800000000000000
+      internalID: -3982790928170652790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 157
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb527b3f72d41f40800000000000000
+      internalID: 5698410872430550000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 156
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe54bf3a0074dd90800000000000000
+      internalID: -7073905925371437379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 154
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bde1ef8b8e8421a0800000000000000
+      internalID: -6835181604376023625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 153
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bb140961c4090b0800000000000000
+      internalID: -5723991466594681997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 153
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37819cff50614c070800000000000000
+      internalID: 8125643842705234035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 153
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c297313eeb5ae560800000000000000
+      internalID: 7343783220967084740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 154
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279f1f7dc7b5f44f0800000000000000
+      internalID: -842354013537961614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4dd605bfb46c3f0800000000000000
+      internalID: -880933134346103572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 81
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afee4d6a40bc7f20800000000000000
+      internalID: 3421803650602692520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 82
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa3d689fdb700990800000000000000
+      internalID: -7421795985641358603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 82
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df55a6d1132c6e90800000000000000
+      internalID: -7031206358709608494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 82
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323717330992432a0800000000000000
+      internalID: -6758731441461169373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 82
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1ae1f30533a0320800000000000000
+      internalID: 2524886960843956640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 82
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2293d5b7cbebd60800000000000000
+      internalID: 7907965233740194533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 82
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fecaefb117282b0800000000000000
+      internalID: -5583776222935191743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 82
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21db1926c7f79b2f0800000000000000
+      internalID: -956593273633129198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 5
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e8c27f1893f3780800000000000000
+      internalID: -8701172724696052211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924dc96e171b405c0800000000000000
+      internalID: -4250077045572447191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 3
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d677c74489ad250800000000000000
+      internalID: 5970251675946413319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12fc84bde20d85d0800000000000000
+      internalID: -3058785351955058145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2
+        width: 71
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab58738f7bf7b80d0800000000000000
+      internalID: -3419499063937628742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3929bccaa5f867f50800000000000000
+      internalID: 6878843100463862419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1
+        width: 65
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7579a9052301c10800000000000000
+      internalID: 2022171554461734894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: butterfly_attack_typeQ_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56cf8ff45b069db0800000000000000
+      internalID: -4785625094341802404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
