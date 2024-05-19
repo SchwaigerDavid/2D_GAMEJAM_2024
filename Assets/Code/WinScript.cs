@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class WinScript : MonoBehaviour
 {
     private Camera camera;
+    private bool won = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,6 +32,12 @@ public class WinScript : MonoBehaviour
         {
             return;
         }
+
+        if(won) {
+            return;
+        }
+        won = true;
+
         var WIN = script.WIN;
         WIN.SetActive(true);
         WIN.transform.Find("WinText").GetComponent<TypeWriterEffect>().ContinueStory();
