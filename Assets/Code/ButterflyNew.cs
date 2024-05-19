@@ -25,7 +25,7 @@ public class ButterflyNew : Enemy
 
     public virtual void attack()
     {
-        SoundManager.Instance.playRandom("butterfly_shoot", 0.6);
+        SoundManager.Instance.playRandom("butterfly_shoot", 0.2);
         animator.SetTrigger(AnimationStates.attackTrigger);
         for (int i = 0; i < amountOfBullets; i++)
             {
