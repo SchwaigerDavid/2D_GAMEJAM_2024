@@ -69,4 +69,11 @@ public class TypeWriterEffect : MonoBehaviour
         }
 
     }
+
+    public void Menu() {
+
+        
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        
+    }
 }

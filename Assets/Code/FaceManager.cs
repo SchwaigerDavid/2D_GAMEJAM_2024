@@ -14,8 +14,11 @@ public class FaceManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
         
     }
 
@@ -29,9 +32,7 @@ public class FaceManager : MonoBehaviour
 
         selectedFace = faces[pos];
 
-        faceObject.GetComponent<SpriteRenderer>().sprite = selectedFace; 
-        
-
+        faceObject.GetComponent<SpriteRenderer>().sprite = selectedFace;
 
     }
 
