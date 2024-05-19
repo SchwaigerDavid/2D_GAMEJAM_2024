@@ -134,26 +134,25 @@ public abstract class Enemy : MonoBehaviour
     private void doAttack(Collision2D collision)
     {
         animator.SetBool(AnimationStates.isMoving, false);
-        /*
+        
         float playerX = collision.transform.position.x;
         float ownX = transform.position.x;
-        float currentRotation = transform.rotation.y;
-        float dotProductt = Vector3.Dot(collision.transform.position, transform.position);
-        Debug.Log(string.Format("Dot Product {0}", currentRotation));
+        float currentRotation = transform.rotation.eulerAngles.y;
+        Debug.Log(string.Format("Current Rotation {0}", currentRotation));
         //Face player
-        if (playerX < ownX && currentRotation > 0)
+        if (playerX < ownX && currentRotation < 180)
         {
             //Collision on the left while facing right
             transform.Rotate(Vector3.up * -180);
             patrolDestination = 0;
-        }else if(playerX > ownX && currentRotation < 0)
+        }else if(playerX > ownX && currentRotation >= 180)
         {
             //Collision on the right while facing left
             transform.Rotate(Vector3.up * -180);
             patrolDestination = 1;
         }
-        Debug.Log(string.Format("New Rotation Y {0}", transform.rotation.y));
-        */
+        Debug.Log(string.Format("New Rotation Y {0}", transform.rotation.eulerAngles.y));
+        
         //Execute the attack
         attack(collision);
     }
