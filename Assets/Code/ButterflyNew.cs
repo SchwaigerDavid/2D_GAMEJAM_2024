@@ -25,6 +25,7 @@ public class ButterflyNew : Enemy
 
     public virtual void attack()
     {
+        SoundManager.Instance.playRandom("butterfly_shoot");
         animator.SetTrigger(AnimationStates.attackTrigger);
         for (int i = 0; i < amountOfBullets; i++)
             {
@@ -77,6 +78,8 @@ public class ButterflyNew : Enemy
     {
         // rotate sprite, remove collider and destroy object after 1 second
         transform.Rotate(Vector3.left * -180);
+        SoundManager.Instance.playRandom("butterfly_death");
+        GetComponent<AudioSource>().Stop();
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 1f);
         Debug.Log("Butterfly died");
