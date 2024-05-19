@@ -34,9 +34,13 @@ public class PlantV2 : MonoBehaviour
     private float healthCooldown = 3f;
     private float cuurentHealthCooldown = 0f;
     [SerializeField] public int shield = 100;
-    private bool isBlocking = false;
+    public bool isBlocking = false;
     private KeyCode BLOCK = KeyCode.LeftShift;
 
+
+    // if crouching drop weapon timer
+    private float dropWeaponTimer = 0.8f;
+    private float currentDropWeaponTimer = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -62,8 +66,17 @@ public class PlantV2 : MonoBehaviour
         isBlocking = Input.GetKey(BLOCK);
         animator.SetBool(AnimationStates.isBlocking, isBlocking);
         if (isBlocking){
-            
+            if (currentDropWeaponTimer > 0)
+            {
+                currentDropWeaponTimer -= Time.deltaTime;
+            }
+            else
+            {
+                DropWeapon();
+            }
             return; // If the player is blocking, do not allow movement
+        } else {
+            currentDropWeaponTimer = dropWeaponTimer;
         }
 
         grounded = isGrounded();
@@ -85,14 +98,16 @@ public class PlantV2 : MonoBehaviour
         // if the player is grounded, move at max speed, else reduce the speed by the air_speed_factor if first jump, if second jump reduce by air_speed_factor_second_jump
         current_speed = grounded ? max_speed : doubleJump ? max_speed * air_speed_factor_second_jump : max_speed * air_speed_factor; 
 
+        /*
         // if direction is changed, and the player is in the air, don't change the speed
         if (move.x * rb.velocity.x < 1 && !grounded)
         {
             //Debug.Log(move.x);
             move.x = 0.5f * (rb.velocity.x > 0 ? 1 : -1);
         }
-
         // else if the player is not blocking, move 
+        */
+
         rb.velocity = new Vector2(move.x * current_speed * Time.deltaTime, rb.velocity.y);
 
         if (rb.velocity.x < 0)
@@ -173,5 +188,10 @@ public class PlantV2 : MonoBehaviour
             health += healAmount;
         }
         
+    }
+
+    private void DropWeapon()
+    {
+        GetComponent<WeaponManager>().DropWeapon(); // If the player is blocking, drop the weapon
     }
 }

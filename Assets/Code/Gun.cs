@@ -30,7 +30,7 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         // Check if the object where this script is attached is a child of the player
-        if (transform.parent != null && transform.parent.parent != null && transform.parent.parent.CompareTag("Player"))
+        if (transform.parent != null && transform.parent.parent != null && transform.parent.parent.CompareTag("Player") && !transform.parent.parent.GetComponent<PlantV2>().isBlocking)
         {
             cooldownTimer = cooldown; 
             for (int i = 0; i < amountOfBullets; i++)

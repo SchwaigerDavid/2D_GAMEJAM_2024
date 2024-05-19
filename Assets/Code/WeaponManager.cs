@@ -71,11 +71,11 @@ public class WeaponManager : MonoBehaviour
         weaponToPickUp.transform.SetParent(inventoryObject);
         weaponToPickUp.transform.position = inventoryObject.position;
         weaponToPickUp.transform.rotation = inventoryObject.rotation;   
-        weaponToPickUp.GetComponent<Collider2D>().isTrigger = false;
+        //weaponToPickUp.GetComponent<Collider2D>().isTrigger = false; No longer needed
 
     }
 
-    void DropWeapon()
+    public void DropWeapon()
     {
         // Find the inventory slot
         Transform inventoryObject = transform.Find(INVENTORYSLOTNAME);
@@ -84,7 +84,7 @@ public class WeaponManager : MonoBehaviour
         if (inventoryObject.childCount > 0)
         {
             Transform weapon = inventoryObject.GetChild(0);
-            weapon.GetComponent<Collider2D>().isTrigger = true;
+            // weapon.GetComponent<Collider2D>().isTrigger = true; No longer needed
             weapon.SetParent(null);
         }
     }
