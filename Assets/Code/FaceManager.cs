@@ -32,9 +32,7 @@ public class FaceManager : MonoBehaviour
 
         selectedFace = faces[pos];
 
-        faceObject.GetComponent<SpriteRenderer>().sprite = selectedFace; 
-        
-
+        faceObject.GetComponent<SpriteRenderer>().sprite = selectedFace;
 
     }
 
