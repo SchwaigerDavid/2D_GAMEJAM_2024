@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 26ebc0fa6c9164bc48749538985d2a84
+guid: a027dd6c118864bdd9346a92630e1e0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8118066430107275596
-    second: Blocking_0
+      213: 5193310118108220758
+    second: Smog_0
+  - first:
+      213: -9773160986764658
+    second: Smog_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blocking_0
+      name: Smog_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 25
+        y: 8
+        width: 15
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c415195286a29a070800000000000000
-      internalID: 8118066430107275596
+      spriteID: 65d484e7908521840800000000000000
+      internalID: 5193310118108220758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smog_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a1d03ac574ddff0800000000000000
+      internalID: -9773160986764658
       vertices: []
       indices: 
       edges: []
@@ -146,7 +171,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Blocking_0: 8118066430107275596
+      Smog_0: 5193310118108220758
+      Smog_1: -9773160986764658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
