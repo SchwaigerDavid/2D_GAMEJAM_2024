@@ -22,7 +22,7 @@ public class Credits : MonoBehaviour
     }
    
     public void Play() {
-        StartCoroutine(GameObject.FindAnyObjectByType<SceneFader>().FadeAndLoadScene(SceneFader.FadeDirection.Out, "CutScene1"));
+        SceneManager.LoadScene("CutScene1", LoadSceneMode.Single);
     }
 
 
