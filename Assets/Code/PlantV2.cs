@@ -42,6 +42,7 @@ public class PlantV2 : MonoBehaviour
     // if crouching drop weapon timer
     private float dropWeaponTimer = 0.8f;
     private float currentDropWeaponTimer = 0f;
+    private float moveSoundTimeElapsed = 0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -60,6 +61,7 @@ public class PlantV2 : MonoBehaviour
     {
         move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         isBlocking = Input.GetKey(BLOCK);
+        moveSoundTimeElapsed += Time.deltaTime;
     }
 
     void FixedUpdate()
@@ -123,6 +125,12 @@ public class PlantV2 : MonoBehaviour
         if (rb.velocity.x > 0)
         {
             transform.rotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+        }
+
+        if(grounded && moveSoundTimeElapsed > 0.2) {
+            SoundManager.Instance.playRandom("plant_walk/metal", 1.5);
+            moveSoundTimeElapsed = 0;
+            Debug.Log(rb.velocity.x);
         }
     }
     void moveInYDirection(){
