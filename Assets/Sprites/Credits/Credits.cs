@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Credits : MonoBehaviour
 {
@@ -11,9 +12,13 @@ public class Credits : MonoBehaviour
     {
         Application.Quit();
     }
-
+   
     public void Play() {
         legendanimator.SetBool("Legend", true);
+
+
+
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
 
     }
   
