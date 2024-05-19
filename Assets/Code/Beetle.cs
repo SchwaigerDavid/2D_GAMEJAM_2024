@@ -4,10 +4,15 @@ public class Beetle : Enemy
 {
     public override void attack(Collision2D playerCollision)
     {
+        var player = playerCollision.gameObject;
+        attack(player);
+    }
+
+    public void attack(GameObject player)
+    {
         Debug.Log("Beetle attacks");
         SoundManager.Instance.playRandom("beetle_hydraulics", 0.7);
         animator.SetTrigger(AnimationStates.attackTrigger);
-        var player = playerCollision.gameObject;
         //Give damage to player
         var playerScript = (PlantV2)player.GetComponent(typeof(PlantV2));
         playerScript.takeDamage(attackDamage);
@@ -15,7 +20,8 @@ public class Beetle : Enemy
         //Push player back
         float playerXPos = player.transform.position.x;
         int direction = playerXPos > transform.position.x ? 1 : -1;
-        playerScript.knockback(new Vector2(direction * attackKnockback * 10, 2 * attackKnockback));
+        // no nockback for player, if stupid and runs into fire just die
+        //playerScript.knockback(new Vector2(direction * attackKnockback * 10, 2 * attackKnockback));
         currentCooldown = attackCooldown;
     }
 

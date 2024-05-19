@@ -318,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1296424443186509285}
   - component: {fileID: 6270322387747778263}
+  - component: {fileID: 6271409797233696899}
   - component: {fileID: 5963858806785891445}
   m_Layer: 0
   m_Name: Fire
@@ -382,8 +383,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -200803829
-  m_SortingLayer: 2
+  m_SortingLayerID: 755399131
+  m_SortingLayer: 5
   m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -396,6 +397,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6271409797233696899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5278638764562331746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331496392b953d8438a177b88496b9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!70 &5963858806785891445
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
