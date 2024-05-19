@@ -17,6 +17,7 @@ public class PlantV2 : MonoBehaviour
     //WIN LOSE GAME OBJECTS
     public GameObject WIN;
     public GameObject LOSE;
+    private Camera camera;
 
     // Movement:
     [SerializeField] public float max_speed = 300;
@@ -268,8 +269,16 @@ public class PlantV2 : MonoBehaviour
     public void die()
     {
         Debug.Log("DEATH");
+        SoundManager.Instance.playRandom("plant_death/twig_break", 0.8);
+        //SoundManager.Instance.playRandom("plant_death/plant_death_voice");
         LOSE.SetActive(true);
         LOSE.transform.Find("LoseText").GetComponent<TypeWriterEffect>().ContinueStory();
+
+        AudioSource audio = camera.GetComponent<AudioSource>();
+        audio.Stop();
+        audio.loop = false;
+        audio.clip = (AudioClip)Resources.Load("jingle_defeat");
+        audio.Play();
     }
 
 }
