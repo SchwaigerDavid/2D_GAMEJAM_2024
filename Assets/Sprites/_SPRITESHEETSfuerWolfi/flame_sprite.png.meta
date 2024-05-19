@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15bd697a84b804247b3d54cd5e40ce18
+guid: 9b617a86c0ee4574b86793a05b22b094
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -393,6 +393,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2820,7 +2833,115 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flame_sprite_0: -3593123656368486415
+      flame_sprite_1: -1929771486197835571
+      flame_sprite_10: 2724317743880938061
+      flame_sprite_100: -5087583784270216340
+      flame_sprite_101: 1656712090998032852
+      flame_sprite_102: 7878645646347220107
+      flame_sprite_103: -3325038109302787627
+      flame_sprite_104: 6821263963583771984
+      flame_sprite_105: -6584259635037485736
+      flame_sprite_106: -6982205884040618874
+      flame_sprite_107: 233119218986034593
+      flame_sprite_11: 2004450614137084074
+      flame_sprite_12: 3736220681404144673
+      flame_sprite_13: -6159813154332261324
+      flame_sprite_14: -9211381372519507808
+      flame_sprite_15: 5580259987650217337
+      flame_sprite_16: -5455452175530013161
+      flame_sprite_17: 5753432352354245894
+      flame_sprite_18: 4370712012227262941
+      flame_sprite_19: -6790759643709413034
+      flame_sprite_2: 3479792415090487686
+      flame_sprite_20: 4209257624132574883
+      flame_sprite_21: 6036999177800193296
+      flame_sprite_22: -8078496491538124320
+      flame_sprite_23: -6217788941079656574
+      flame_sprite_24: 7696355526719159695
+      flame_sprite_25: 6790321032645996955
+      flame_sprite_26: 4917547206618051433
+      flame_sprite_27: 5949475907554422818
+      flame_sprite_28: 6226624799329502542
+      flame_sprite_29: 1222147687889480540
+      flame_sprite_3: -3455626158738850242
+      flame_sprite_30: 3541198903536513286
+      flame_sprite_31: 3460139552118136509
+      flame_sprite_32: -7244055145888238018
+      flame_sprite_33: 5021258162457870039
+      flame_sprite_34: 1331474574581128013
+      flame_sprite_35: 579585975939389457
+      flame_sprite_36: 5151688053773868649
+      flame_sprite_37: 5780990624436276155
+      flame_sprite_38: -8418783569026590179
+      flame_sprite_39: 1352790091508848169
+      flame_sprite_4: 8489162033614326160
+      flame_sprite_40: 4866465522741568588
+      flame_sprite_41: -7759993774739051469
+      flame_sprite_42: -3971898746138444485
+      flame_sprite_43: 2297303686765619009
+      flame_sprite_44: -723125893582044332
+      flame_sprite_45: -2289213835389677047
+      flame_sprite_46: -5569662531085435144
+      flame_sprite_47: 4364791052203728909
+      flame_sprite_48: 31448214442703978
+      flame_sprite_49: 3025967184868901515
+      flame_sprite_5: -6275110844873304994
+      flame_sprite_50: -5543802240921713664
+      flame_sprite_51: 7872733417836850917
+      flame_sprite_52: 5279073404595051325
+      flame_sprite_53: 1405573627923894428
+      flame_sprite_54: -2590329021549954699
+      flame_sprite_55: 8810044577908056207
+      flame_sprite_56: -1346163665024451389
+      flame_sprite_57: 2440960982711536030
+      flame_sprite_58: 8637810815565261894
+      flame_sprite_59: 3200081096435916510
+      flame_sprite_6: -1804761856472117190
+      flame_sprite_60: 2841786652204705037
+      flame_sprite_61: 1998898393925340286
+      flame_sprite_62: -5741275322683645113
+      flame_sprite_63: 4510098521462012372
+      flame_sprite_64: 7962658134828637892
+      flame_sprite_65: -139851895260352967
+      flame_sprite_66: 3734357023690904493
+      flame_sprite_67: 9206309546549311719
+      flame_sprite_68: 8138109860816258229
+      flame_sprite_69: -5077339226063412963
+      flame_sprite_7: 4283047244454385629
+      flame_sprite_70: -3959710881278602488
+      flame_sprite_71: -2247113875370322522
+      flame_sprite_72: -4622880267752564740
+      flame_sprite_73: 1363524358079799
+      flame_sprite_74: 8708460975639403083
+      flame_sprite_75: 3507178779908188107
+      flame_sprite_76: -4912611259860109761
+      flame_sprite_77: -5614047549685843771
+      flame_sprite_78: 3603675559165431317
+      flame_sprite_79: 1027423567776493858
+      flame_sprite_8: 449275909706507456
+      flame_sprite_80: -313476408894314871
+      flame_sprite_81: 5314251734778868197
+      flame_sprite_82: -4706705367054138083
+      flame_sprite_83: -6601753887799128219
+      flame_sprite_84: 8644535649729527703
+      flame_sprite_85: -2658202225944550426
+      flame_sprite_86: 2402647671495845869
+      flame_sprite_87: -8279566391370028746
+      flame_sprite_88: -3079168953897936607
+      flame_sprite_89: -6590862348025896521
+      flame_sprite_9: 4371828468262164972
+      flame_sprite_90: 8183801923645654937
+      flame_sprite_91: -6833757554665309643
+      flame_sprite_92: -7279190377893334742
+      flame_sprite_93: -2236841750619035490
+      flame_sprite_94: -722637494476996829
+      flame_sprite_95: 488521433924745511
+      flame_sprite_96: 6437058969034986213
+      flame_sprite_97: -4767794265147485922
+      flame_sprite_98: -2142513827312133793
+      flame_sprite_99: 3343486493860260839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

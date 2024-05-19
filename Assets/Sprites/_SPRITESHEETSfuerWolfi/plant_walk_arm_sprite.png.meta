@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae6fbb2461520452ba1950e86270c3ec
+guid: 602b2dff5d757b84b96930295a08e060
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -214,7 +214,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -228,7 +228,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -249,6 +249,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1620,7 +1633,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_walk_arm_sprite_0: 4454258729747331498
+      plant_walk_arm_sprite_1: 3103954146375765305
+      plant_walk_arm_sprite_10: -6690987201990264216
+      plant_walk_arm_sprite_11: -1478767075692833524
+      plant_walk_arm_sprite_12: -5114254416670029351
+      plant_walk_arm_sprite_13: -1392937154573616992
+      plant_walk_arm_sprite_14: 1076808814248124540
+      plant_walk_arm_sprite_15: 4485425142568752932
+      plant_walk_arm_sprite_16: -5663667974448855523
+      plant_walk_arm_sprite_17: -1727891387425364484
+      plant_walk_arm_sprite_18: 880873325624724401
+      plant_walk_arm_sprite_19: 6047652427641498743
+      plant_walk_arm_sprite_2: -5231345984158133472
+      plant_walk_arm_sprite_20: 3953833732902256083
+      plant_walk_arm_sprite_21: 3854224136426367202
+      plant_walk_arm_sprite_22: 236143015602042858
+      plant_walk_arm_sprite_23: 8988736091962548981
+      plant_walk_arm_sprite_24: -5781656222992176036
+      plant_walk_arm_sprite_25: -1722697022922542196
+      plant_walk_arm_sprite_26: -748091359056898472
+      plant_walk_arm_sprite_27: 458195860246715000
+      plant_walk_arm_sprite_28: -271980179849695881
+      plant_walk_arm_sprite_29: -7025476346397789674
+      plant_walk_arm_sprite_3: -3866966199014905515
+      plant_walk_arm_sprite_30: -3503759040539833666
+      plant_walk_arm_sprite_31: -8681875512042626585
+      plant_walk_arm_sprite_32: 5517444166086293635
+      plant_walk_arm_sprite_33: 5008253077433508743
+      plant_walk_arm_sprite_34: 615066774124127595
+      plant_walk_arm_sprite_35: 7871945920919853390
+      plant_walk_arm_sprite_36: -5486887950166541775
+      plant_walk_arm_sprite_37: 9017227851629118103
+      plant_walk_arm_sprite_38: 2238417379019675459
+      plant_walk_arm_sprite_39: -1576378581269973902
+      plant_walk_arm_sprite_4: 6321180097769913823
+      plant_walk_arm_sprite_40: -8130255595090345279
+      plant_walk_arm_sprite_41: -8844247042146929589
+      plant_walk_arm_sprite_42: 3787850141680262570
+      plant_walk_arm_sprite_43: -8087384503439906421
+      plant_walk_arm_sprite_44: 8139407302619654655
+      plant_walk_arm_sprite_45: -835169285448255866
+      plant_walk_arm_sprite_46: 140305114092296286
+      plant_walk_arm_sprite_47: -1043533407576643320
+      plant_walk_arm_sprite_48: -4569860058794293394
+      plant_walk_arm_sprite_49: -5011146779496302598
+      plant_walk_arm_sprite_5: -2188854036514706148
+      plant_walk_arm_sprite_50: 4450779978967205377
+      plant_walk_arm_sprite_51: -3509601083105852397
+      plant_walk_arm_sprite_52: 1073217968418369874
+      plant_walk_arm_sprite_53: -3550670420632125380
+      plant_walk_arm_sprite_54: -7516424989979166947
+      plant_walk_arm_sprite_55: 393157209325060721
+      plant_walk_arm_sprite_56: -3600456969982230366
+      plant_walk_arm_sprite_57: -520032936767197277
+      plant_walk_arm_sprite_58: -5105576114614294740
+      plant_walk_arm_sprite_59: -8674645124679131727
+      plant_walk_arm_sprite_6: 2105781712924308695
+      plant_walk_arm_sprite_7: 1071314834980738626
+      plant_walk_arm_sprite_8: 5188352300186600317
+      plant_walk_arm_sprite_9: 4286804860046984726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

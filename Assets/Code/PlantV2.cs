@@ -5,6 +5,7 @@ public class PlantV2 : MonoBehaviour
 
     //Animator
     public Animator animator;
+    public SpriteRenderer spriteRenderer;
 
     // Movement:
     [SerializeField] public float max_speed = 300;
@@ -51,6 +52,7 @@ public class PlantV2 : MonoBehaviour
         grounded = false;
         floorColliderPosition = floorCollider.GetComponent<Transform>();   
         health = maxHealth;
+        spriteRenderer.sprite = FaceManager.Instance.selectedFace;
     }
 
     // Update is called once per frame
@@ -66,6 +68,7 @@ public class PlantV2 : MonoBehaviour
         isBlocking = Input.GetKey(BLOCK);
         animator.SetBool(AnimationStates.isBlocking, isBlocking);
         if (isBlocking){
+            animator.SetBool(AnimationStates.isMoving, false);
             if (currentDropWeaponTimer > 0)
             {
                 currentDropWeaponTimer -= Time.deltaTime;
@@ -80,7 +83,8 @@ public class PlantV2 : MonoBehaviour
         }
 
         grounded = isGrounded();
-        
+
+        animator.SetBool(AnimationStates.isMoving, move.x != 0);
         if (move.x != 0)
         {
             moveInXDirection();
@@ -109,7 +113,7 @@ public class PlantV2 : MonoBehaviour
         */
 
         rb.velocity = new Vector2(move.x * current_speed * Time.deltaTime, rb.velocity.y);
-
+        
         if (rb.velocity.x < 0)
         {
             transform.rotation = new Quaternion(0.0f, 180.0f, 0.0f, 0.0f);

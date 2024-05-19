@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e4588353081248589839036df129f53
+guid: a69f62c4edb216e4c81b5ee127f73a43
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -210,6 +210,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1295,7 +1308,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snail_damage_sprite_0: -2384235763363134707
+      snail_damage_sprite_1: 36338587761327058
+      snail_damage_sprite_10: -155164797669056136
+      snail_damage_sprite_11: -711750040868404695
+      snail_damage_sprite_12: 2527987910021157374
+      snail_damage_sprite_13: -7047240138522731660
+      snail_damage_sprite_14: -4386890495682800713
+      snail_damage_sprite_15: -1330033449369266575
+      snail_damage_sprite_16: -8405348437956042397
+      snail_damage_sprite_17: 7344132785324443896
+      snail_damage_sprite_18: -5734731699836784560
+      snail_damage_sprite_19: -3848335884750026395
+      snail_damage_sprite_2: -3664539841321346450
+      snail_damage_sprite_20: -5357795953532589133
+      snail_damage_sprite_21: -5846439024344276111
+      snail_damage_sprite_22: 5475173339494710879
+      snail_damage_sprite_23: 6521854978283172586
+      snail_damage_sprite_24: 6932870125865931969
+      snail_damage_sprite_25: 5958176386038683622
+      snail_damage_sprite_26: -5673024604758288656
+      snail_damage_sprite_27: 2339577483202080480
+      snail_damage_sprite_28: -8596269934014573188
+      snail_damage_sprite_29: -4708141331890945156
+      snail_damage_sprite_3: 4353882935495131942
+      snail_damage_sprite_30: 1938477009146753136
+      snail_damage_sprite_31: 5136257164450730549
+      snail_damage_sprite_32: -6114604125696271471
+      snail_damage_sprite_33: -276131411536059255
+      snail_damage_sprite_34: -218700748969325695
+      snail_damage_sprite_35: 5419576999679962986
+      snail_damage_sprite_36: 7438591117176604910
+      snail_damage_sprite_37: 1532413556817327973
+      snail_damage_sprite_38: 7821009803308522331
+      snail_damage_sprite_39: 5331124556884749995
+      snail_damage_sprite_4: -8811058223257176926
+      snail_damage_sprite_40: 7109284777533441839
+      snail_damage_sprite_41: -1527437210093387414
+      snail_damage_sprite_42: 5415580324748363589
+      snail_damage_sprite_43: 8688055130689607468
+      snail_damage_sprite_44: -7395213388252908709
+      snail_damage_sprite_45: -3431912694780473358
+      snail_damage_sprite_46: -1242109045341129558
+      snail_damage_sprite_5: -3219946808117535186
+      snail_damage_sprite_6: -9209908735538354060
+      snail_damage_sprite_7: -8000085793783072196
+      snail_damage_sprite_8: 6857337649767943425
+      snail_damage_sprite_9: -740852803717793795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

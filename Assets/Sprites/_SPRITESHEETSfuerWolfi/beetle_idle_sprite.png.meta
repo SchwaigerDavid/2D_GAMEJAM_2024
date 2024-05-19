@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff74e0d9340cc49d4962706fc53691a8
+guid: f7b52fe415019de47ba198a552a45b99
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -117,6 +117,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -520,7 +533,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      beetle_idle_sprite_0: 904388855808447415
+      beetle_idle_sprite_1: -1538757091067323899
+      beetle_idle_sprite_10: 4984591353296718489
+      beetle_idle_sprite_11: -3952749176084043115
+      beetle_idle_sprite_12: -4964477053926619342
+      beetle_idle_sprite_13: -2131527813639086569
+      beetle_idle_sprite_14: 7709871722719392365
+      beetle_idle_sprite_15: 1368760803381562683
+      beetle_idle_sprite_2: 5808812714716496340
+      beetle_idle_sprite_3: 6075623442938602426
+      beetle_idle_sprite_4: 4308566204116403678
+      beetle_idle_sprite_5: 3308110255290926278
+      beetle_idle_sprite_6: 1715288889157271757
+      beetle_idle_sprite_7: -309492025477638858
+      beetle_idle_sprite_8: -4135934782791553392
+      beetle_idle_sprite_9: -6134696176174909960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

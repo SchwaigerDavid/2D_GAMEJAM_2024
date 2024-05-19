@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 26268080536fe44029f91def394cee3b
+guid: 08d2a66c5cb659c48a0a7226405c6ea6
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -117,6 +117,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -520,7 +533,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      beetle_walk_sprite_0: -3498341860506492689
+      beetle_walk_sprite_1: 1929958988168550519
+      beetle_walk_sprite_10: -4502884097790986454
+      beetle_walk_sprite_11: 2782814857956042124
+      beetle_walk_sprite_12: 5529260639556283283
+      beetle_walk_sprite_13: -8059300836027778517
+      beetle_walk_sprite_14: -3687795603345326994
+      beetle_walk_sprite_15: 6281722976465284503
+      beetle_walk_sprite_2: -6503836587694616992
+      beetle_walk_sprite_3: 7162925977794332492
+      beetle_walk_sprite_4: 4726757150128720496
+      beetle_walk_sprite_5: 6472926152654640750
+      beetle_walk_sprite_6: -537285559560220309
+      beetle_walk_sprite_7: -5739612142582042446
+      beetle_walk_sprite_8: -5584761663479954294
+      beetle_walk_sprite_9: -2562594554245779580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

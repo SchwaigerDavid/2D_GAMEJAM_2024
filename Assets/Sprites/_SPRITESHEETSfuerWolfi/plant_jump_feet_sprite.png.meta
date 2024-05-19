@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30381f1dc8de44373a73200893974007
+guid: f1f58f25e251f2240b3b749dd4f54801
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -135,6 +135,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -670,7 +683,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_jump_feet_sprite_0: -5451814948500932959
+      plant_jump_feet_sprite_1: -6563562304199191489
+      plant_jump_feet_sprite_10: 6474300995084954160
+      plant_jump_feet_sprite_11: 8490637539611810884
+      plant_jump_feet_sprite_12: 288106849291225083
+      plant_jump_feet_sprite_13: -7548024874862223702
+      plant_jump_feet_sprite_14: -3687062041707996695
+      plant_jump_feet_sprite_15: 491954617125091317
+      plant_jump_feet_sprite_16: 6772769045956167708
+      plant_jump_feet_sprite_17: 8123019598003827996
+      plant_jump_feet_sprite_18: -8951919935044191702
+      plant_jump_feet_sprite_19: -15450200060715320
+      plant_jump_feet_sprite_2: -4871484871088577056
+      plant_jump_feet_sprite_20: -790498599570233452
+      plant_jump_feet_sprite_21: 130926150754463468
+      plant_jump_feet_sprite_3: -591515158561912091
+      plant_jump_feet_sprite_4: 7951688964775215572
+      plant_jump_feet_sprite_5: 5404626404543853178
+      plant_jump_feet_sprite_6: 5364696846219018743
+      plant_jump_feet_sprite_7: 3007360414442267285
+      plant_jump_feet_sprite_8: -7179049177287979327
+      plant_jump_feet_sprite_9: 5374041007467885798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

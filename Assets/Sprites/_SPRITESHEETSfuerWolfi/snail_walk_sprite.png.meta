@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b199ff6f0f0e94d4ab6c7360615fac13
+guid: 32e34d4e5bcd3d544aff324696eb0fdf
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -216,6 +216,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1345,7 +1358,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snail_walk_sprite_0: 7165355420210708088
+      snail_walk_sprite_1: 2900064714765944540
+      snail_walk_sprite_10: 5242619492824273670
+      snail_walk_sprite_11: 2590253846642801317
+      snail_walk_sprite_12: -3761499954583235968
+      snail_walk_sprite_13: -3844735433481429837
+      snail_walk_sprite_14: -1158744305196433102
+      snail_walk_sprite_15: 844425435448289948
+      snail_walk_sprite_16: -1992474849064013817
+      snail_walk_sprite_17: 4854882939761683532
+      snail_walk_sprite_18: 4651066266780648400
+      snail_walk_sprite_19: -3420075417039858704
+      snail_walk_sprite_2: -1953627028043556477
+      snail_walk_sprite_20: -7055393909703157494
+      snail_walk_sprite_21: 2166985662941777764
+      snail_walk_sprite_22: 6478727599699098184
+      snail_walk_sprite_23: 4317739094469285816
+      snail_walk_sprite_24: -7336622764153296590
+      snail_walk_sprite_25: -5316348765104416711
+      snail_walk_sprite_26: 5358775243008538545
+      snail_walk_sprite_27: 8417039587133013357
+      snail_walk_sprite_28: 7885959059502614838
+      snail_walk_sprite_29: -2738517423402112664
+      snail_walk_sprite_3: -8015478095549660066
+      snail_walk_sprite_30: 6663829530911159988
+      snail_walk_sprite_31: 1092472346095726698
+      snail_walk_sprite_32: -7938097082345534904
+      snail_walk_sprite_33: -2780206960056476342
+      snail_walk_sprite_34: 1277065773639072889
+      snail_walk_sprite_35: -3214971601875111884
+      snail_walk_sprite_36: 8433657261963648788
+      snail_walk_sprite_37: 5844755489633226928
+      snail_walk_sprite_38: -8622422514774978305
+      snail_walk_sprite_39: 4731468652812077549
+      snail_walk_sprite_4: 5704193467934203528
+      snail_walk_sprite_40: 8382694311474609816
+      snail_walk_sprite_41: 2086645721247413855
+      snail_walk_sprite_42: 3202144092439134069
+      snail_walk_sprite_43: -702860547411738779
+      snail_walk_sprite_44: -4465252296534008739
+      snail_walk_sprite_45: 1972148123617946166
+      snail_walk_sprite_46: 8087522910763661605
+      snail_walk_sprite_47: 2813749139317413739
+      snail_walk_sprite_48: -5061437032154206073
+      snail_walk_sprite_5: -6245376882097614898
+      snail_walk_sprite_6: 4999330399485935486
+      snail_walk_sprite_7: 3161241713974777631
+      snail_walk_sprite_8: 4703894790833584511
+      snail_walk_sprite_9: 2575271874114279340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

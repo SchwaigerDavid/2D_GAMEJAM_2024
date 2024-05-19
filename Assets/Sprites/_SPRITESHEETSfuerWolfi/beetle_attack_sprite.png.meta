@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cac8b2f47418341be814d85a0368ee2c
+guid: 277f88117c44e7341b389cad07146722
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -252,6 +252,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1645,7 +1658,68 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      beetle_attack_sprite_0: 8636648902363344266
+      beetle_attack_sprite_1: -7949392238181081946
+      beetle_attack_sprite_10: -6120652981309114577
+      beetle_attack_sprite_11: 5705888956489097421
+      beetle_attack_sprite_12: -3079833016387507655
+      beetle_attack_sprite_13: 7215819245839245614
+      beetle_attack_sprite_14: -5285646082993435711
+      beetle_attack_sprite_15: 3444231756852190984
+      beetle_attack_sprite_16: -5309054662094676420
+      beetle_attack_sprite_17: 4779271901423611964
+      beetle_attack_sprite_18: -739573644322862147
+      beetle_attack_sprite_19: 1321246885734591191
+      beetle_attack_sprite_2: 9026407686309333148
+      beetle_attack_sprite_20: 6467908474779511668
+      beetle_attack_sprite_21: -8391002926781512592
+      beetle_attack_sprite_22: 7132910235436378578
+      beetle_attack_sprite_23: -3903150097316421067
+      beetle_attack_sprite_24: -6864985675166254025
+      beetle_attack_sprite_25: 7964620650218283202
+      beetle_attack_sprite_26: -984190783514978559
+      beetle_attack_sprite_27: -41823252430694543
+      beetle_attack_sprite_28: -5690876416374234750
+      beetle_attack_sprite_29: -5562598940413696697
+      beetle_attack_sprite_3: 8331999991507212536
+      beetle_attack_sprite_30: 4394852563190478781
+      beetle_attack_sprite_31: -127311890622560941
+      beetle_attack_sprite_32: 1025448377135449461
+      beetle_attack_sprite_33: -1635436676925602555
+      beetle_attack_sprite_34: 7940381797273029473
+      beetle_attack_sprite_35: 5938153441197519884
+      beetle_attack_sprite_36: 4592343331790169064
+      beetle_attack_sprite_37: 7453415035708801537
+      beetle_attack_sprite_38: -441839270971528446
+      beetle_attack_sprite_39: -2522700535959243202
+      beetle_attack_sprite_4: 3870501145284212874
+      beetle_attack_sprite_40: -9057546115534031710
+      beetle_attack_sprite_41: -8941201213048099291
+      beetle_attack_sprite_42: 2113308623760556538
+      beetle_attack_sprite_43: -7088976042052185856
+      beetle_attack_sprite_44: -6105311315556413137
+      beetle_attack_sprite_45: -6276186294558642438
+      beetle_attack_sprite_46: 6114705452967045550
+      beetle_attack_sprite_47: -8642408764253122198
+      beetle_attack_sprite_48: -7788298733488099439
+      beetle_attack_sprite_49: -2884924110305191117
+      beetle_attack_sprite_5: 2903129181737121581
+      beetle_attack_sprite_50: -8209999337180521030
+      beetle_attack_sprite_51: -9101496746038851237
+      beetle_attack_sprite_52: -3216767585091394436
+      beetle_attack_sprite_53: 6997676357211405432
+      beetle_attack_sprite_54: 1797978786831026254
+      beetle_attack_sprite_55: -6076625431895605913
+      beetle_attack_sprite_56: -5914344122342194306
+      beetle_attack_sprite_57: 1730412235733917528
+      beetle_attack_sprite_58: -1795612327906597949
+      beetle_attack_sprite_59: -4739168407610279545
+      beetle_attack_sprite_6: 8337647105427020184
+      beetle_attack_sprite_60: -87379247590925500
+      beetle_attack_sprite_7: -2950697366149522959
+      beetle_attack_sprite_8: 8456381524765422517
+      beetle_attack_sprite_9: -1946483904821746136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

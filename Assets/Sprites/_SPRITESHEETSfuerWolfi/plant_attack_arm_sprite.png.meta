@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dc8696afb02c24a95bb64dd8f21d38ee
+guid: e775d9c7e3c107146b452a4a0a7403f2
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -222,6 +222,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1395,7 +1408,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_attack_arm_sprite_0: 2662566786041746092
+      plant_attack_arm_sprite_1: 7561829953455367990
+      plant_attack_arm_sprite_10: 1512988356941674044
+      plant_attack_arm_sprite_11: 1394011628382502277
+      plant_attack_arm_sprite_12: 499190819036376494
+      plant_attack_arm_sprite_13: -450685924497796340
+      plant_attack_arm_sprite_14: 6607933567156222141
+      plant_attack_arm_sprite_15: 9142969192063465992
+      plant_attack_arm_sprite_16: 1871258694796760790
+      plant_attack_arm_sprite_17: 464685238448479890
+      plant_attack_arm_sprite_18: 2042686924562042170
+      plant_attack_arm_sprite_19: 7223290956536235715
+      plant_attack_arm_sprite_2: -5185726877415140902
+      plant_attack_arm_sprite_20: -5770892392173933561
+      plant_attack_arm_sprite_21: -2177725551926393159
+      plant_attack_arm_sprite_22: -5337423261586476128
+      plant_attack_arm_sprite_23: 5977956989106749848
+      plant_attack_arm_sprite_24: 6065905102846506276
+      plant_attack_arm_sprite_25: -290145262789090039
+      plant_attack_arm_sprite_26: 6033935258305404095
+      plant_attack_arm_sprite_27: -8787775057518760538
+      plant_attack_arm_sprite_28: -7597995153744104050
+      plant_attack_arm_sprite_29: -2019668678229521142
+      plant_attack_arm_sprite_3: -4018909301586952781
+      plant_attack_arm_sprite_30: -3320983700987810169
+      plant_attack_arm_sprite_31: -1772898165234713160
+      plant_attack_arm_sprite_32: -4575696485230762498
+      plant_attack_arm_sprite_33: 3824716437977584703
+      plant_attack_arm_sprite_34: -4014177270735669483
+      plant_attack_arm_sprite_35: 6984592148715372176
+      plant_attack_arm_sprite_36: -753188343123006446
+      plant_attack_arm_sprite_37: -4546719936700072188
+      plant_attack_arm_sprite_38: -4838109985134580036
+      plant_attack_arm_sprite_39: 5508372637447800742
+      plant_attack_arm_sprite_4: 4955812352977685294
+      plant_attack_arm_sprite_40: -5821771665134047598
+      plant_attack_arm_sprite_41: -440688392816725612
+      plant_attack_arm_sprite_42: 536712970953163966
+      plant_attack_arm_sprite_43: -91763804677742095
+      plant_attack_arm_sprite_44: 898461818259167284
+      plant_attack_arm_sprite_45: -4663872158789611357
+      plant_attack_arm_sprite_46: -8393730017197152618
+      plant_attack_arm_sprite_47: 5416766731549474624
+      plant_attack_arm_sprite_48: 8658932934403905506
+      plant_attack_arm_sprite_49: -2464167628069935192
+      plant_attack_arm_sprite_5: -8806166431541960310
+      plant_attack_arm_sprite_50: 8108556143471440978
+      plant_attack_arm_sprite_6: -4033305930139982127
+      plant_attack_arm_sprite_7: -2370996146693875093
+      plant_attack_arm_sprite_8: 6053446883572333997
+      plant_attack_arm_sprite_9: 7822850688726925053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

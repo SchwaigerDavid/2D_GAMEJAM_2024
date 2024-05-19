@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5909e79ffec784f9099ded0ee4e74ecf
+guid: 011d2a3d04ea0e544a23f67209ba6c3d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -132,6 +132,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -645,7 +658,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_jump_arm_sprite_0: -7509282184867548489
+      plant_jump_arm_sprite_1: 3036327697970447404
+      plant_jump_arm_sprite_10: -257522235689542183
+      plant_jump_arm_sprite_11: -8775825485608301081
+      plant_jump_arm_sprite_12: -5299637190859251775
+      plant_jump_arm_sprite_13: 5658821996406826196
+      plant_jump_arm_sprite_14: -4285726617821976811
+      plant_jump_arm_sprite_15: 6193194021476112102
+      plant_jump_arm_sprite_16: -5037961258082287768
+      plant_jump_arm_sprite_17: 869620610818011635
+      plant_jump_arm_sprite_18: -3654315536702356725
+      plant_jump_arm_sprite_19: 4698472342761911598
+      plant_jump_arm_sprite_2: 7318737524713806858
+      plant_jump_arm_sprite_20: 6081290452322388961
+      plant_jump_arm_sprite_3: -3659207986510663691
+      plant_jump_arm_sprite_4: -6525385690794495754
+      plant_jump_arm_sprite_5: 2232176945704428985
+      plant_jump_arm_sprite_6: -5314008760927026948
+      plant_jump_arm_sprite_7: 8679518481602854798
+      plant_jump_arm_sprite_8: -2058244705917488712
+      plant_jump_arm_sprite_9: 666532641304687250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

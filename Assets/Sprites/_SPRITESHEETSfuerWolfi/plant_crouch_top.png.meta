@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 011500c6778194d0e84f2076181e6248
+guid: 258b311c6a048dd489fafeeeb7110553
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -255,6 +255,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1670,7 +1683,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_crouch_top_0: 6108913187747302
+      plant_crouch_top_1: 3162914805908592298
+      plant_crouch_top_10: -1428677842497760355
+      plant_crouch_top_11: 4535549932901878641
+      plant_crouch_top_12: -4468591673604322452
+      plant_crouch_top_13: 4488455432828645882
+      plant_crouch_top_14: -2146450870883208465
+      plant_crouch_top_15: 4083937442155771488
+      plant_crouch_top_16: -5927558542272630262
+      plant_crouch_top_17: 7703996528809493216
+      plant_crouch_top_18: 3879465840852895054
+      plant_crouch_top_19: 7995771150528586050
+      plant_crouch_top_2: -6667669436200425182
+      plant_crouch_top_20: -8527233601808049160
+      plant_crouch_top_21: -9306353911808957
+      plant_crouch_top_22: 4311028067061571027
+      plant_crouch_top_23: 27076606155559535
+      plant_crouch_top_24: 1961134926646354933
+      plant_crouch_top_25: 4765043591270228121
+      plant_crouch_top_26: -2347183152875135081
+      plant_crouch_top_27: -4383867794751501176
+      plant_crouch_top_28: 5938702413524990010
+      plant_crouch_top_29: -4173023665495136660
+      plant_crouch_top_3: 5157465563737962776
+      plant_crouch_top_30: 8247581125553918897
+      plant_crouch_top_31: 7609597458880239814
+      plant_crouch_top_32: 7568895795686430284
+      plant_crouch_top_33: 6690169422105496008
+      plant_crouch_top_34: -2214641368825819521
+      plant_crouch_top_35: -2728446714893997347
+      plant_crouch_top_36: -5930738726905992039
+      plant_crouch_top_37: -3830212011345288223
+      plant_crouch_top_38: 5860889196592771897
+      plant_crouch_top_39: 3664900484049410501
+      plant_crouch_top_4: -3188806289893327835
+      plant_crouch_top_40: -4006897140282189261
+      plant_crouch_top_41: 8679817757067443745
+      plant_crouch_top_42: 4291827446908435865
+      plant_crouch_top_43: -8470502107418415039
+      plant_crouch_top_44: 2286223125865589388
+      plant_crouch_top_45: -1533729002835844646
+      plant_crouch_top_46: -4745480290065034552
+      plant_crouch_top_47: -6009464856125512189
+      plant_crouch_top_48: -5646935069749251501
+      plant_crouch_top_49: -4074051618631919342
+      plant_crouch_top_5: -1795031585873437810
+      plant_crouch_top_50: 5941495548208025770
+      plant_crouch_top_51: 6915947224519106092
+      plant_crouch_top_52: -2568965200377360585
+      plant_crouch_top_53: 9104080528108948527
+      plant_crouch_top_54: -4084290226808034313
+      plant_crouch_top_55: 2117155974337686601
+      plant_crouch_top_56: 705909372829513251
+      plant_crouch_top_57: -3875554801784152205
+      plant_crouch_top_58: -6230769199485337196
+      plant_crouch_top_59: 4675731911316854287
+      plant_crouch_top_6: -3246566127052885986
+      plant_crouch_top_60: -2670842182604166986
+      plant_crouch_top_61: -4150950443070135081
+      plant_crouch_top_7: -6414138014070394027
+      plant_crouch_top_8: -5912022841649156517
+      plant_crouch_top_9: 7036424015416788275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5ee560ef94a1f4377997522529ae7472
+guid: a22f9b567395f8044816e673c28f4b73
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -165,6 +165,19 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -920,7 +933,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plant_walk_feet_sprite_0: 1376157625392845106
+      plant_walk_feet_sprite_1: 1096528099316997871
+      plant_walk_feet_sprite_10: 7040981299704828995
+      plant_walk_feet_sprite_11: 8927042109026100591
+      plant_walk_feet_sprite_12: -5152365363953575994
+      plant_walk_feet_sprite_13: -8360094726244875918
+      plant_walk_feet_sprite_14: 5912580821436327642
+      plant_walk_feet_sprite_15: -6258445410170244725
+      plant_walk_feet_sprite_16: -5775655649821439088
+      plant_walk_feet_sprite_17: 5347467926423828556
+      plant_walk_feet_sprite_18: -5132332439694841684
+      plant_walk_feet_sprite_19: -1110756653987137583
+      plant_walk_feet_sprite_2: -6061031076044972258
+      plant_walk_feet_sprite_20: -169174584315354103
+      plant_walk_feet_sprite_21: 5353618137991945514
+      plant_walk_feet_sprite_22: 1904608772683887822
+      plant_walk_feet_sprite_23: -4866183779838917114
+      plant_walk_feet_sprite_24: 8547891273623700648
+      plant_walk_feet_sprite_25: -1963326002367761427
+      plant_walk_feet_sprite_26: 3273039277138402582
+      plant_walk_feet_sprite_27: 7679225596130073795
+      plant_walk_feet_sprite_28: 975134457228154653
+      plant_walk_feet_sprite_29: -1701991170113514962
+      plant_walk_feet_sprite_3: -7571195691966217527
+      plant_walk_feet_sprite_30: -2111111883552556831
+      plant_walk_feet_sprite_31: -17184312422508929
+      plant_walk_feet_sprite_4: 3434165789269063376
+      plant_walk_feet_sprite_5: 1470735498514709795
+      plant_walk_feet_sprite_6: 7111591651415161064
+      plant_walk_feet_sprite_7: -45020066878493885
+      plant_walk_feet_sprite_8: 3515570854984935834
+      plant_walk_feet_sprite_9: 3886414592819513004
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
