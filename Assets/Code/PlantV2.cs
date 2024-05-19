@@ -56,6 +56,7 @@ public class PlantV2 : MonoBehaviour
     private float dropWeaponTimer = 0.8f;
     private float currentDropWeaponTimer = 0f;
     private float moveSoundTimeElapsed = 0f;
+    private bool dead = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -91,7 +92,10 @@ public class PlantV2 : MonoBehaviour
             animator.SetBool(AnimationStates.isBlocking, true);
             animator.SetBool(AnimationStates.isMoving, false);
             potSpriteRenderer.sprite = pots[4];
-            die();
+            if(!dead) {
+                die();
+                dead = true;
+            }
         }
     }
 
