@@ -1,54 +1,20 @@
 using UnityEngine;
 
-public class Butterfly : Enemy
+public class ButterflyNew : Enemy
 {
-    private Vector2[] vectors = new Vector2[8];
-    private float attackRange = 1.5f;
-    
-    private float currentAngle = -0.610865f;
-    private float addAngle = 0.174533f;
-
-    private int facingRight = 1;
-
-    public override void Start()
-    { // call normale start and then calculate the attack vectors
-        base.Start();
-        for (int i = 0; i < vectors.Length; i++) 
-        {
-            vectors[i] = calculateUnitVector(currentAngle);
-            currentAngle += addAngle;
-        }
-    }
+    public Transform shotPos;
+    public GameObject spit;
+    public int amountOfBullets = 1;
+    private float spread = -15f;
 
     public override void Update()
     {
         base.Update();
-        
-        facingRight = transform.rotation.y == 0 ? 1 : -1;
-        for (int i = 0; i < vectors.Length; i++)
-        {
-            Debug.DrawRay(transform.position, vectors[i]*attackRange*facingRight, Color.red);
-        }
 
         if (currentCooldown <= 0)
         {
-            searchForPlayer();
-        }
-    }
-
-    void searchForPlayer()
-    {
-        for (int i = 0; i < vectors.Length; i++)
-        {
-            RaycastHit2D[] raycastHit2Ds = Physics2D.RaycastAll(transform.position, vectors[i]*facingRight, attackRange);
-            foreach (RaycastHit2D hit in raycastHit2Ds)
-            {
-                if (hit.collider != null && hit.collider.gameObject.CompareTag("Player"))
-                {
-                    raycastAttack(hit);
-                    return;
-                }
-            }
+            attack();
+            currentCooldown = attackCooldown*5;
         }
     }
 
@@ -56,15 +22,16 @@ public class Butterfly : Enemy
     {
         // No normal attack
     }
-    public virtual void raycastAttack(RaycastHit2D playerObject)
-    {
-        var player = playerObject.collider.gameObject;
-        
-        // TODO: Implement attack
-        player.GetComponent<PlantV2>().takeDamage(attackDamage);
 
-        currentCooldown = attackCooldown;
-    }
+    public virtual void attack()
+    {
+        for (int i = 0; i < amountOfBullets; i++)
+            {
+                GameObject spitInstance = Instantiate(spit, shotPos.position, transform.rotation);
+                Rigidbody2D rb = spitInstance.GetComponent<Rigidbody2D>();
+                rb.AddForce(transform.up * Random.Range(-spread, spread), ForceMode2D.Force);
+            }
+    } 
 
     public override void patrol()
     {
@@ -100,7 +67,7 @@ public class Butterfly : Enemy
     {
         // Onehit kill
         Debug.Log("Butterfly is taking bullet damage (is onehit)");
-        currentHealth -= currentHealth;
+        currentHealth = 0;
     }
 
 
@@ -122,11 +89,13 @@ public class Butterfly : Enemy
     {
         // no meelee damage possible
     }
-    Vector2 calculateUnitVector(float angle) { 
-        return new Vector2(
-            (float) Mathf.Cos(angle),   
-            (float) Mathf.Sin(angle) 
-        );
-    }
 
+    public override void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameObject obj = collision.gameObject;
+        if (obj.tag == "Bullet")
+        {
+            takeBulletDamage(collision);
+        }
+    }
 }

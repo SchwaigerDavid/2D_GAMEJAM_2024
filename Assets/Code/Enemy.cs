@@ -100,7 +100,7 @@ public abstract class Enemy : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject obj = collision.gameObject;
         if (obj.tag == "Player")

@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class UseLessButterFly : Butterfly
+public class UseLessButterFly : ButterflyNew
 {
-    public override void raycastAttack(RaycastHit2D playerObject)
+    public override void attack()
     {
        // No attack
     }

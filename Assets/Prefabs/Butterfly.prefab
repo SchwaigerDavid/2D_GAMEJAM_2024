@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &659328131560368576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6919891825294851284}
+  m_Layer: 0
+  m_Name: spitPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6919891825294851284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659328131560368576}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0018326491, y: 0, z: 0, w: 0.99999833}
+  m_LocalPosition: {x: 0.701, y: -0.02, z: -0.01}
+  m_LocalScale: {x: 2.58, y: 2.58, z: 2.58}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 4558117234148695040}
+  m_LocalEulerAnglesHint: {x: -0.21, y: 0, z: 0}
 --- !u!1 &5621183809955123186
 GameObject:
   m_ObjectHideFlags: 0
@@ -11,7 +42,7 @@ GameObject:
   - component: {fileID: 4558117234148695040}
   - component: {fileID: 2881216279504816930}
   - component: {fileID: 7961605075292747953}
-  - component: {fileID: 8424044381445594655}
+  - component: {fileID: 1673813069978017}
   - component: {fileID: 334607665441092403}
   m_Layer: 0
   m_Name: Butterfly
@@ -32,7 +63,8 @@ Transform:
   m_LocalPosition: {x: -2.91, y: 0.13, z: 0}
   m_LocalScale: {x: 0.23, y: 0.23, z: 0.23}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 6919891825294851284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2881216279504816930
@@ -137,7 +169,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8424044381445594655
+--- !u!114 &1673813069978017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,23 +178,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 5621183809955123186}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11d448565a5e08d48834754f2b8cd7cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f11ac6b7bb055040a6781886231feb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRigidBody: {fileID: 334607665441092403}
   enemyCollider: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
-  patrolPoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  patrolPoints: []
   patrolDestination: 0
   moveSpeed: 1
   attackDamage: 20
   attackCooldown: 3
   attackKnockback: 1
   maxHealth: 1
+  shotPos: {fileID: 6919891825294851284}
+  spit: {fileID: 654073221779183056, guid: 24d4a3fe187ad854e8ed5de88a262a64, type: 3}
+  amountOfBullets: 1
 --- !u!50 &334607665441092403
 Rigidbody2D:
   serializedVersion: 4
