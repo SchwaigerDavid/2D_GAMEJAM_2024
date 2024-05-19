@@ -84,7 +84,9 @@ public class PlantV2 : MonoBehaviour
         }
         else
         {
+            move = new Vector2(transform.position.x, transform.position.y);
             animator.SetBool(AnimationStates.isBlocking, true);
+            animator.SetBool(AnimationStates.isMoving, false);
             potSpriteRenderer.sprite = pots[4];
             die();
         }
