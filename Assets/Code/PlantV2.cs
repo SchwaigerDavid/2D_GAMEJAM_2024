@@ -9,6 +9,8 @@ public class PlantV2 : MonoBehaviour
     public SpriteRenderer faceSpriteRenderer;
     public SpriteRenderer potSpriteRenderer;
     public SpriteRenderer plantSpriteRenderer;
+    public Sprite blockingFace;
+    public Sprite initialFace;
 
     //Sprite Storage
     public Sprite[] pots = new Sprite[5];
@@ -46,7 +48,6 @@ public class PlantV2 : MonoBehaviour
     private int health;
     private float healthCooldown = 3f;
     private float cuurentHealthCooldown = 0f;
-    private int shield = 100;
     public bool isBlocking = false;
     private bool lastBlockingState = false;
     private KeyCode BLOCK = KeyCode.LeftShift;
@@ -70,6 +71,7 @@ public class PlantV2 : MonoBehaviour
         {
             faceSpriteRenderer.sprite = FaceManager.Instance.selectedFace;
         }
+        initialFace = faceSpriteRenderer.sprite;
     }
 
     // Update is called once per frame
@@ -98,6 +100,7 @@ public class PlantV2 : MonoBehaviour
         isBlocking = Input.GetKey(BLOCK);
         animator.SetBool(AnimationStates.isBlocking, isBlocking);
         if (isBlocking){
+            faceSpriteRenderer.sprite = blockingFace;
             animator.SetBool(AnimationStates.isMoving, false);
             if (currentDropWeaponTimer > 0)
             {
@@ -122,6 +125,8 @@ public class PlantV2 : MonoBehaviour
                 lastBlockingState = isBlocking;
             }
         }
+
+        faceSpriteRenderer.sprite = initialFace;
 
         grounded = isGrounded();
 
