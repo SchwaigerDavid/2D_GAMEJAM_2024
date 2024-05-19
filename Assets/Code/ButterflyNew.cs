@@ -67,6 +67,7 @@ public class ButterflyNew : Enemy
     public override void takeBulletDamage(Collision2D bulletCollision)
     {
         // Onehit kill
+        showDamageEffect();
         Debug.Log("Butterfly is taking bullet damage (is onehit)");
         currentHealth = 0;
     }
@@ -74,10 +75,10 @@ public class ButterflyNew : Enemy
 
     public override void die()
     {
-        // rotate sprite, remove collider and destroy object after 5 seconds
+        // rotate sprite, remove collider and destroy object after 1 second
         transform.Rotate(Vector3.left * -180);
         enemyCollider.isTrigger = true;
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 1f);
         Debug.Log("Butterfly died");
     }
 
