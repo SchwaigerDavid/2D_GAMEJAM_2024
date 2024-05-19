@@ -1,11 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Credits : MonoBehaviour
 {
     public Animator antimator;
-    public Animator legendanimator; 
+    public Animator legendanimator;
+
+    private bool hasbeenpushed = false;
     public void OpenCredits() {
+        if (hasbeenpushed) {
+            legendanimator.SetBool("Legend", true);
+      }
+
+        hasbeenpushed = true;
         antimator.SetBool("Credits",true);
     }
     public void Quit()
@@ -14,9 +22,9 @@ public class Credits : MonoBehaviour
     }
    
     public void Play() {
-        legendanimator.SetBool("Legend", true);
-        SceneManager.LoadScene("Game", LoadSceneMode.Single);
-
+        StartCoroutine(GameObject.FindAnyObjectByType<SceneFader>().FadeAndLoadScene(SceneFader.FadeDirection.Out, "CutScene1"));
     }
-  
+
+
+
 }
