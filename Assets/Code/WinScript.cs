@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
+    private Camera camera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        camera = Camera.main;
     }
 
     // Update is called once per frame
@@ -32,5 +33,11 @@ public class WinScript : MonoBehaviour
         var WIN = script.WIN;
         WIN.SetActive(true);
         WIN.transform.Find("WinText").GetComponent<TypeWriterEffect>().ContinueStory();
+
+        AudioSource audio = camera.GetComponent<AudioSource>();
+        audio.Stop();
+        audio.loop = false;
+        audio.clip = (AudioClip)Resources.Load("jingle_victory");
+        audio.Play();
     }
 }
