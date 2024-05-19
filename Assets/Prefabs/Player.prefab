@@ -697,7 +697,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  spriteRenderer: {fileID: 3383157275470379993}
+  faceSpriteRenderer: {fileID: 3383157275470379993}
+  potSpriteRenderer: {fileID: 7568368783981632370}
+  plantSpriteRenderer: {fileID: 5472281822591522918}
+  pots:
+  - {fileID: 3112589160528298819, guid: e6d57e314941ece47a0413ab49505cf3, type: 3}
+  - {fileID: 7201223113179374860, guid: 252747a1d136d974c9d93195a09f34d8, type: 3}
+  - {fileID: 4463075984528353002, guid: 35a440ff5b324c74986d5b8d294da5e9, type: 3}
+  - {fileID: -5059333740432473208, guid: 3771bc8df47665548a94a2218c219c06, type: 3}
+  - {fileID: -4527020723721475179, guid: 966189de7ba87574dbbcbcaf9f403c5d, type: 3}
+  potStatus: {fileID: 3112589160528298819, guid: e6d57e314941ece47a0413ab49505cf3,
+    type: 3}
   max_speed: 250
   air_speed_factor: 0.5
   air_speed_factor_second_jump: 0.75
@@ -708,8 +718,7 @@ MonoBehaviour:
   grounded: 0
   rayCastThreshold: 0.05
   floorCollider: {fileID: 8873237129487331910}
-  maxHealth: 30
-  shield: 100
+  maxHealth: 100
   isBlocking: 0
 --- !u!95 &6828136260380202978
 Animator:

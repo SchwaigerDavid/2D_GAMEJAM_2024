@@ -1,11 +1,18 @@
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class PlantV2 : MonoBehaviour
 {
 
     //Animator
     public Animator animator;
-    public SpriteRenderer spriteRenderer;
+    public SpriteRenderer faceSpriteRenderer;
+    public SpriteRenderer potSpriteRenderer;
+    public SpriteRenderer plantSpriteRenderer;
+
+    //Sprite Storage
+    public Sprite[] pots = new Sprite[5];
+    public Sprite potStatus;
 
     // Movement:
     [SerializeField] public float max_speed = 300;
@@ -34,10 +41,9 @@ public class PlantV2 : MonoBehaviour
     private int health;
     private float healthCooldown = 3f;
     private float cuurentHealthCooldown = 0f;
-    [SerializeField] public int shield = 100;
+    private int shield = 100;
     public bool isBlocking = false;
     private KeyCode BLOCK = KeyCode.LeftShift;
-
 
     // if crouching drop weapon timer
     private float dropWeaponTimer = 0.8f;
@@ -53,15 +59,29 @@ public class PlantV2 : MonoBehaviour
         grounded = false;
         floorColliderPosition = floorCollider.GetComponent<Transform>();   
         health = maxHealth;
-        spriteRenderer.sprite = FaceManager.Instance.selectedFace;
+        potStatus = pots[0];
+        if(FaceManager.Instance != null)
+        {
+            faceSpriteRenderer.sprite = FaceManager.Instance.selectedFace;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        isBlocking = Input.GetKey(BLOCK);
-        moveSoundTimeElapsed += Time.deltaTime;
+        if(health > 0)
+        {
+            updateHealthStatus();
+            move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            isBlocking = Input.GetKey(BLOCK);
+            moveSoundTimeElapsed += Time.deltaTime;
+        }
+        else
+        {
+            animator.SetBool(AnimationStates.isBlocking, true);
+            potSpriteRenderer.sprite = pots[4];
+            die();
+        }
     }
 
     void FixedUpdate()
@@ -163,13 +183,6 @@ public class PlantV2 : MonoBehaviour
     {
         if (isBlocking)
         {
-            Debug.Log(string.Format("Player shield ist taking {0} damage", damage));
-            shield -= damage;
-            if (shield < 0)
-            {
-                health += shield;
-                shield = 0;
-            }
             SoundManager.Instance.playRandom("pot_land", 0.7);
         }
         else
@@ -212,4 +225,31 @@ public class PlantV2 : MonoBehaviour
     {
         GetComponent<WeaponManager>().DropWeapon(); // If the player is blocking, drop the weapon
     }
+
+
+    private void updateHealthStatus()
+    {
+        if (health > (maxHealth * 0.75))
+        {
+            potStatus = pots[0];
+        }
+        else if (health > (maxHealth * 0.5))
+        {
+            potStatus = pots[1];
+        }
+        else if (health > (maxHealth * 0.25))
+        {
+            potStatus = pots[2];
+        }
+        else
+        {
+            potStatus= pots[3];
+        }
+        potSpriteRenderer.sprite = potStatus;
+    }
+    public void die()
+    {
+        Debug.Log("DEATH");
+    }
+
 }
