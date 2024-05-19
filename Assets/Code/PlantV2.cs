@@ -84,7 +84,8 @@ public class PlantV2 : MonoBehaviour
 
         grounded = isGrounded();
 
-        animator.SetBool(AnimationStates.isMoving, move.x != 0);
+        animator.SetBool(AnimationStates.isMoving, move.x != 0 && move.y <= 0);
+        animator.SetBool(AnimationStates.isJumping, move.y > 0);
         if (move.x != 0)
         {
             moveInXDirection();
