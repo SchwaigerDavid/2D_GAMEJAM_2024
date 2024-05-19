@@ -189,7 +189,7 @@ MonoBehaviour:
   moveSpeed: 2
   attackDamage: 10
   attackCooldown: 2
-  attackKnockback: 4
+  attackKnockback: 1
   maxHealth: 100
 --- !u!95 &3265167061694721585
 Animator:

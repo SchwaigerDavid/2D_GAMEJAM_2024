@@ -40,10 +40,16 @@ public class MeleeLogic : MonoBehaviour
         Debug.DrawRay(transform.position, transform.right * range, Color.red, 2f);
         foreach (RaycastHit2D hit in raycastHits)
         {
-            if (hit.collider != null && hit.collider.CompareTag("Enemy"));
+            var colliderObject = hit.collider != null ? hit.collider.gameObject : null;
+            if (colliderObject != null && colliderObject.CompareTag("Enemy"))
             {
-                hit.collider.GetComponent<Enemy>().takeMeleeDamage(damage);
-                SoundManager.Instance.playRandom("melee_hit");
+                var enemy = colliderObject.GetComponent<Enemy>();
+                if(enemy != null)
+                {
+                    enemy.takeMeleeDamage(damage);
+                    SoundManager.Instance.playRandom("melee_hit");
+                }
+                
             }
         }
         
