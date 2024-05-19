@@ -62,6 +62,7 @@ public class PlantV2 : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        camera = Camera.main;
         move = new Vector2(0, 0);
         grounded = false;
         floorColliderPosition = floorCollider.GetComponent<Transform>();   
