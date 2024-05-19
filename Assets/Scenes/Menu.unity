@@ -599,6 +599,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 42793564eb31c454794fc206baf55320, type: 3}
   - {fileID: 21300000, guid: d98d1466f82f64bec995b68460900cc6, type: 3}
   - {fileID: 21300000, guid: d9e0d1877a3294620996e5fcfa3b8f2c, type: 3}
+  - {fileID: 21300000, guid: 80466a1def11e40ec87293b00458ba28, type: 3}
+  - {fileID: 21300000, guid: 2849fb4da7ad24cb780af4ca83ba32fc, type: 3}
+  - {fileID: 21300000, guid: b861723bff9604a2b9e5eadac115c3f6, type: 3}
+  - {fileID: 21300000, guid: a027dd6c118864bdd9346a92630e1e0e, type: 3}
+  - {fileID: 21300000, guid: d2de717b973914cffa02676296de3dbf, type: 3}
+  - {fileID: 21300000, guid: 2dd95df6c4e6949b6aff162c635d78d4, type: 3}
   faceObject: {fileID: 865015206}
   pos: 0
 --- !u!4 &173373931
