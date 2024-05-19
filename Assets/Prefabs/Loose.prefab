@@ -607,6 +607,7 @@ MonoBehaviour:
   secondIMGPo: 7
   secondIMGPlacement: 2
   isJustText: 1
+  nextScene: Menu
   images: []
   image: {fileID: 4333219639221387891}
   FadeRate: 0.2

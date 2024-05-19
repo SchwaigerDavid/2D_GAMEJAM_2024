@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class WinScript : MonoBehaviour
 {
@@ -28,9 +29,14 @@ public class WinScript : MonoBehaviour
         {
             return;
         }
-
         var WIN = script.WIN;
         WIN.SetActive(true);
         WIN.transform.Find("WinText").GetComponent<TypeWriterEffect>().ContinueStory();
+    }
+
+    public void Menu() {
+
+        SceneManager.LoadScene(0, LoadSceneMode.Single); 
+
     }
 }

@@ -54784,6 +54784,21 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 6882695440817186788}
+    - target: {fileID: 7943980224982384279, guid: 5dfbc38f4b2a947e7856a0f0f791988c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6882695440817186783}
+    - target: {fileID: 7943980224982384279, guid: 5dfbc38f4b2a947e7856a0f0f791988c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943980224982384279, guid: 5dfbc38f4b2a947e7856a0f0f791988c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TypeWriterEffect, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 8328001732120819155, guid: 5dfbc38f4b2a947e7856a0f0f791988c,
         type: 3}
       propertyPath: m_Pivot.x
@@ -54895,6 +54910,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6882695440817186781}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6882695440817186783 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1827307023036348374, guid: 5dfbc38f4b2a947e7856a0f0f791988c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6882695440817186781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f9f935e64b940869b1b92517ff5507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6882695440817186788 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2261805711794128077, guid: 5dfbc38f4b2a947e7856a0f0f791988c,

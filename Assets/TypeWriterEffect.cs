@@ -20,6 +20,7 @@ public class TypeWriterEffect : MonoBehaviour
     private bool finished = false;
     public bool isJustText = false;
     private bool finish = false;
+    public string nextScene = "Game"; 
     public Sprite[] images;
     public Image image;
     public float FadeRate = 0.2f; 
@@ -43,7 +44,7 @@ public class TypeWriterEffect : MonoBehaviour
             ContinueStory();
         }
         else if (Input.GetMouseButtonUp(0)&&finished) {
-            SceneManager.LoadScene("Game", LoadSceneMode.Single);
+            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
 
     }
@@ -95,9 +96,8 @@ public class TypeWriterEffect : MonoBehaviour
     }
 
     public void Menu() {
-
-        
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+        Debug.Log("Accessed");
         
     }
 }

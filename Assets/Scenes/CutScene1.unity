@@ -536,6 +536,9 @@ MonoBehaviour:
     quest to reach spring. \n\nOne way, or another. '
   dialogueText: {fileID: 925725982}
   typingSpeed: 0.06
+  secondIMGPo: 6
+  secondIMGPlacement: 0
+  isJustText: 0
   images:
   - {fileID: -855298285791758126, guid: deb70bfc5eb0b447aa5db8c80c03ce05, type: 3}
   - {fileID: 6937817954938267909, guid: d7168367e5a2c49bfab536a383329d2e, type: 3}
@@ -543,6 +546,7 @@ MonoBehaviour:
   - {fileID: -4178046375966092550, guid: b9fa1dab71c9c43dcae03c12258618ae, type: 3}
   - {fileID: 4130640169021434097, guid: c50a98dc852554692886b3903420bf27, type: 3}
   - {fileID: 3465286685962602723, guid: 4aa66b3aa1f2a480aa9d32bc3ceccb2d, type: 3}
+  - {fileID: -6861306803392217323, guid: 913f63a60b18e4c19be643bd145b8928, type: 3}
   image: {fileID: 1623537412}
   FadeRate: 0.2
 --- !u!1 &1177375180
@@ -593,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

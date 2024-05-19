@@ -8,6 +8,13 @@ public class Credits : MonoBehaviour
     public Animator legendanimator;
 
     private bool hasbeenpushed = false;
+
+    public void Start()
+    {
+        hasbeenpushed = false;
+        Debug.Log("Back to menu");
+    }
+
     public void OpenCredits() {
         if (hasbeenpushed) {
             legendanimator.SetBool("Legend", true);
@@ -24,7 +31,5 @@ public class Credits : MonoBehaviour
     public void Play() {
         SceneManager.LoadScene("CutScene1", LoadSceneMode.Single);
     }
-
-
 
 }
