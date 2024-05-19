@@ -23,15 +23,22 @@ public class TypeWriterEffect : MonoBehaviour
     public string nextScene = "Game"; 
     public Sprite[] images;
     public Image image;
+    public bool typingSound = false;
     private AudioSource audioSource;
     public float FadeRate = 0.2f; 
 
 
     private Coroutine displayLineCorutine; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioSource = gameObject.AddComponent<AudioSource>();
+
+        if(typingSound) {
+            audioSource.clip = (AudioClip)Resources.Load("typewriter/typewriter_loop");
+            audioSource.loop = true;
+        }
+
         ContinueStory();
 
     }

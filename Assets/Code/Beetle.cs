@@ -32,7 +32,7 @@ public class Beetle : Enemy
         transform.Rotate(Vector3.left * -180);
         //Shoot enemy upwards and then let it fall through the ground ground
         enemyRigidBody.AddForceY(5f, ForceMode2D.Impulse);
-        SoundManager.Instance.playRandom("beetle_death", 0.3);
+        SoundManager.Instance.playRandom("beetle_death", 0.35);
         GetComponent<AudioSource>().Stop();
         enemyCollider.isTrigger = true;
         Destroy(gameObject, 3f);
