@@ -25,6 +25,7 @@ public class ButterflyNew : Enemy
 
     public virtual void attack()
     {
+        animator.SetTrigger(AnimationStates.attackTrigger);
         for (int i = 0; i < amountOfBullets; i++)
             {
                 GameObject spitInstance = Instantiate(spit, shotPos.position, transform.rotation);
