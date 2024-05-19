@@ -30,6 +30,7 @@ public class MeleeLogic : MonoBehaviour
 
     void Hit()
     {
+        SoundManager.Instance.playRandom("attack_whoosh");
         playerAnimator.SetTrigger(AnimationStates.doMelee);
         //Debug.Log("Trying to hit " + range);
         cooldownTimer = cooldown;    
@@ -39,9 +40,10 @@ public class MeleeLogic : MonoBehaviour
         Debug.DrawRay(transform.position, transform.right * range, Color.red, 2f);
         foreach (RaycastHit2D hit in raycastHits)
         {
-            if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+            if (hit.collider != null && hit.collider.CompareTag("Enemy"));
             {
                 hit.collider.GetComponent<Enemy>().takeMeleeDamage(damage);
+                SoundManager.Instance.playRandom("melee_hit");
             }
         }
         
