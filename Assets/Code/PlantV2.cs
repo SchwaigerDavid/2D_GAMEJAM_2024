@@ -17,6 +17,7 @@ public class PlantV2 : MonoBehaviour
     //WIN LOSE GAME OBJECTS
     public GameObject WIN;
     public GameObject LOSE;
+    private Camera camera;
 
     // Movement:
     [SerializeField] public float max_speed = 300;
@@ -83,7 +84,9 @@ public class PlantV2 : MonoBehaviour
         }
         else
         {
+            move = new Vector2(transform.position.x, transform.position.y);
             animator.SetBool(AnimationStates.isBlocking, true);
+            animator.SetBool(AnimationStates.isMoving, false);
             potSpriteRenderer.sprite = pots[4];
             die();
         }
@@ -176,6 +179,9 @@ public class PlantV2 : MonoBehaviour
                 rb.AddForce(Vector2.up * current_jump_force, ForceMode2D.Impulse);
                 doubleJump = !grounded;
                 SoundManager.Instance.playRandom("plant_jump_whoosh", 0.7);
+                if(!doubleJump) {
+                    //SoundManager.Instance.playRandom("plant_jump_voice");
+                }
             }
     }
 
@@ -206,7 +212,7 @@ public class PlantV2 : MonoBehaviour
             health -= damage;
             SoundManager.Instance.playRandom("plant_damage/leaves_rustle", 0.2);
             SoundManager.Instance.playRandom("plant_damage/twig_snap");
-            SoundManager.Instance.playRandom("plant_damage/plant_damage_voice");
+            //SoundManager.Instance.playRandom("plant_damage/plant_damage_voice");
         }
     }
 
@@ -265,8 +271,16 @@ public class PlantV2 : MonoBehaviour
     public void die()
     {
         Debug.Log("DEATH");
+        SoundManager.Instance.playRandom("plant_death/twig_break", 0.8);
+        //SoundManager.Instance.playRandom("plant_death/plant_death_voice");
         LOSE.SetActive(true);
         LOSE.transform.Find("LoseText").GetComponent<TypeWriterEffect>().ContinueStory();
+
+        AudioSource audio = camera.GetComponent<AudioSource>();
+        audio.Stop();
+        audio.loop = false;
+        audio.clip = (AudioClip)Resources.Load("jingle_defeat");
+        audio.Play();
     }
 
 }

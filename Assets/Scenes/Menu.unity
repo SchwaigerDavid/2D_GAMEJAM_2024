@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3403c4bea49f4c0698e10ef945558ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFace: {fileID: 21300000, guid: 6603a056bd6524eb78b295b9b26e3cd7, type: 3}
+  selectedFace: {fileID: 21300000, guid: b861723bff9604a2b9e5eadac115c3f6, type: 3}
   faces:
   - {fileID: 21300000, guid: 6603a056bd6524eb78b295b9b26e3cd7, type: 3}
   - {fileID: 21300000, guid: 42793564eb31c454794fc206baf55320, type: 3}
