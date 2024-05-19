@@ -5,14 +5,15 @@ public class NewEmptyCSharpScript: MonoBehaviour
     private double timeToDespawn = 3.0;
     private double timeLeft;
 
-    public float speed = 10;
+    public float speed = 100;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        timeLeft = timeToDespawn;
-        GetComponent<Rigidbody2D>().velocity = transform.right * speed;
-    }
+void Start()
+{
+    timeLeft = timeToDespawn;
+    Rigidbody2D rb = GetComponent<Rigidbody2D>();  
+    rb.velocity = new Vector2(transform.right.x * speed, transform.right.y * speed / 10);  
+}
 
     // Update is called once per frame
     void Update()

@@ -153,7 +153,7 @@ MonoBehaviour:
   bullet: {fileID: 5364653652094182804, guid: e8ad3b0dc43c00e4a843ab323bd72d1a, type: 3}
   amountOfBullets: 7
   spread: 20
-  cooldown: 2
+  cooldown: 1
 --- !u!1 &5433482163690442608
 GameObject:
   m_ObjectHideFlags: 0
