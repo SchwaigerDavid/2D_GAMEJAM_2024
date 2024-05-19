@@ -176,6 +176,9 @@ public class PlantV2 : MonoBehaviour
                 rb.AddForce(Vector2.up * current_jump_force, ForceMode2D.Impulse);
                 doubleJump = !grounded;
                 SoundManager.Instance.playRandom("plant_jump_whoosh", 0.7);
+                if(!doubleJump) {
+                    //SoundManager.Instance.playRandom("plant_jump_voice");
+                }
             }
     }
 
@@ -206,7 +209,7 @@ public class PlantV2 : MonoBehaviour
             health -= damage;
             SoundManager.Instance.playRandom("plant_damage/leaves_rustle", 0.2);
             SoundManager.Instance.playRandom("plant_damage/twig_snap");
-            SoundManager.Instance.playRandom("plant_damage/plant_damage_voice");
+            //SoundManager.Instance.playRandom("plant_damage/plant_damage_voice");
         }
     }
 
